@@ -156,8 +156,75 @@ export default function Home () {
       </div>
 
       <div className='mx-auto w-10/12 max-w-screen-xl'>
-        <div className='bg-banner-tasa-reciclaje bg-cover bg-center h-[689.65px] lg:h-[504.65px] relative'>
-
+        <div className='bg-banner-tasa-reciclaje bg-cover bg-center relative overflow-hidden rounded-tr-[80px] pt-[36.18px] pb-[25.46px] lg:pt-[89.5px] lg:pb-[29.5px] text-white space-y-8 2xl:space-y-0'>
+          <div className='grid place-items-center h-full'>
+            <div className='max-w-[844.82px] w-full flex flex-col text-center lg:text-left items-center relative z-10  h-full lg:items-stretch gap-y-8 lg:gap-y-0'>
+              <div className='flex justify-between order-2 lg:order-1'>
+                <div className='hidden lg:block'>&nbsp;</div>
+                <div className='max-w-[267px] w-full'>
+                  <div>
+                    <p className='2xl:text-lg'>
+                      Residuos sólidos utilizados en reciclaje y nueva utilización
+                    </p>
+                    <p className='font-bold text-xl 2xl:text-2xl'>
+                      26.456.711
+                    </p>
+                    <p className='text-sm'>
+                      Toneladas
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-between order-1 lg:order-2'>
+                <div className='max-w-[211px] w-full'>
+                  <div className='lg:text-right space-y-3 2xl:space-y-[22.5px]'>
+                    <h4 className='text-xl 2xl:text-2xl font-bold'>
+                      Tasa de reciclaje y nueva utilización
+                    </h4>
+                    <div className='bg-white h-0.5'>&nbsp;</div>
+                    <p className='text-[32px] 2xl:text-[40px]'>
+                      11,82%
+                    </p>
+                  </div>
+                </div>
+                <div className='hidden lg:block'>&nbsp;</div>
+              </div>
+              <div className='flex justify-between order-3 lg:order-3'>
+                <div className='hidden lg:block'>&nbsp;</div>
+                <div className='max-w-[267px] w-full'>
+                  <div>
+                    <p className='2xl:text-lg'>
+                      Oferta de residuos y productos residuales
+                    </p>
+                    <p className='font-bold text-xl 2xl:text-2xl'>
+                      3.127.844
+                    </p>
+                    <p className='text-sm'>
+                      Toneladas
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='w-11/12 mx-auto'>
+            <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
+              <div className='italic'>
+                <p>
+                  <span className='font-bold'>Fecha:</span> de publicación de los datos
+                </p>
+                <p>
+                  <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                </p>
+              </div>
+              <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                <span>
+                  Explorar datos
+                </span>
+                <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
+              </a>
+            </div>
+          </div>
           <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
             <img src='/reciclaje-icon.svg' alt='reciclaje icon' />
           </div>
@@ -205,6 +272,79 @@ export default function Home () {
               <div>
                 <img src='/desacoplamiento-graphic.svg' />
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='mx-auto w-10/12 max-w-screen-xl'>
+        <div className='bg-banner-edificaciones bg-cover bg-center 2xl:pt-[102px] p-10 2xl:pb-[37.92px] 2xl:px-0 overflow-hidden rounded-tr-[80px] text-white space-y-8'>
+          <div className='max-w-[942.55px] mx-auto'>
+            <div className='flex flex-col items-center lg:flex-row lg:justify-between font-bold gap-y-8 lg:gap-y-0'>
+              <div className='max-w-[371px] w-full'>
+                <div className='space-y-[27.21px]'>
+                  <h3 className='text-xl 2xl:text-2xl text-center'>
+                    Edificaciones con sistema de ahorro de <span className='text-blue-light'>agua</span>
+                  </h3>
+                  <div className='flex gap-x-[29.27px] items-center justify-center'>
+                    <div className='max-w-[106.81px] w-full'>
+                      <img src='/water-icon.svg' alt='water icon' />
+                    </div>
+                    <div className='max-w-[124px] w-full'>
+                      <div className='space-y-4'>
+                        <h4 className='text-3xl 2xl:text-[40px]'>
+                          39,2%
+                        </h4>
+                        <div className='max-w-[88.03px] w-full bg-white h-0.5'>&nbsp;</div>
+                        <p>
+                          Ahorro de agua
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='max-w-[384px] w-full'>
+                <div className='space-y-[27.21px]'>
+                  <h3 className='text-xl 2xl:text-2xl text-center'>
+                    Edificaciones con sistema de ahorro de <span className='text-yellow'>energía</span>
+                  </h3>
+                  <div className='flex gap-x-[29.27px] items-center justify-center'>
+                    <div className='max-w-[106.81px] w-full'>
+                      <img src='/energy-icon.svg' alt='energy icon' />
+                    </div>
+                    <div className='max-w-[124px] w-full'>
+                      <div className='space-y-4'>
+                        <h4 className='text-3xl 2xl:text-[40px]'>
+                          37.9%
+                        </h4>
+                        <div className='max-w-[88.03px] w-full bg-white h-0.5'>&nbsp;</div>
+                        <p>
+                          Ahorro de energía
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='w-11/12 mx-auto'>
+            <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
+              <div className='italic'>
+                <p>
+                  <span className='font-bold'>Fecha:</span> de publicación de los datos
+                </p>
+                <p>
+                  <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                </p>
+              </div>
+              <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                <span>
+                  Explorar datos
+                </span>
+                <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
+              </a>
             </div>
           </div>
         </div>

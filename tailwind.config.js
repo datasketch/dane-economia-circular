@@ -13,8 +13,10 @@ module.exports = {
         'rich-black': '#161616',
         'blue-ocean': '#5165A9',
         'blue-dark': '#253C6D',
+        'blue-light': '#84CDE4',
         pink: '#B6004C',
-        'grey-dark': '#6A6A6A'
+        'grey-dark': '#6A6A6A',
+        yellow: '#FFD000'
       },
       backgroundImage: {
         'banner-siec': "url('/banner-siec.svg')",
