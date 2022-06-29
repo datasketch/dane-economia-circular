@@ -11,40 +11,6 @@ export default function Home () {
 
       <div className='py-10'>
         <div className='mx-auto w-10/12 max-w-screen-xl'>
-          <div className='flex flex-col xl:flex-row items-center xl:justify-between gap-[21.25px]'>
-            <div className='max-w-[490.23px] w-full'>
-              <img className='max-h-[123.19px] h-full' src='/logo-economia-circular.png' alt='logo economia circular' />
-            </div>
-            <div className='2xl:max-w-[813px] w-full'>
-              <div className='grid grid-cols-2 gap-[14px] md:grid-cols-4'>
-                <div className='pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full'>
-                  <p className>
-                    Sobre Economía Circular
-                  </p>
-                </div>
-                <div className='pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full'>
-                  <p className>
-                    Mesa de Información de Economía Circular
-                  </p>
-                </div>
-                <div className='pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full'>
-                  <p className>
-                    Sistema de Consulta de Información - SIEC
-                  </p>
-                </div>
-                <div className='pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full'>
-                  <p className>
-                    Reportes de Economía Circular
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className='py-10'>
-        <div className='mx-auto w-10/12 max-w-screen-xl'>
           <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between max-w-[1318px] gap-[44px]'>
             <div className='max-w-[733px] w-full'>
               <div className='bg-banner-siec bg-cover bg-center h-[256px] overflow-hidden rounded-tr-[80px]'>
