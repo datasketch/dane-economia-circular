@@ -11,7 +11,7 @@ function Navbar () {
           <nav className='2xl:max-w-[813px] w-full'>
             <ul className='grid grid-cols-2 gap-[14px] md:grid-cols-4'>
               <li>
-                <a className="inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full" href="#">
+                <a className="inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full" href="/sobre-economia">
                   Sobre Economía Circular
                 </a>
               </li>

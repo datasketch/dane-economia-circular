@@ -1,0 +1,14 @@
+<svg id="Componente_17_1" data-name="Componente 17 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.326" height="20.5" viewBox="0 0 19.326 20.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_27" data-name="Rectángulo 27" width="19.326" height="20.5" fill="#b6004c"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_2813" data-name="Grupo 2813" transform="translate(0 20.5) rotate(-90)">
+    <g id="Grupo_2812" data-name="Grupo 2812" transform="translate(20.5 0) rotate(90)">
+      <g id="Grupo_34" data-name="Grupo 34" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Trazado_23" data-name="Trazado 23" d="M18.3,7.761,10.542,0,7.622,2.919l5.253,5.253H0V12.3H12.875L7.594,17.581,10.513,20.5l7.79-7.79a3.5,3.5,0,0,0,0-4.949" transform="translate(0 0)" fill="#b6004c"/>
+      </g>
+    </g>
+  </g>
+</svg>

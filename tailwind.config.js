@@ -14,9 +14,17 @@ module.exports = {
         'blue-ocean': '#5165A9',
         'blue-dark': '#253C6D',
         'blue-light': '#84CDE4',
+        'blue-2': '#04659B',
+        'blue-3': '#20A1CE',
+        'blue-green': '#2293A5',
         pink: '#B6004C',
         'grey-dark': '#6A6A6A',
-        yellow: '#FFD000'
+        yellow: '#FFD000',
+        green: '#169150',
+        'green-2': '#01743D',
+        'green-3': '#8FC89B',
+        purple: '#4E4896',
+        'purple-2': '#662482'
       },
       backgroundImage: {
         'banner-siec': "url('/banner-siec.svg')",
