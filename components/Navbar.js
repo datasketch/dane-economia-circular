@@ -1,4 +1,4 @@
-function Navbar () {
+export default function Navbar () {
   return (
     <div className="py-10">
       <div className='mx-auto w-10/12 max-w-screen-xl'>
@@ -16,12 +16,12 @@ function Navbar () {
                 </a>
               </li>
               <li>
-                <a className="inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full" href="#">
+                <a className="inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full" href="/mesa-de-informacion">
                   Mesa de Información de Economía Circular
                 </a>
               </li>
               <li>
-                <a className="inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full" href="#">
+                <a className="inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full" href="/sistema-de-consulta-de-informacion">
                   Sistema de Consulta de Información - SIEC
                 </a>
               </li>
@@ -37,5 +37,3 @@ function Navbar () {
     </div>
   )
 }
-
-export default Navbar
