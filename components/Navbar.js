@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 export default function Navbar () {
@@ -13,25 +14,25 @@ export default function Navbar () {
           </div>
           <nav className='2xl:max-w-[813px] w-full'>
             <ul className='grid grid-cols-2 gap-[14px] md:grid-cols-4'>
-              <li>
-                <a className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/sobre-economia' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`} href="/sobre-economia">
+              <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/sobre-economia' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
+                <Link href="/sobre-economia">
                   Sobre Economía Circular
-                </a>
+                </Link>
               </li>
-              <li>
-                <a className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/mesa-de-informacion' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`} href="/mesa-de-informacion">
+              <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/mesa-de-informacion' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
+                <Link href="/mesa-de-informacion">
                   Mesa de Información de Economía Circular
-                </a>
+                </Link>
               </li>
-              <li>
-                <a className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/sistema-de-consulta-de-informacion' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`} href="/sistema-de-consulta-de-informacion">
+              <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/sistema-de-consulta-de-informacion' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
+                <Link href="/sistema-de-consulta-de-informacion">
                   Sistema de Consulta de Información - SIEC
-                </a>
+                </Link>
               </li>
-              <li>
-                <a className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/reportes-de-economia-circular' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`} href="/reportes-de-economia-circular">
+              <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] border-l border-black max-w-[184px] lg:w-full ${router.pathname === '/reportes-de-economia-circular' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
+                <Link href="/reportes-de-economia-circular">
                   Reportes de Economía Circular
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

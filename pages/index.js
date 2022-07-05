@@ -29,7 +29,7 @@ export default function Home () {
                 <p>
                   Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
                 </p>
-                <a href='#' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                <a href='/sistema-de-consulta-de-informacion' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                   <span>
                     Consultar
                   </span>
