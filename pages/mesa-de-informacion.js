@@ -1,8 +1,80 @@
 import Head from 'next/head'
 import { useState } from 'react'
+import { CircularEconomySubtableCard } from '../components/CircularEconomySubtableCard'
+import { CircularEconomySubtablesModal } from '../components/CircularEconomySubtablesModal'
 
 export default function InformationTable () {
-  const [isOpenModal, setIsOpenModal] = useState(false)
+  const [result, setResult] = useState({})
+  const [selected, setSelected] = useState(false)
+  const circularEconomySubtableData = [
+    {
+      id: 0,
+      title: 'Envases y Empaques',
+      srcImage: {
+        small: '/envases-empaques.svg',
+        big: '/envases-empaques-big.svg'
+      },
+      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
+      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
+    },
+    {
+      id: 1,
+      title: 'Flujos de agua',
+      srcImage: {
+        small: '/flujos-agua.svg',
+        big: '/flujos-agua-big.svg' || '/flujos-agua.svg'
+      },
+      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
+      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
+    },
+    {
+      id: 2,
+      title: 'Fuentes y flujos de energía',
+      srcImage: {
+        small: '/fuentes-flujos-energia.svg',
+        big: '/fuentes-flujos-energia-big.svg' || '/fuentes-flujos-energia.svg'
+      },
+      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
+      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
+    },
+    {
+      id: 3,
+      title: 'Materiales industriales y productos de consumo masivo',
+      srcImage: {
+        small: '/materiales-industriales.svg',
+        big: '/materiales-industriales-big.svg' || '/materiales-industriales.svg'
+      },
+      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
+      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
+    },
+    {
+      id: 4,
+      title: 'Materiales de construccion',
+      srcImage: {
+        small: '/materiales-construccion.svg',
+        big: '/materiales-construccion-big.svg' || '/materiales-construccion.svg'
+      },
+      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
+      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
+    },
+    {
+      id: 5,
+      title: 'Biomasa',
+      srcImage: {
+        small: '/biomasa.svg',
+        big: '/biomasa-big.svg' || '/biomasa.svg'
+      },
+      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
+      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
+    }
+  ]
+
+  const showModal = (e) => {
+    const id = e.target.closest('div').getAttribute('data-id')
+    setResult(circularEconomySubtableData.find(item => item.id === +id))
+    setSelected(true)
+  }
+
   return (
         <>
             <Head>
@@ -50,43 +122,10 @@ export default function InformationTable () {
                             </p>
                         </div>
                         <div className='mx-auto w-10/12'>
-                            <div className='flex flex-col lg:flex-row lg:flex-wrap lg:justify-between gap-y-8 2xl:gap-y-[58px]'>
-                                <div onClick={() => setIsOpenModal(true)} className='flex items-center lg:w-1/2 cursor-pointer gap-x-[33.75px] xl:max-w-[375px] xl:w-full'>
-                                    <img src='/envases-empaques.svg' alt='envases y empaques' />
-                                    <p className='text-xl 2xl:text-2xl font-bold'>
-                                        Envases y Empaques
-                                    </p>
-                                </div>
-                                <div onClick={() => setIsOpenModal(true)} className='flex items-center lg:w-1/2 cursor-pointer gap-x-[37.76px] xl:max-w-[297px] xl:w-full'>
-                                    <img src='/flujos-agua.svg' alt='flujos de agua' />
-                                    <p className='text-xl 2xl:text-2xl font-bold'>
-                                        Flujos de agua
-                                    </p>
-                                </div>
-                                <div onClick={() => setIsOpenModal(true)} className='flex items-center lg:w-1/2 cursor-pointer gap-x-[21px] xl:max-w-[300px] xl:w-full'>
-                                    <img src='/fuentes-flujos-energia.svg' alt='fuentes y flujos de energia' />
-                                    <p className='text-xl 2xl:text-2xl font-bold'>
-                                        Fuentes y flujos de energía
-                                    </p>
-                                </div>
-                                <div onClick={() => setIsOpenModal(true)} className='flex items-center lg:w-1/2 cursor-pointer gap-x-[26px] xl:max-w-[375px] xl:w-full'>
-                                    <img src='/materiales-industriales.svg' alt='materiales industriales' />
-                                    <p className='text-xl 2xl:text-2xl font-bold'>
-                                        Materiales industriales y productos de consumo masivo
-                                    </p>
-                                </div>
-                                <div onClick={() => setIsOpenModal(true)} className='flex items-center lg:w-1/2 cursor-pointer gap-x-[37.76px] xl:max-w-[297px] xl:w-full'>
-                                    <img src='/materiales-construccion.svg' alt='materiales de construccion' />
-                                    <p className='text-xl 2xl:text-2xl font-bold'>
-                                        Materiales de construccion
-                                    </p>
-                                </div>
-                                <div onClick={() => setIsOpenModal(true)} className='flex items-center lg:w-1/2 cursor-pointer gap-x-[22.94px] xl:max-w-[300px] xl:w-full'>
-                                    <img src='/biomasa.svg' alt='biomasa' />
-                                    <p className='text-xl 2xl:text-2xl font-bold'>
-                                        Biomasa
-                                    </p>
-                                </div>
+                            <div onClick={showModal} className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-8 2xl:gap-y-[58px]'>
+                                {
+                                    circularEconomySubtableData.map((item, index) => <CircularEconomySubtableCard key={`circular-economy-${index + 1}`} item={item} />)
+                                }
                             </div>
                         </div>
                     </div>
@@ -144,75 +183,7 @@ export default function InformationTable () {
                 </div>
             </div>
 
-            <div className={`fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 w-full duration-500 ${isOpenModal ? 'scale-100 visible opacity-100' : 'scale-0 invisible opacity-0'}`}>
-                <div className='mx-auto w-11/12 max-w-[1104px]'>
-                    <div className='bg-blue-dark p-8 xl:pt-[55px] xl:pb-[64px] xl:pl-[80.98px] xl:pr-[126px] h-[75vh] lg:h-full overflow-y-auto relative'>
-                        <div className='flex flex-col lg:flex-row lg:justify-between lg:gap-x-12 gap-y-8'>
-                            <div className='max-w-[271.91px] w-full self-center lg:self-start'>
-                                <img src='/envases-empaques-big.svg' alt='envases y empaques' />
-                            </div>
-                            <div className='max-w-[555px] w-full'>
-                                <div className='text-white space-y-[38px]'>
-                                    <div className='space-y-[17px]'>
-                                        <h3 className='text-blue-6 font-bold text-xl xl:text-2xl'>
-                                            Submesa de envases y empaques
-                                        </h3>
-                                        <ul className='space-y-4'>
-                                            <li className='flex space-x-[12.63px] items-start'>
-                                                <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                <p>
-                                                    Validación de la oferta y las necesidades de información con actores.
-                                                </p>
-                                            </li>
-                                            <li className='flex space-x-[12.63px] items-start'>
-                                                <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                <p>
-                                                    Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className='space-y-[17px]'>
-                                        <h3 className=' font-bold text-xl xl:text-2xl'>
-                                            Resultados
-                                        </h3>
-                                        <ul className='space-y-4'>
-                                            <li className='flex space-x-[12.63px] items-start'>
-                                                <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                <p>
-                                                    Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.
-                                                </p>
-                                            </li>
-                                            <li className='flex space-x-[12.63px] items-start'>
-                                                <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                <p>
-                                                    Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.
-                                                </p>
-                                            </li>
-                                            <li className='flex space-x-[12.63px] items-start'>
-                                                <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                <p>
-                                                    Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.
-                                                </p>
-                                            </li>
-                                            <li className='flex space-x-[12.63px] items-start'>
-                                                <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                <p>
-                                                    Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button onClick={() => setIsOpenModal(false)} className='absolute top-4 right-4'>
-                            <img src='/close-modal.png' alt='close modal' />
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div onClick={() => setIsOpenModal(false)} className={`fixed top-0 left-0 w-full h-screen bg-rich-black bg-opacity-[0.45] z-20 cursor-pointer duration-500 ${isOpenModal ? 'visible opacity-100' : 'invisible opacity-0'}`}>&nbsp;</div>
+            <CircularEconomySubtablesModal item={result} selected={selected} setSelected={setSelected} />
         </>
   )
 }
