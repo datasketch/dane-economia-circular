@@ -1,7 +1,7 @@
 export const SankeyDiagramCard = ({ item }) => {
   const { title, description, link } = item
   return (
-        <div className='pt-[28.65px] pl-[42px] pr-[45px] h-[342px] border-blue-ocean border-[3px] rounded-tr-[100px] relative'>
+        <div className='pt-[28.65px] pb-16 pl-[42px] pr-[45px] border-blue-ocean border-[3px] rounded-tr-[100px] relative'>
             <div className='space-y-4'>
                 <div className='flex items-center gap-x-4'>
                     <img src='/diagram-icon.svg' alt='diagram icon' />

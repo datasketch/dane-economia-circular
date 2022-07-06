@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { CircularEconomyReport as Report } from '../components/CircularEconomyReport'
-import { SankeyDiagramCard } from '../components/SankeyDiagramCard'
+import { CircularEconomyReport as Report } from '../../components/CircularEconomyReport'
+import { SankeyDiagramCard } from '../../components/SankeyDiagramCard'
 
-export default function CircularEconomyReport () {
+export default function CircularEconomyReportFour () {
   const circularEconomyReportNames = [
     {
       title: 'Primer reporte de Economía Circular',
@@ -120,7 +120,7 @@ export default function CircularEconomyReport () {
                                 </div>
                                 <div className='inline-flex justify-between bg-blue-ocean bg-opacity-[0.08] pl-[13.41px] pr-[26.96px] pt-[14.66px] pb-[14.25px] max-w-[386.28px] w-full'>
                                     <div className='flex space-x-[11.45px] items-center'>
-                                        <img src='webinar-icon.svg' alt='webinar icon' />
+                                        <img src='/webinar-icon.svg' alt='webinar icon' />
                                         <p className='xl:text-[19px]'>
                                             Video instructivo
                                         </p>

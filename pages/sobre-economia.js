@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { IndicatorCountryCard } from '../components/IndicatorCountryCard'
+import { CircularEconomyReport } from '../components/CircularEconomyReport'
 
 export default function About () {
   const indicatorCountryData = [
@@ -27,6 +28,44 @@ export default function About () {
       bgImage: 'https://images.ecestaticos.com/83_TV0kEY5WROX67YWZK4DfUJaw=/0x0:2272x1514/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8fa%2F968%2F3c4%2F8fa9683c42b1deecf3aba0f08ee1d55c.jpg',
       country: 'China',
       link: 'www.referenteinternacional.com'
+    }
+  ]
+  const circularEconomyReportNames = [
+    {
+      title: 'Primer reporte de Economía Circular',
+      titleReportLink: 'Primer reporte',
+      reportLink: '#',
+      presentationLink: '#',
+      attachmentsLink: '#',
+      webinarLink: '#',
+      date: new Date(2020, 8, 5)
+    },
+    {
+      title: 'Segundo reporte de Economía Circular',
+      titleReportLink: 'Segundo reporte',
+      reportLink: '#',
+      presentationLink: '#',
+      attachmentsLink: '#',
+      webinarLink: '#',
+      date: new Date(2020, 12, 11)
+    },
+    {
+      title: 'Tercer reporte de Economía Circular',
+      titleReportLink: 'Tercer reporte',
+      reportLink: '#',
+      presentationLink: '#',
+      attachmentsLink: '#',
+      webinarLink: '#',
+      date: new Date(2021, 7, 28)
+    },
+    {
+      title: 'Cuarto reporte de Economía Circular',
+      titleReportLink: 'Cuarto reporte',
+      reportLink: '#',
+      presentationLink: '#',
+      attachmentsLink: '#',
+      webinarLink: '#',
+      date: new Date(2021, 12, 2)
     }
   ]
   return (
@@ -322,7 +361,7 @@ export default function About () {
                                 <p>
                                     Tienen el objetivo de brindar información relacionada a la Economía Circular en Colombia, abordando el robustecimiento de su política pública y la forma de tomar decisiones al respecto. En los reportes se publicaron los indicadores agrupados en cuatro categorías mediante diagramas y visualizaciones. Adicionalmente, en los reportes se encuentran los avances y flujos de la Cuenta Satelite Ambiental, el Sistema de Información de Economía Circular y las Submesas de Información de Economía Circular.
                                 </p>
-                                <a href='/reportes-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                                <a href='/reporte-economia-circular/cuarto-reporte-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                                     <span>
                                         Consultar
                                     </span>
@@ -331,79 +370,7 @@ export default function About () {
                             </div>
                         </div>
                         <div className='max-w-[710px] w-full'>
-                            <div className='border-[3px] border-blue-ocean rounded-tr-[100px] overflow-hidden relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
-                                <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
-                                    <div className='max-w-[184px] w-full'>
-                                        <div>
-                                            <img src='/reporte-prueba.png' alt='reporte prueba' />
-                                        </div>
-                                    </div>
-                                    <div className='max-w-[385px] w-full'>
-                                        <div>
-                                            <h4 className='font-bold 2xl:text-lg'>
-                                                Cuarto reporte de Economía Circular
-                                            </h4>
-                                            <ul className='mt-[2.6px]'>
-                                                <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                                    <div className='flex justify-between items-center space-x-[11.83px]'>
-                                                        <img src='pdf-icon.svg' alt='pdf icon' />
-                                                        <p>
-                                                            Cuarto reporte
-                                                        </p>
-                                                    </div>
-                                                    <div>
-                                                        <a href='#' download>
-                                                            <img src='/download-icon.svg' alt='download icon' />
-                                                        </a>
-                                                    </div>
-                                                </li>
-                                                <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                                    <div className='flex justify-between items-center space-x-[11.83px]'>
-                                                        <img src='pdf-icon.svg' alt='pdf icon' />
-                                                        <p>
-                                                            Presentación
-                                                        </p>
-                                                    </div>
-                                                    <div>
-                                                        <a href='#' download>
-                                                            <img src='/download-icon.svg' alt='download icon' />
-                                                        </a>
-                                                    </div>
-                                                </li>
-                                                <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                                    <div className='flex justify-between items-center space-x-[11.83px]'>
-                                                        <img src='anexes-icon.svg' alt='anexes icon' />
-                                                        <p>
-                                                            Anexos
-                                                        </p>
-                                                    </div>
-                                                    <div>
-                                                        <a href='#' download>
-                                                            <img src='/download-icon.svg' alt='download icon' />
-                                                        </a>
-                                                    </div>
-                                                </li>
-                                                <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                                    <div className='flex justify-between items-center space-x-[11.83px]'>
-                                                        <img src='webinar-icon.svg' alt='webinar icon' />
-                                                        <p>
-                                                            Webinar presentación
-                                                        </p>
-                                                    </div>
-                                                    <div className='transform -translate-x-2'>
-                                                        <a href='#' download>
-                                                            <img src='/arrow-reports-right.svg' alt='arriw icon' />
-                                                        </a>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <p className='text-right text-grey-dark italic mt-[18.17px]'>
-                                                Publicado el 02 de diciembre de 2021
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport = {true} />
                         </div>
                     </div>
                 </div>
