@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { IndicatorCountryCard } from '../components/IndicatorCountryCard'
 import { CircularEconomyReport } from '../components/CircularEconomyReport'
+import { TimeLine } from '../components/TimeLine'
 
 export default function About () {
   const indicatorCountryData = [
@@ -66,6 +67,73 @@ export default function About () {
       attachmentsLink: '#',
       webinarLink: '#',
       date: new Date(2021, 12, 2)
+    }
+  ]
+
+  const timeLineData = [
+    {
+      year: 1991,
+      list: ['Se elevan a rango constitucional los conceptos de desarrollo sostenible, patrimonio ecológico y calidad de vida.']
+    },
+    {
+      year: 1994,
+      list: ['Colombia ratifica la Convención Marco de Naciones Unidas sobre Cambio Climático - CMNUCC (Ley 164)']
+    },
+    {
+      year: 2000,
+      list: ['Colombia ratifica el Protocolo de Kioto']
+    },
+    {
+      year: 2001,
+      list: ['Colombia presenta la primera Comunicación de Cambio Climático']
+    },
+    {
+      year: 2009,
+      list: ['Inventario Nacional de Fuentes y Sumideros de GEI (2000-2004)']
+    },
+    {
+      year: 2010,
+      list: ['Política Nacional de Producción y Consumo Sostenible', 'Colombia presenta la segunda Comunicación de Cambio Climático']
+    },
+    {
+      year: 2011,
+      list: ['CONPES 3700: Articulación de políticas y acciones en materia de cambio climático']
+    },
+    {
+      year: 2012,
+      list: ['Plan Nacional de Cambio Climático']
+    },
+    {
+      year: 2015,
+      list: ['Colombia entrega su BUR-1']
+    },
+    {
+      year: 2016,
+      list: ['CONPES 3874: Política Nacional para la Gestión Integral de Residuos Sólidos', 'Se crea el Sistema Nacional de Cambio Climático (SISCLIMA)', 'CONPES 3866: Política de Desarrollo Productivo']
+    },
+    {
+      year: 2017,
+      list: ['Colombia presenta la Tercera Comunicación de Cambio Climático']
+    },
+    {
+      year: 2018,
+      list: ['CONPES 3934: Política de Crecimiento Verde', 'Colombia entrega su BUR-2', 'Se publica la Estrategia Nacional de Economía Circular', 'Estrategia Nacional de Economía Circular', 'Resolución 1407 de 2018: Ley de envases y empaques']
+    },
+    {
+      year: 2019,
+      list: ['Ley 1990 de 2019: Política contra la pérdida y desperdicio de alimentos', 'Plan Nacional de Desarrollo 2018-2022 “Pacto por Colombia, Pacto por la Equidad”']
+    },
+    {
+      year: 2020,
+      list: ['CONPES 4004 de 2020: Economía circular en la gestión de los servicios de agua potable y manejo de aguas residuales']
+    },
+    {
+      year: 2021,
+      list: ['Resolución 1256 del 2021: Reglamentación del uso de aguas residuales']
+    },
+    {
+      year: 2022,
+      list: ['Política ambiental para la gestión integral de residuos peligrosos y plan de acción 2022-2030 (2022)']
     }
   ]
   return (
@@ -361,7 +429,7 @@ export default function About () {
                                 <p>
                                     Tienen el objetivo de brindar información relacionada a la Economía Circular en Colombia, abordando el robustecimiento de su política pública y la forma de tomar decisiones al respecto. En los reportes se publicaron los indicadores agrupados en cuatro categorías mediante diagramas y visualizaciones. Adicionalmente, en los reportes se encuentran los avances y flujos de la Cuenta Satelite Ambiental, el Sistema de Información de Economía Circular y las Submesas de Información de Economía Circular.
                                 </p>
-                                <a href='/reporte-economia-circular/cuarto-reporte-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                                <a href='/reportes-de-economia-circular/cuarto-reporte-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                                     <span>
                                         Consultar
                                     </span>
@@ -370,7 +438,7 @@ export default function About () {
                             </div>
                         </div>
                         <div className='max-w-[710px] w-full'>
-                            <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport = {true} />
+                            <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport={true} />
                         </div>
                     </div>
                 </div>
@@ -378,9 +446,16 @@ export default function About () {
 
             <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06]'>
                 <div className='mx-auto w-11/12 max-w-screen-xl'>
-                    <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
-                        Recorrido histórico de normas relacionadas a la Economía Circular
-                    </h3>
+                    <div className='space-y-7'>
+                        <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
+                            Recorrido histórico de normas relacionadas a la Economía Circular
+                        </h3>
+                        <div className='scroll flex gap-x-[19px] overl'>
+                            {
+                                timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} item={item} color={index === 0 || index % 2 === 0 ? 'blue-dark' : 'blue-ocean'} directionList={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
+                            }
+                        </div>
+                    </div>
                 </div>
             </div>
 

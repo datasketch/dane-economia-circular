@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { CircularEconomyReport } from '../components/CircularEconomyReport'
+import { CircularEconomyReport } from '../../components/CircularEconomyReport'
 
 export default function CircularEconomyReports () {
   const circularEconomyReportNames = [
