@@ -85,10 +85,10 @@ export default function InformationTable () {
 
             <div className='py-12 lg:py-16 xl:py-20'>
                 <div className='mx-auto w-10/12 max-w-screen-xl'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-x-[109px] gap-y-8'>
-                        <div className='max-w-[714px] w-full'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 gap-x-[77px]'>
+                        <div className='lg:w-6/12'>
                             <div className='space-y-7'>
-                                <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
+                                <h2 className='text-blue-ocean text-2xl 3xl:text-[32px]'>
                                     <span className='font-bold'>Mesa de información</span> de Economía Circular - MIEC
                                 </h2>
                                 <p>
@@ -96,7 +96,7 @@ export default function InformationTable () {
                                 </p>
                             </div>
                         </div>
-                        <div className='max-w-[680px] w-full'>
+                        <div className='lg:w-6/12'>
                             <div className='space-y-7'>
                                 <p>
                                     En coherencia con las lineas prioritarias de la Estrategia Nacional de Economía Circular - ENEC, en un trabajo conjunto con el Ministerio de Ambiente y Desarrollo Sostenible, se identificó la necesidad de articular la submesa de materiales industriales y la submesa de consumo masivo. En este sentido para el 2021 se desarrollarán 6 submesas.
@@ -136,12 +136,12 @@ export default function InformationTable () {
                 <div className='mx-auto w-10/12 max-w-screen-xl'>
                     <div className='space-y-8'>
                         <div className='max-w-[437px] mx-auto text-center'>
-                            <h3 className='2xl:text-lg font-bold'>
+                            <h3 className='3xl:text-lg font-bold'>
                                 A través del desarrollo de las submesas se consolidarán los siguientes productos:
                             </h3>
                         </div>
                         <div className='mx-auto w-11/12'>
-                            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-8 xl:gap-y-9 xl:gap-x-[131px]'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-8 3xl:gap-y-9 3xl:gap-x-[131px]'>
                                 <div className='flex space-x-[12.63px]'>
                                     <img className='w-[22.63px] h-[24.01px]' src='arrow-right-purple.svg' alt='arrow right' />
                                     <p>
