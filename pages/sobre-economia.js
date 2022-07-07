@@ -449,7 +449,7 @@ export default function About () {
                 </div>
             </div>
 
-            <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06]'>
+            <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06] overflow-x-scroll'>
                 <div className='mx-auto w-11/12 max-w-screen-xl'>
                     <div className='space-y-7'>
                         <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
