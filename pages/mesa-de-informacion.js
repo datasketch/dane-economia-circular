@@ -84,8 +84,8 @@ export default function InformationTable () {
             </Head>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 gap-x-[77px]'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 gap-x-[108px]'>
                         <div className='lg:w-6/12'>
                             <div className='space-y-7'>
                                 <h2 className='text-blue-ocean text-2xl 3xl:text-[32px]'>
@@ -110,7 +110,7 @@ export default function InformationTable () {
                 </div>
             </div>
 
-            <div className='mx-auto w-10/12 max-w-screen-xl'>
+            <div className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='bg-blue-4 text-white pt-[63px] pb-[80.51px] rounded-tr-[140px] overflow-hidden'>
                     <div className='space-y-[60px]'>
                         <div className='max-w-[556px] w-10/12 mx-auto text-center space-y-4'>
@@ -133,7 +133,7 @@ export default function InformationTable () {
             </div>
 
             <div className='py-12 lg:py-16 xl:py-[72px]'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='space-y-8'>
                         <div className='max-w-[437px] mx-auto text-center'>
                             <h3 className='3xl:text-lg font-bold'>

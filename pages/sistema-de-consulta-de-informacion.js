@@ -10,7 +10,7 @@ export default function InformationQuerySystem () {
             </Head>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[111px]'>
                         <div className='lg:w-1/2'>
                             <div className='space-y-8 xl:space-y-[65px]'>
@@ -67,7 +67,7 @@ export default function InformationQuerySystem () {
                 </div>
             </div>
 
-            <div className='mx-auto w-10/12 max-w-screen-xl'>
+            <div className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='xl:px-[104px] xl:py-[72px] rounded-tr-[140px] border-blue-ocean border-[3px] overflow-hidden px-4 lg:px-8 py-12'>
                     <div className='space-y-[60px]'>
                         <div className='space-y-5'>
@@ -115,7 +115,7 @@ export default function InformationQuerySystem () {
                 </div>
             </div>
 
-            <div className='mx-auto w-10/12 max-w-screen-xl'>
+            <div className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='bg-blue-ocean pt-[105px] pb-[89.57px] relative'>
                     <div className='space-y-[30.1px]'>
                         <div className='max-w-[514px] mx-auto text-center text-white space-y-[15px]'>
@@ -197,7 +197,7 @@ export default function InformationQuerySystem () {
                 </div>
             </div>
 
-            <div className='mx-auto w-10/12 max-w-screen-xl'>
+            <div className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='py-12 lg:py-16 xl:py-20'>
                     <div className='space-y-[53px]'>
                         <div className='max-w-[567.62px] mx-auto text-center'>

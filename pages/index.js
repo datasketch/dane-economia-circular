@@ -10,8 +10,8 @@ export default function Home () {
       </Head>
 
       <div className='pt-10'>
-        <div className='mx-auto w-10/12 max-w-screen-xl'>
-          <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between'>
+        <div className='mx-auto w-10/12 max-w-screen-lim'>
+          <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between gap-y-8'>
             <div className='lg:w-6/12'>
               <div className='bg-banner-siec bg-cover bg-center h-[256px] overflow-hidden rounded-tr-[80px]'>
                 <div className='grid place-items-center h-full px-[44px] py-[65px]'>
@@ -22,19 +22,21 @@ export default function Home () {
               </div>
             </div>
             <div className='lg:w-5/12'>
-              <div className='space-y-4 lg:space-y-6 xl:space-y-8 2xl:space-y-[38px]'>
-                <h2 className='font-bold text-2xl 2xl:text-[32px] text-blue-ocean'>
-                  Sistema de Consulta de Información de Economía Circular - SIEC
-                </h2>
-                <p>
-                  Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
-                </p>
-                <a href='/sistema-de-consulta-de-informacion' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                  <span>
-                    Consultar
-                  </span>
-                  <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                </a>
+              <div className='max-w-[411px]'>
+                <div className='space-y-4 lg:space-y-6 xl:space-y-8 2xl:space-y-[38px]'>
+                  <h2 className='font-bold text-2xl 2xl:text-[32px] text-blue-ocean'>
+                    Sistema de Consulta de Información de Economía Circular - SIEC
+                  </h2>
+                  <p>
+                    Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
+                  </p>
+                  <a href='/sistema-de-consulta-de-informacion' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                    <span>
+                      Consultar
+                    </span>
+                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -42,7 +44,7 @@ export default function Home () {
       </div>
 
       <div className='py-12 lg:py-16 xl:py-20 3xl:pt-[107px] 3xl:pb-[82.5px]'>
-        <div className='mx-auto w-10/12 max-w-screen-xl'>
+        <div className='mx-auto w-10/12 max-w-screen-lim'>
           <div className='text-center'>
             <h2 className='text-2xl 2xl:text-[32px] text-blue-ocean'>
               <span className='font-bold'>Datos</span>
@@ -52,76 +54,78 @@ export default function Home () {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
-                <img src='/data-interest-graphic.svg' />
+                <img className='w-full' src='/data-interest-graphic.svg' />
               </div>
             </div>
             <div className='lg:w-5/12 order-1 lg:order-2'>
-              <div className='space-y-6 2xl:space-y-[34px]'>
-                <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
-                  Disponibilidad de reservas mineras
-                </h3>
-                <p>
-                  Este indicador relaciona la extracción y las reservas mineras probadas de cada recurso, y permite conocer la disponibilidad del activo en un horizonte de tiempo. La mayor o menor disponibilidad está sujeta a los cambios en el activo que se puedan dar durante el año como descubrimientos, extracciones, pérdidas por catástrofes y las reconsideraciones y cambios en clasificaciones.
-                </p>
-                <p>
-                  Disponibilidad de reservas mineras del 2019:
-                </p>
-                <div className='flex justify-between max-w-[473px]'>
-                  <div className='max-w-[100px] w-full'>
-                    <div className='text-center font-bold space-y-2'>
-                      <h4 className='2xl:text-lg'>
-                        Carbón
-                      </h4>
-                      <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                      <p className='text-3xl 2xl:text-[40px] pt-2'>
-                        73
-                      </p>
-                    </div>
-                  </div>
-                  <div className='max-w-[100px] w-full'>
-                    <div className='text-center font-bold space-y-2'>
-                      <h4 className='2xl:text-lg'>
-                        Gas natural
-                      </h4>
-                      <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                      <p className='text-3xl 2xl:text-[40px] pt-2'>
-                        8
-                      </p>
-                    </div>
-                  </div>
-                  <div className='max-w-[100px] w-full'>
-                    <div className='text-center font-bold space-y-2'>
-                      <h4 className='2xl:text-lg'>
-                        Petróleo
-                      </h4>
-                      <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                      <p className='text-3xl 2xl:text-[40px] pt-2'>
-                        6
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='text-grey-dark italic'>
+              <div className='max-w-[603px]'>
+                <div className='space-y-6 2xl:space-y-[34px]'>
+                  <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
+                    Disponibilidad de reservas mineras
+                  </h3>
                   <p>
-                    <span className='font-bold'>Fecha:</span> de publicación de los datos
+                    Este indicador relaciona la extracción y las reservas mineras probadas de cada recurso, y permite conocer la disponibilidad del activo en un horizonte de tiempo. La mayor o menor disponibilidad está sujeta a los cambios en el activo que se puedan dar durante el año como descubrimientos, extracciones, pérdidas por catástrofes y las reconsideraciones y cambios en clasificaciones.
                   </p>
                   <p>
-                    <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                    Disponibilidad de reservas mineras del 2019:
                   </p>
+                  <div className='flex justify-between max-w-[473px]'>
+                    <div className='max-w-[100px] w-full'>
+                      <div className='text-center font-bold space-y-2'>
+                        <h4 className='2xl:text-lg'>
+                          Carbón
+                        </h4>
+                        <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                        <p className='text-3xl 2xl:text-[40px] pt-2'>
+                          73
+                        </p>
+                      </div>
+                    </div>
+                    <div className='max-w-[100px] w-full'>
+                      <div className='text-center font-bold space-y-2'>
+                        <h4 className='2xl:text-lg'>
+                          Gas natural
+                        </h4>
+                        <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                        <p className='text-3xl 2xl:text-[40px] pt-2'>
+                          8
+                        </p>
+                      </div>
+                    </div>
+                    <div className='max-w-[100px] w-full'>
+                      <div className='text-center font-bold space-y-2'>
+                        <h4 className='2xl:text-lg'>
+                          Petróleo
+                        </h4>
+                        <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                        <p className='text-3xl 2xl:text-[40px] pt-2'>
+                          6
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='text-grey-dark italic'>
+                    <p>
+                      <span className='font-bold'>Fecha:</span> de publicación de los datos
+                    </p>
+                    <p>
+                      <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                    </p>
+                  </div>
+                  <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                    <span>
+                      Explorar datos
+                    </span>
+                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
-                <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                  <span>
-                    Explorar datos
-                  </span>
-                  <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='mx-auto w-10/12 max-w-screen-xl'>
+      <div className='mx-auto w-10/12 max-w-screen-lim'>
         <div className='bg-blue-4 relative overflow-hidden rounded-tr-[80px] pt-[36.18px] pb-[25.46px] lg:pt-[89.5px] lg:pb-[29.5px] text-white space-y-8 2xl:space-y-0'>
           <div className='grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-3 gap-y-8 lg:gap-y-0 text-center lg:text-left relative z-10'>
             <div className='lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-2 order-2 lg:order-1'>
@@ -193,52 +197,54 @@ export default function Home () {
       </div>
 
       <div className='py-12 lg:py-16 xl:py-20 2xl:pt-[107px] 2xl:pb-[82.5px]'>
-        <div className='mx-auto w-10/12 max-w-screen-xl'>
-          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px]'>
+        <div className='mx-auto w-10/12 max-w-screen-lim'>
+          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
             <div className='lg:w-5/12'>
-              <div className='space-y-6 2xl:space-y-[34px]'>
-                <div className='space-y-2'>
-                  <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
-                    Desacoplamiento en la generación de emisiones
-                  </h3>
-                  <div>
+              <div className='max-w-[537px]'>
+                <div className='space-y-6 2xl:space-y-[34px]'>
+                  <div className='space-y-2'>
+                    <h3 className='font-bold text-xl 3xl:text-2xl text-blue-dark'>
+                      Desacoplamiento en la generación de emisiones
+                    </h3>
+                    <div>
+                      <p>
+                        Índices en base 100 = 20025
+                      </p>
+                      <p>
+                        2005-2019P
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    Durante 2019P, en el punto representado por la flecha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
+                  </p>
+                  <div className='text-grey-dark italic'>
                     <p>
-                      Índices en base 100 = 20025
+                      <span className='font-bold'>Fecha:</span> de publicación de los datos
                     </p>
                     <p>
-                      2005-2019P
+                      <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
                     </p>
                   </div>
+                  <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                    <span>
+                      Explorar datos
+                    </span>
+                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
-                <p>
-                  Durante 2019P, en el punto representado por la flecha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
-                </p>
-                <div className='text-grey-dark italic'>
-                  <p>
-                    <span className='font-bold'>Fecha:</span> de publicación de los datos
-                  </p>
-                  <p>
-                    <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
-                  </p>
-                </div>
-                <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                  <span>
-                    Explorar datos
-                  </span>
-                  <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                </a>
               </div>
             </div>
             <div className='lg:w-6/12'>
               <div>
-                <img src='/desacoplamiento-graphic.svg' />
+                <img className='w-full' src='/desacoplamiento-graphic.svg' />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='mx-auto w-10/12 max-w-screen-xl'>
+      <div className='mx-auto w-10/12 max-w-screen-lim'>
         <div className='bg-banner-edificaciones bg-cover bg-center 2xl:pt-[102px] p-10 2xl:pb-[37.92px] 2xl:px-0 overflow-hidden rounded-tr-[80px] text-white space-y-8'>
           <div className='max-w-[942.55px] mx-auto'>
             <div className='flex flex-col items-center lg:flex-row lg:justify-between font-bold gap-y-8 lg:gap-y-0'>
@@ -312,7 +318,7 @@ export default function Home () {
       </div>
 
       <div className='py-12 lg:py-16 xl:py-20 2xl:pt-[107px] 2xl:pb-[82.5px]'>
-        <div className='mx-auto w-10/12 max-w-screen-xl'>
+        <div className='mx-auto w-10/12 max-w-screen-lim'>
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px] gap-y-8'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
@@ -320,114 +326,116 @@ export default function Home () {
               </div>
             </div>
             <div className='lg:w-5/12 order-1 lg:order-2'>
-              <div className='space-y-10 lg:space-y-12 xl:space-y-16 2xl:space-y-20'>
-                <div className='space-y-[17.5px]'>
-                  <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
-                    Hogares que tienen prácticas para reducir el consumo de agua y energía
-                  </h3>
-                  <p>
-                    Por departamento 2020
-                  </p>
-                  <p>
-                    Lo hogares que se ubican en Huila, Caldas y el Archipiélago de San Andrés, Providencia y Santa Catalina son los que, en porcentaje, realizan un mayor esfuerzo en la disminución de los consumos de agua y energía.
-                  </p>
-                  <div className='text-grey-dark italic'>
+              <div className='max-w-[603px]'>
+                <div className='space-y-10 lg:space-y-12 xl:space-y-16 2xl:space-y-20'>
+                  <div className='space-y-[17.5px]'>
+                    <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
+                      Hogares que tienen prácticas para reducir el consumo de agua y energía
+                    </h3>
                     <p>
-                      <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                      Por departamento 2020
                     </p>
-                  </div>
-                </div>
-                <div className='space-y-[17.5px]'>
-                  <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
-                    Grupos de edad tienen prácticas para reducir el consumo de agua y energía
-                  </h3>
-                  <p>
-                    A nivel nacional
-                  </p>
-                  <div className='space-y-[24.4px] py-6'>
-                    <div className='flex justify-between max-w-[473px]'>
-                      <div className='max-w-[100px] w-full'>
-                        <div className='text-center font-bold space-y-2'>
-                          <h4 className='2xl:text-lg'>
-                            Rango
-                          </h4>
-                          <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                          <p className='text-3xl 2xl:text-[40px] pt-2'>
-                            12%
-                          </p>
-                        </div>
-                      </div>
-                      <div className='max-w-[100px] w-full'>
-                        <div className='text-center font-bold space-y-2'>
-                          <h4 className='2xl:text-lg'>
-                            Rango
-                          </h4>
-                          <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                          <p className='text-3xl 2xl:text-[40px] pt-2'>
-                            12%
-                          </p>
-                        </div>
-                      </div>
-                      <div className='max-w-[100px] w-full'>
-                        <div className='text-center font-bold space-y-2'>
-                          <h4 className='2xl:text-lg'>
-                            Rango
-                          </h4>
-                          <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                          <p className='text-3xl 2xl:text-[40px] pt-2'>
-                            12%
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='flex justify-between max-w-[473px]'>
-                      <div className='max-w-[100px] w-full'>
-                        <div className='text-center font-bold space-y-2'>
-                          <h4 className='2xl:text-lg'>
-                            Rango
-                          </h4>
-                          <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                          <p className='text-3xl 2xl:text-[40px] pt-2'>
-                            12%
-                          </p>
-                        </div>
-                      </div>
-                      <div className='max-w-[100px] w-full'>
-                        <div className='text-center font-bold space-y-2'>
-                          <h4 className='2xl:text-lg'>
-                            Rango
-                          </h4>
-                          <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                          <p className='text-3xl 2xl:text-[40px] pt-2'>
-                            12%
-                          </p>
-                        </div>
-                      </div>
-                      <div className='max-w-[100px] w-full'>
-                        <div className='text-center font-bold space-y-2'>
-                          <h4 className='2xl:text-lg'>
-                            Rango
-                          </h4>
-                          <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                          <p className='text-3xl 2xl:text-[40px] pt-2'>
-                            12%
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='space-y-10 2xl:space-y-[54.69px]'>
+                    <p>
+                      Lo hogares que se ubican en Huila, Caldas y el Archipiélago de San Andrés, Providencia y Santa Catalina son los que, en porcentaje, realizan un mayor esfuerzo en la disminución de los consumos de agua y energía.
+                    </p>
                     <div className='text-grey-dark italic'>
                       <p>
-                        <span className='font-bold'>Fuente:</span> Fuente: DANE. Encuesta de Calidad de Vida - ECV 2020.
+                        <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
                       </p>
                     </div>
-                    <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                      <span>
-                        Explorar datos
-                      </span>
-                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                    </a>
+                  </div>
+                  <div className='space-y-[17.5px]'>
+                    <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
+                      Grupos de edad tienen prácticas para reducir el consumo de agua y energía
+                    </h3>
+                    <p>
+                      A nivel nacional
+                    </p>
+                    <div className='space-y-[24.4px] py-6'>
+                      <div className='flex justify-between max-w-[473px]'>
+                        <div className='max-w-[100px] w-full'>
+                          <div className='text-center font-bold space-y-2'>
+                            <h4 className='2xl:text-lg'>
+                              Rango
+                            </h4>
+                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                            <p className='text-3xl 2xl:text-[40px] pt-2'>
+                              12%
+                            </p>
+                          </div>
+                        </div>
+                        <div className='max-w-[100px] w-full'>
+                          <div className='text-center font-bold space-y-2'>
+                            <h4 className='2xl:text-lg'>
+                              Rango
+                            </h4>
+                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                            <p className='text-3xl 2xl:text-[40px] pt-2'>
+                              12%
+                            </p>
+                          </div>
+                        </div>
+                        <div className='max-w-[100px] w-full'>
+                          <div className='text-center font-bold space-y-2'>
+                            <h4 className='2xl:text-lg'>
+                              Rango
+                            </h4>
+                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                            <p className='text-3xl 2xl:text-[40px] pt-2'>
+                              12%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-between max-w-[473px]'>
+                        <div className='max-w-[100px] w-full'>
+                          <div className='text-center font-bold space-y-2'>
+                            <h4 className='2xl:text-lg'>
+                              Rango
+                            </h4>
+                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                            <p className='text-3xl 2xl:text-[40px] pt-2'>
+                              12%
+                            </p>
+                          </div>
+                        </div>
+                        <div className='max-w-[100px] w-full'>
+                          <div className='text-center font-bold space-y-2'>
+                            <h4 className='2xl:text-lg'>
+                              Rango
+                            </h4>
+                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                            <p className='text-3xl 2xl:text-[40px] pt-2'>
+                              12%
+                            </p>
+                          </div>
+                        </div>
+                        <div className='max-w-[100px] w-full'>
+                          <div className='text-center font-bold space-y-2'>
+                            <h4 className='2xl:text-lg'>
+                              Rango
+                            </h4>
+                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
+                            <p className='text-3xl 2xl:text-[40px] pt-2'>
+                              12%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='space-y-10 2xl:space-y-[54.69px]'>
+                      <div className='text-grey-dark italic'>
+                        <p>
+                          <span className='font-bold'>Fuente:</span> Fuente: DANE. Encuesta de Calidad de Vida - ECV 2020.
+                        </p>
+                      </div>
+                      <a href='#' className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                        <span>
+                          Explorar datos
+                        </span>
+                        <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -437,29 +445,31 @@ export default function Home () {
       </div>
 
       <div className='bg-blue-ocean bg-opacity-[0.06] py-12 lg:py-16 2xl:py-20'>
-        <div className='mx-auto w-10/12 max-w-screen-xl'>
+        <div className='mx-auto w-10/12 max-w-screen-lim'>
           <div className='space-y-[56.64px] 2xl:space-y-[66.61px]'>
             <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center relative space-y-[60.03px] lg:space-y-0 lg:space-x-8'>
               <div className='lg:w-5/12 relative z-10'>
-                <div className='space-y-6 lg:space-y-8 2xl:space-y-[35.47px]'>
-                  <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
-                    <span className='font-bold'>Explora </span>
-                    todos los indicadores
-                  </h2>
-                  <p>
-                    Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro categorías: Extracción de reservas mineras; Consumo y uso; Producción de bienes y servicios; y Cierre y optimización en ciclos de vida de los materiales y productos. A su vez, los indicadores interactuan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
-                  </p>
-                  <a href='#' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                    <span>
-                      Explorar datos
-                    </span>
-                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                  </a>
+                <div className='max-w-[503px]'>
+                  <div className='space-y-6 lg:space-y-8 2xl:space-y-[35.47px]'>
+                    <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
+                      <span className='font-bold'>Explora </span>
+                      todos los indicadores
+                    </h2>
+                    <p>
+                      Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro categorías: Extracción de reservas mineras; Consumo y uso; Producción de bienes y servicios; y Cierre y optimización en ciclos de vida de los materiales y productos. A su vez, los indicadores interactuan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
+                    </p>
+                    <a href='#' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                      <span>
+                        Explorar datos
+                      </span>
+                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className='lg:w-6/12 relative z-10'>
                 <div>
-                  <img src='/app-DANE.png' alt='app DANE' />
+                  <img className='w-full' src='/app-DANE.png' alt='app DANE' />
                 </div>
               </div>
               <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 lg:-translate-y-1/2'>

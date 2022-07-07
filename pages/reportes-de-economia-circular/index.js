@@ -49,9 +49,9 @@ export default function CircularEconomyReports () {
             </Head>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 lg:gap-x-12'>
-                        <div className='max-w-[592px] w-full'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8'>
+                        <div className='lg:w-5/12'>
                             <div className='space-y-[42px]'>
                                 <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
                                     <span className='font-bold'>Reportes </span>
@@ -70,7 +70,7 @@ export default function CircularEconomyReports () {
                                 </div>
                             </div>
                         </div>
-                        <div className='max-w-[710px] w-full'>
+                        <div className='lg:w-6/12'>
                             <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport={true} />
                         </div>
                     </div>
@@ -78,7 +78,7 @@ export default function CircularEconomyReports () {
             </div>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='space-y-[49px]'>
                         <div className='text-center'>
                             <h3 className='font-bold text-xl xl:text-2xl text-blue-dark'>

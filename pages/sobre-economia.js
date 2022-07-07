@@ -150,7 +150,7 @@ export default function About () {
             </Head>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='space-y-[104.72px]'>
                         <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8'>
                             <div className='lg:w-5/12'>
@@ -337,7 +337,7 @@ export default function About () {
             </div>
 
             <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06]'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='space-y-[30px]'>
                         <div className='text-center'>
                             <h2 className='font-bold text-xl 2xl:text-[24px]'>
@@ -423,7 +423,7 @@ export default function About () {
             </div>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8'>
                         <div className='lg:w-5/12'>
                             <div className='space-y-[42px]'>
@@ -450,7 +450,7 @@ export default function About () {
             </div>
 
             <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06] overflow-x-scroll'>
-                <div className='mx-auto w-11/12 max-w-screen-xl'>
+                <div className='mx-auto w-11/12 max-w-screen-lim'>
                     <div className='space-y-7'>
                         <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
                             Recorrido histórico de normas relacionadas a la Economía Circular
@@ -465,7 +465,7 @@ export default function About () {
             </div>
 
             <div className='py-12 lg:py-16 xl:py-20'>
-                <div className='mx-auto w-11/12 max-w-screen-xl'>
+                <div className='mx-auto w-11/12 max-w-screen-lim'>
                     <div className='space-y-[71.84px]'>
                         <div className='max-w-[518px] mx-auto'>
                             <h2 className='text-2xl 2xl:text-[32px] text-center text-blue-ocean'>

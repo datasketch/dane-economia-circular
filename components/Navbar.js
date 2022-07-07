@@ -5,7 +5,7 @@ export default function Navbar () {
   const router = useRouter()
   return (
     <div className="pt-10">
-      <div className='mx-auto w-10/12 max-w-screen-3xl'>
+      <div className='mx-auto w-10/12 max-w-screen-lim'>
         <div className='flex flex-col gap-y-4 xl:flex-row xl:justify-between items-center'>
           <div className='xl:w-3/12'>
             <a href="/">

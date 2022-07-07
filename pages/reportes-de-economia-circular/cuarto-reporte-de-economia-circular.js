@@ -82,10 +82,10 @@ export default function CircularEconomyReportFour () {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className='mx-auto w-10/12 max-w-screen-xl'>
+            <div className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='py-12 lg:py-16 xl:py-20'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 lg:gap-x-12 xl:gap-x-[170px]'>
-                        <div className='max-w-[710px] w-full'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[170px]'>
+                        <div className='lg:w-1/2'>
                             <div className='space-y-[56px]'>
                                 <div className='max-w-[593px]'>
                                     <div className='space-y-[29.5px]'>
@@ -105,7 +105,7 @@ export default function CircularEconomyReportFour () {
                                 <Report item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} />
                             </div>
                         </div>
-                        <div className='max-w-[593px] w-full self-end'>
+                        <div className='lg:w-1/2 self-end'>
                             <div className='space-y-[30px]'>
                                 <h3 className='font-bold text-blue-dark lg:text-xl xl:text-2xl'>
                                     Diagramas de Sankey
@@ -139,13 +139,13 @@ export default function CircularEconomyReportFour () {
             </div>
 
             <div style={{ backgroundColor: '#FBFBFB' }}>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <img src='/reporte-prueba.jpg' alt='reporte prueba' />
                 </div>
             </div>
 
             <div className='py-8 lg:py-12 xl:py-[54px]'>
-                <div className='mx-auto w-10/12 max-w-screen-xl'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
                     <div className='space-y-[68px]'>
                         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-x-[54px] xl:gap-y-[42px]'>
                             {
