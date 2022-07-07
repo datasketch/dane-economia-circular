@@ -9,10 +9,10 @@ export default function Home () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='py-10'>
+      <div className='pt-10'>
         <div className='mx-auto w-10/12 max-w-screen-xl'>
-          <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between max-w-[1318px] gap-[44px]'>
-            <div className='max-w-[733px] w-full'>
+          <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between'>
+            <div className='lg:w-6/12'>
               <div className='bg-banner-siec bg-cover bg-center h-[256px] overflow-hidden rounded-tr-[80px]'>
                 <div className='grid place-items-center h-full px-[44px] py-[65px]'>
                   <p className='max-w-[435px] text-white'>
@@ -21,7 +21,7 @@ export default function Home () {
                 </div>
               </div>
             </div>
-            <div className='max-w-[411px] w-full'>
+            <div className='lg:w-5/12'>
               <div className='space-y-4 lg:space-y-6 xl:space-y-8 2xl:space-y-[38px]'>
                 <h2 className='font-bold text-2xl 2xl:text-[32px] text-blue-ocean'>
                   Sistema de Consulta de Información de Economía Circular - SIEC
@@ -41,7 +41,7 @@ export default function Home () {
         </div>
       </div>
 
-      <div className='py-12 lg:py-16 xl:py-20 2xl:pt-[107px] 2xl:pb-[82.5px]'>
+      <div className='py-12 lg:py-16 xl:py-20 3xl:pt-[107px] 3xl:pb-[82.5px]'>
         <div className='mx-auto w-10/12 max-w-screen-xl'>
           <div className='text-center'>
             <h2 className='text-2xl 2xl:text-[32px] text-blue-ocean'>
@@ -49,13 +49,13 @@ export default function Home () {
               de interés
             </h2>
           </div>
-          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-[42.47px] gap-x-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
-            <div className='lg:max-w-[735.82px] w-full order-2 lg:order-1'>
+          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
+            <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
                 <img src='/data-interest-graphic.svg' />
               </div>
             </div>
-            <div className='max-w-[603px] w-full order-1 lg:order-2'>
+            <div className='lg:w-5/12 order-1 lg:order-2'>
               <div className='space-y-6 2xl:space-y-[34px]'>
                 <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
                   Disponibilidad de reservas mineras
@@ -122,53 +122,48 @@ export default function Home () {
       </div>
 
       <div className='mx-auto w-10/12 max-w-screen-xl'>
-        <div className='bg-banner-tasa-reciclaje bg-cover bg-center relative overflow-hidden rounded-tr-[80px] pt-[36.18px] pb-[25.46px] lg:pt-[89.5px] lg:pb-[29.5px] text-white space-y-8 2xl:space-y-0'>
-          <div className='grid place-items-center h-full'>
-            <div className='max-w-[844.82px] w-full flex flex-col text-center lg:text-left items-center relative z-10  h-full lg:items-stretch gap-y-8 lg:gap-y-0'>
-              <div className='flex justify-between order-2 lg:order-1'>
-                <div className='hidden lg:block'>&nbsp;</div>
-                <div className='max-w-[267px] w-full'>
-                  <div>
-                    <p className='2xl:text-lg'>
-                      Residuos sólidos utilizados en reciclaje y nueva utilización
-                    </p>
-                    <p className='font-bold text-xl 2xl:text-2xl'>
-                      26.456.711
-                    </p>
-                    <p className='text-sm'>
-                      Toneladas
-                    </p>
-                  </div>
+        <div className='bg-blue-4 relative overflow-hidden rounded-tr-[80px] pt-[36.18px] pb-[25.46px] lg:pt-[89.5px] lg:pb-[29.5px] text-white space-y-8 2xl:space-y-0'>
+          <div className='grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-3 gap-y-8 lg:gap-y-0 text-center lg:text-left relative z-10'>
+            <div className='lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-2 order-2 lg:order-1'>
+              <div className='mt-[154.64px] lg:mt-0 max-w-[267px] mx-auto lg:mx-0'>
+                <div>
+                  <p className='2xl:text-lg'>
+                    Residuos sólidos utilizados en reciclaje y nueva utilización
+                  </p>
+                  <p className='font-bold text-xl 2xl:text-2xl'>
+                    26.456.711
+                  </p>
+                  <p className='text-sm'>
+                    Toneladas
+                  </p>
                 </div>
               </div>
-              <div className='flex justify-between order-1 lg:order-2'>
-                <div className='max-w-[211px] w-full'>
-                  <div className='lg:text-right space-y-3 2xl:space-y-[22.5px]'>
-                    <h4 className='text-xl 2xl:text-2xl font-bold'>
-                      Tasa de reciclaje y nueva utilización
-                    </h4>
-                    <div className='bg-white h-0.5'>&nbsp;</div>
-                    <p className='text-[32px] 2xl:text-[40px]'>
-                      11,82%
-                    </p>
-                  </div>
+            </div>
+            <div className='lg:mt-0 lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3 order-1 lg:order-2'>
+              <div className='max-w-[211px] mx-auto lg:ml-auto lg:mr-0'>
+                <div className='lg:text-right space-y-3 2xl:space-y-[22.5px]'>
+                  <h4 className='text-xl 2xl:text-2xl font-bold'>
+                    Tasa de reciclaje y nueva utilización
+                  </h4>
+                  <div className='bg-white h-0.5'>&nbsp;</div>
+                  <p className='text-[32px] 2xl:text-[40px]'>
+                    11,82%
+                  </p>
                 </div>
-                <div className='hidden lg:block'>&nbsp;</div>
               </div>
-              <div className='flex justify-between order-3 lg:order-3'>
-                <div className='hidden lg:block'>&nbsp;</div>
-                <div className='max-w-[267px] w-full'>
-                  <div>
-                    <p className='2xl:text-lg'>
-                      Oferta de residuos y productos residuales
-                    </p>
-                    <p className='font-bold text-xl 2xl:text-2xl'>
-                      3.127.844
-                    </p>
-                    <p className='text-sm'>
-                      Toneladas
-                    </p>
-                  </div>
+            </div>
+            <div className='lg:col-start-3 lg:col-end-4 lg:row-start-3 lg:row-end-4 order-3'>
+              <div className='max-w-[267px] mx-auto lg:mx-0'>
+                <div>
+                  <p className='2xl:text-lg'>
+                    Oferta de residuos y productos residuales
+                  </p>
+                  <p className='font-bold text-xl 2xl:text-2xl'>
+                    3.127.844
+                  </p>
+                  <p className='text-sm'>
+                    Toneladas
+                  </p>
                 </div>
               </div>
             </div>
@@ -191,7 +186,7 @@ export default function Home () {
               </a>
             </div>
           </div>
-          <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+          <div className='absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
             <img src='/reciclaje-icon.svg' alt='reciclaje icon' />
           </div>
         </div>
@@ -199,8 +194,8 @@ export default function Home () {
 
       <div className='py-12 lg:py-16 xl:py-20 2xl:pt-[107px] 2xl:pb-[82.5px]'>
         <div className='mx-auto w-10/12 max-w-screen-xl'>
-          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-[42.47px] gap-x-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
-            <div className='max-w-[537px] w-full'>
+          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px]'>
+            <div className='lg:w-5/12'>
               <div className='space-y-6 2xl:space-y-[34px]'>
                 <div className='space-y-2'>
                   <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
@@ -234,7 +229,7 @@ export default function Home () {
                 </a>
               </div>
             </div>
-            <div className='max-w-[814.24px] w-full'>
+            <div className='lg:w-6/12'>
               <div>
                 <img src='/desacoplamiento-graphic.svg' />
               </div>
@@ -318,13 +313,13 @@ export default function Home () {
 
       <div className='py-12 lg:py-16 xl:py-20 2xl:pt-[107px] 2xl:pb-[82.5px]'>
         <div className='mx-auto w-10/12 max-w-screen-xl'>
-          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-[42.47px] gap-x-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
-            <div className='lg:max-w-[549.45px] w-full order-2 lg:order-1'>
+          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px] gap-y-8'>
+            <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
-                <img className='mx-auto lg:mx-0' src='/map-graphic.svg' />
+                <img className='mx-auto' src='/map-graphic.svg' />
               </div>
             </div>
-            <div className='max-w-[603px] w-full order-1 lg:order-2'>
+            <div className='lg:w-5/12 order-1 lg:order-2'>
               <div className='space-y-10 lg:space-y-12 xl:space-y-16 2xl:space-y-20'>
                 <div className='space-y-[17.5px]'>
                   <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
@@ -445,7 +440,7 @@ export default function Home () {
         <div className='mx-auto w-10/12 max-w-screen-xl'>
           <div className='space-y-[56.64px] 2xl:space-y-[66.61px]'>
             <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center relative space-y-[60.03px] lg:space-y-0 lg:space-x-8'>
-              <div className='max-w-[503px] w-full z-10'>
+              <div className='lg:w-5/12 relative z-10'>
                 <div className='space-y-6 lg:space-y-8 2xl:space-y-[35.47px]'>
                   <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
                     <span className='font-bold'>Explora </span>
@@ -462,7 +457,7 @@ export default function Home () {
                   </a>
                 </div>
               </div>
-              <div className='max-w-[734.5px] w-full z-10'>
+              <div className='lg:w-6/12 relative z-10'>
                 <div>
                   <img src='/app-DANE.png' alt='app DANE' />
                 </div>

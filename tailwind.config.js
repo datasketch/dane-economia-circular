@@ -31,7 +31,6 @@ module.exports = {
       },
       backgroundImage: {
         'banner-siec': "url('/banner-siec.svg')",
-        'banner-tasa-reciclaje': "url('/banner-tasa-reciclaje.svg')",
         'banner-edificaciones': "url('/banner-edificaciones.svg')"
       },
       screens: {
@@ -44,10 +43,13 @@ module.exports = {
         lg: '1024px',
         // => @media (min-width: 1024px) { ... }
 
-        xl: '1469px',
-        // => @media (min-width: 1469px) { ... }
+        xl: '1366px',
+        // => @media (min-width: 1366px) { ... }
 
-        '2xl': '1920px'
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+
+        '3xl': '1920px'
         // => @media (min-width: 1920px) { ... }
       }
     }
