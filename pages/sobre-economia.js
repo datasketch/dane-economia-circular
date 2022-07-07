@@ -6,29 +6,34 @@ import { TimeLine } from '../components/TimeLine'
 export default function About () {
   const indicatorCountryData = [
     {
-      bgImage: 'https://economipedia.com/wp-content/uploads/union-europea-desde-sus-or%C3%ADgenes.jpg',
+      bgImage: '/union-europea.jpg',
       country: 'Unión Europera',
-      link: 'www.referenteinternacional.com'
+      link: 'www.referenteinternacional.com',
+      classNames: 'md:col-start-1 md:col-end-7 xl:col-start-1 xl:col-end-5'
     },
     {
-      bgImage: 'https://cdn.mequieroir.com/wp-content/uploads/2019/10/bandera-spain.jpg',
+      bgImage: '/espania.jpg',
       country: 'España',
-      link: 'www.referenteinternacional.com'
+      link: 'www.referenteinternacional.com',
+      classNames: 'md:col-start-7 md:col-end-13 xl:col-start-5 xl:col-end-9'
     },
     {
-      bgImage: 'https://cdnnmundo1.img.sputniknews.com/img/105981/00/1059810018_0:289:2730:1825_1920x0_80_0_0_51a0de321a6aaf89c9e21c3bba97a7f1.jpg',
+      bgImage: '/francia.jpg',
       country: 'Francia',
-      link: 'www.referenteinternacional.com'
+      link: 'www.referenteinternacional.com',
+      classNames: 'md:col-start-1 md:col-end-7 xl:col-start-9 xl:col-end-13'
     },
     {
-      bgImage: 'https://www.agorarsc.org/wp-content/uploads/2018/07/48-holanda-1-960x640.jpg',
+      bgImage: '/holanda.jpg',
       country: 'Holanda',
-      link: 'www.referenteinternacional.com'
+      link: 'www.referenteinternacional.com',
+      classNames: 'md:col-start-7 md:col-end-13 xl:col-start-3 xl:col-end-7'
     },
     {
-      bgImage: 'https://images.ecestaticos.com/83_TV0kEY5WROX67YWZK4DfUJaw=/0x0:2272x1514/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8fa%2F968%2F3c4%2F8fa9683c42b1deecf3aba0f08ee1d55c.jpg',
+      bgImage: '/china.jpg',
       country: 'China',
-      link: 'www.referenteinternacional.com'
+      link: 'www.referenteinternacional.com',
+      classNames: 'md:col-start-4 md:col-end-10 xl:col-start-7 xl:col-end-11'
     }
   ]
   const circularEconomyReportNames = [
@@ -147,8 +152,8 @@ export default function About () {
             <div className='py-12 lg:py-16 xl:py-20'>
                 <div className='mx-auto w-10/12 max-w-screen-xl'>
                     <div className='space-y-[104.72px]'>
-                        <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 gap-x-12'>
-                            <div className='max-w-[610px] w-full'>
+                        <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8'>
+                            <div className='lg:w-5/12'>
                                 <div className='space-y-9 2xl:space-y-[45.83px]'>
                                     <h2 className='text-blue-ocean font-bold text-2xl 2xl:text-[32px]'>
                                         La Economía Circular en Colombia
@@ -166,11 +171,11 @@ export default function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className='max-w-[530px] w-full'>
-                                <img src='/grafica-circular.png' alt='grafica circular' />
+                            <div className='lg:w-5/12'>
+                                <img className='max-h-[530px] mx-auto' src='/grafica-circular.png' alt='grafica circular' />
                             </div>
                         </div>
-                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-y-8 gap-x-12'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-8 gap-x-12'>
                             <div className='space-y-5'>
                                 <h4 className='font-bold 2xl:text-lg text-blue-2'>
                                     Recursos naturales
@@ -339,14 +344,14 @@ export default function About () {
                                 El DANE mide la Economía Circular a través de los siguientes componentes:
                             </h2>
                         </div>
-                        <div className='flex flex-wrap lg:justify-between gap-y-8 gap-x-12'>
-                            <div className='max-w-[295px] w-full'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-12'>
+                            <div>
                                 <div>
                                     <div>
                                         <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-blue-green inline-grid place-items-center'>
                                             <span className='text-white font-bold text-3xl 2xl:text-[40px]'>A</span>
                                         </div>
-                                        <div className='h-0.5 w-[260px] ml-auto bg-blue-green -mt-[2.4px]'>&nbsp;</div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-blue-green -mt-[2.4px]'>&nbsp;</div>
                                     </div>
                                     <div className='py-4 pl-4 space-y-4'>
                                         <h3 className='font-bold'>
@@ -358,13 +363,13 @@ export default function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className='max-w-[295px] w-full'>
+                            <div>
                                 <div>
                                     <div>
                                         <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-green-2 inline-grid place-items-center'>
                                             <span className='text-white font-bold text-3xl 2xl:text-[40px]'>B</span>
                                         </div>
-                                        <div className='h-0.5 w-[260px] ml-auto bg-green-2 -mt-[2.4px]'>&nbsp;</div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-green-2 -mt-[2.4px]'>&nbsp;</div>
                                     </div>
                                     <div className='py-4 pl-4 space-y-4'>
                                         <h3 className='font-bold'>
@@ -376,13 +381,13 @@ export default function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className='max-w-[295px] w-full'>
+                            <div>
                                 <div>
                                     <div>
                                         <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-green-3 inline-grid place-items-center'>
                                             <span className='text-white font-bold text-3xl 2xl:text-[40px]'>C</span>
                                         </div>
-                                        <div className='h-0.5 w-[260px] ml-auto bg-green-3 -mt-[2.4px]'>&nbsp;</div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-green-3 -mt-[2.4px]'>&nbsp;</div>
                                     </div>
                                     <div className='py-4 pl-4 space-y-4'>
                                         <h3 className='font-bold'>
@@ -394,13 +399,13 @@ export default function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className='max-w-[295px] w-full'>
+                            <div>
                                 <div>
                                     <div>
                                         <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-purple-2 inline-grid place-items-center'>
                                             <span className='text-white font-bold text-3xl 2xl:text-[40px]'>D</span>
                                         </div>
-                                        <div className='h-0.5 w-[260px] ml-auto bg-purple-2 -mt-[2.4px]'>&nbsp;</div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-purple-2 -mt-[2.4px]'>&nbsp;</div>
                                     </div>
                                     <div className='py-4 pl-4 space-y-4'>
                                         <h3 className='font-bold'>
@@ -419,8 +424,8 @@ export default function About () {
 
             <div className='py-12 lg:py-16 xl:py-20'>
                 <div className='mx-auto w-10/12 max-w-screen-xl'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 lg:gap-x-12'>
-                        <div className='max-w-[639px] w-full'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8'>
+                        <div className='lg:w-5/12'>
                             <div className='space-y-[42px]'>
                                 <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
                                     <span className='font-bold'>Reportes </span>
@@ -437,7 +442,7 @@ export default function About () {
                                 </a>
                             </div>
                         </div>
-                        <div className='max-w-[710px] w-full'>
+                        <div className='lg:w-6/12'>
                             <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport={true} />
                         </div>
                     </div>
@@ -450,7 +455,7 @@ export default function About () {
                         <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
                             Recorrido histórico de normas relacionadas a la Economía Circular
                         </h3>
-                        <div className='scroll flex gap-x-[19px] overl'>
+                        <div className='scroll flex gap-x-[19px]'>
                             {
                                 timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} item={item} color={index === 0 || index % 2 === 0 ? 'blue-dark' : 'blue-ocean'} directionList={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
                             }
@@ -467,7 +472,7 @@ export default function About () {
                                 <span className='font-bold'>Indicadores de países líderes</span> en la medición de Economía Circular
                             </h2>
                         </div>
-                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[38.3px] gap-y-[44.93px]'>
+                        <div className='grid grid-cols-1 md:grid-cols-12 gap-x-[38.3px] gap-y-[44.93px]'>
                             {
                                 indicatorCountryData.map((item, index) => <IndicatorCountryCard key={`indicator-${index + 1}`} item={item} />)
                             }
