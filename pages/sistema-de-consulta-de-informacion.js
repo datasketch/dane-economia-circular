@@ -11,10 +11,10 @@ export default function InformationQuerySystem () {
 
             <div className='py-12 lg:py-16 xl:py-20'>
                 <div className='mx-auto w-10/12 max-w-screen-xl'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-12'>
-                        <div className='max-w-[680px] w-full'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[111px]'>
+                        <div className='lg:w-1/2'>
                             <div className='space-y-8 xl:space-y-[65px]'>
-                                <h2 className='text-blue-ocean text-2xl 2xl:text-[32px] max-w-[556px]'>
+                                <h2 className='text-blue-ocean text-2xl 3xl:text-[32px] max-w-[556px]'>
                                     <span className='font-bold'>Sistema de Consulta de Información</span> de Economía Circular - SIEC
                                 </h2>
                                 <div className='space-y-[31px]'>
@@ -27,7 +27,7 @@ export default function InformationQuerySystem () {
                                 </div>
                             </div>
                         </div>
-                        <div className='max-w-[680px] w-full'>
+                        <div className='lg:w-1/2'>
                             <div className='space-y-8 xl:space-y-[78px]'>
                                 <button className='bg-pink text-white gap-y-4 pt-[39px] pb-[35px] pl-[75px] pr-[75.47px] flex flex-col lg:flex-row space-x-[31.58px] items-center rounded-tr-[20px] rounded-bl-[20px] overflow-hidden'>
                                     <p className='font-bold xl:text-lg'>
@@ -71,16 +71,16 @@ export default function InformationQuerySystem () {
                 <div className='xl:px-[104px] xl:py-[72px] rounded-tr-[140px] border-blue-ocean border-[3px] overflow-hidden px-4 lg:px-8 py-12'>
                     <div className='space-y-[60px]'>
                         <div className='space-y-5'>
-                            <h3 className='text-blue-dark font-bold text-xl xl:text-2xl'>
+                            <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
                                 Ecosistema de datos del sistema
                             </h3>
                             <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[61px]'>
-                                <div className='max-w-[600px] w-full'>
+                                <div className='lg:w-1/2'>
                                     <p>
                                         Se entiende como el conjunto de actores, productores y usuarios, que interactúan en torno a los datos, en un contexto institucional y de política pública . Este ecosistema está conformado por subsistemas de actores que se agrupan en torno a la producción de información sobre economía circular y otros que como usuarios presentan demandas, pero también deben asumir un rol activo en la producción de datos.
                                     </p>
                                 </div>
-                                <div className='max-w-[600px] w-full'>
+                                <div className='lg:w-1/2'>
                                     <p>
                                         Frente a la estructura del ecosistema de datos del SIEC se pueden identificar tres grupos de actores: i) usuarios; ii) productores y iii) aquellos que cumplen un doble rol. Junto a este grupo de actores se encuentran los flujos de la oferta y demanda de estadísticas e indicadores sobre economía circular, así como de los lineamientos, normas y estándares definidos para los procesos de producción y calidad de los productos estadísticos.
                                     </p>
@@ -88,7 +88,7 @@ export default function InformationQuerySystem () {
                             </div>
                         </div>
                         <div className='space-y-5'>
-                            <h3 className='text-blue-dark font-bold text-xl xl:text-2xl'>
+                            <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
                                 Entidades involucradas en el SIEC
                             </h3>
                             <div className='flex flex-col lg:flex-row lg:flex-wrap text-white'>
@@ -119,22 +119,22 @@ export default function InformationQuerySystem () {
                 <div className='bg-blue-ocean pt-[105px] pb-[89.57px] relative'>
                     <div className='space-y-[30.1px]'>
                         <div className='max-w-[514px] mx-auto text-center text-white space-y-[15px]'>
-                            <h2 className='text-xl xl:text-2xl font-bold'>
+                            <h2 className='text-xl 3xl:text-2xl font-bold'>
                                 Proceso para ser parte del SIEC
                             </h2>
-                            <p className='xl:text-lg'>
+                            <p className='3xl:text-lg'>
                                 Las entidades que produzcan información oficial y deseen incluirla en el SIEC, deben realizar los siguientes pasos:
                             </p>
                         </div>
                         <div className='mx-auto w-10/12'>
-                            <div className='flex flex-col lg:flex-row lg:flex-wrap lg:justify-between gap-y-8 gap-x-12 text-white'>
-                                <div className='max-w-[361px] w-full'>
+                            <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[79.4px] text-white'>
+                                <div className='lg:w-1/3'>
                                     <div className='space-y-[16.16px]'>
-                                        <div className='space-y-2 lg:-ml-6 lg:space-y-0'>
+                                        <div className='lg:-ml-6'>
                                             <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-blue-dark inline-grid place-items-center'>
                                                 <span className='text-white font-bold text-3xl 2xl:text-[40px]'>1</span>
                                             </div>
-                                            <div className='h-0.5 w-[346.7px] ml-auto bg-blue-dark -mt-[2.4px]'>&nbsp;</div>
+                                            <div className='h-[2.5px] w-11/12 ml-auto bg-blue-dark -mt-[3px]'>&nbsp;</div>
                                         </div>
                                         <div className='space-y-[20.16px]'>
                                             <h3 className='text-xl xl:text-2xl font-bold'>
@@ -149,13 +149,13 @@ export default function InformationQuerySystem () {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='max-w-[361px] w-full'>
+                                <div className='lg:w-1/3'>
                                     <div className='space-y-[16.16px]'>
-                                        <div className='space-y-2 lg:-ml-6 lg:space-y-0'>
+                                        <div className='lg:-ml-6'>
                                             <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-blue-dark inline-grid place-items-center'>
                                                 <span className='text-white font-bold text-3xl 2xl:text-[40px]'>2</span>
                                             </div>
-                                            <div className='h-0.5 w-[346.7px] ml-auto bg-blue-dark -mt-[2.4px]'>&nbsp;</div>
+                                            <div className='h-[2.5px] w-11/12 ml-auto bg-blue-dark -mt-[3px]'>&nbsp;</div>
                                         </div>
                                         <div className='space-y-[20.16px]'>
                                             <h3 className='text-xl xl:text-2xl font-bold'>
@@ -170,13 +170,13 @@ export default function InformationQuerySystem () {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='max-w-[361px] w-full'>
+                                <div className='lg:w-1/3'>
                                     <div className='space-y-[16.16px]'>
-                                        <div className='space-y-2 lg:-ml-6 lg:space-y-0'>
+                                        <div className='lg:-ml-6'>
                                             <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-blue-dark inline-grid place-items-center'>
                                                 <span className='text-white font-bold text-3xl 2xl:text-[40px]'>3</span>
                                             </div>
-                                            <div className='h-0.5 w-[346.7px] ml-auto bg-blue-dark -mt-[2.4px]'>&nbsp;</div>
+                                            <div className='h-[2.5px] w-11/12 ml-auto bg-blue-dark -mt-[3px]'>&nbsp;</div>
                                         </div>
                                         <div className='space-y-[20.16px]'>
                                             <h3 className='text-xl xl:text-2xl font-bold'>
