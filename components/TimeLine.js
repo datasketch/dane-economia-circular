@@ -13,7 +13,7 @@ export default function Timeline ({ year, data, direction }) {
             'flex-col': direction === 'bottom'
           })}
         >
-          <p className={classNames('w-14 h-14 rounded-full flex items-center justify-center text-white', {
+          <p className={classNames('w-[78px] h-[78px] font-bold text-xl 3xl:text-2xl rounded-full flex items-center justify-center text-white', {
             'bg-blue-dark': direction === 'top',
             'bg-blue-ocean': direction === 'bottom'
           })}>
