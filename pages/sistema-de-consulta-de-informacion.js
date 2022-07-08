@@ -1,6 +1,12 @@
 import Head from 'next/head'
 
 export default function InformationQuerySystem () {
+  const scrollNavigation = (e) => {
+    e.preventDefault()
+    const id = e.target.closest('a').getAttribute('href')
+    const element = document.querySelector(id)
+    element.scrollIntoView({ block: 'start', behavior: 'smooth' })
+  }
   return (
         <>
             <Head>
@@ -29,12 +35,12 @@ export default function InformationQuerySystem () {
                         </div>
                         <div className='lg:w-1/2'>
                             <div className='space-y-8 xl:space-y-[78px]'>
-                                <button className='bg-pink text-white gap-y-4 pt-[39px] pb-[35px] pl-[75px] pr-[75.47px] flex flex-col lg:flex-row space-x-[31.58px] items-center rounded-tr-[20px] rounded-bl-[20px] overflow-hidden'>
+                                <a onClick={scrollNavigation} href='#siec' className='bg-pink text-white gap-y-4 pt-[39px] pb-[35px] pl-[75px] pr-[75.47px] inline-flex flex-col lg:flex-row space-x-[31.58px] items-center rounded-tr-[20px] rounded-bl-[20px] overflow-hidden'>
                                     <p className='font-bold xl:text-lg'>
                                         Explora los datos del SIEC
                                     </p>
                                     <img src='/arrow-down.svg' alt='arrow down icon' />
-                                </button>
+                                </a>
                                 <ul className='space-y-4'>
                                     <li className='flex space-x-[12.63px]'>
                                         <img src='arrow-right-blue.svg' alt='arrow right' />
@@ -197,7 +203,7 @@ export default function InformationQuerySystem () {
                 </div>
             </div>
 
-            <div className='mx-auto w-10/12 max-w-screen-lim'>
+            <div id='siec' className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='py-12 lg:py-16 xl:py-20'>
                     <div className='space-y-[53px]'>
                         <div className='max-w-[567.62px] mx-auto text-center'>

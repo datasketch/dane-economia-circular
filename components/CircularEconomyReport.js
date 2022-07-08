@@ -1,12 +1,12 @@
 export const CircularEconomyReport = ({ item, isLastReport = false }) => {
-  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date } = item
+  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, linkPage = '/reportes-de-economia-circular/cuarto-reporte-de-economia-circular', srcImage } = item
   return (
         <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
             <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
                 <div className='max-w-[184px] w-full'>
-                    <div>
-                        <img src='/reporte-prueba.png' alt='reporte prueba' />
-                    </div>
+                    <a href={linkPage}>
+                        <img src={srcImage} alt={title + ' image'} />
+                    </a>
                 </div>
                 <div className='max-w-[385px] w-full'>
                     <div>

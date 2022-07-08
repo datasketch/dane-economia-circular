@@ -10,6 +10,7 @@ export default function CircularEconomyReports () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/primer-reporte.jpg',
       date: new Date(2020, 8, 5)
     },
     {
@@ -19,6 +20,7 @@ export default function CircularEconomyReports () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/segundo-reporte.jpg',
       date: new Date(2020, 12, 11)
     },
     {
@@ -28,6 +30,7 @@ export default function CircularEconomyReports () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/tercer-reporte.jpg',
       date: new Date(2021, 7, 28)
     },
     {
@@ -37,6 +40,7 @@ export default function CircularEconomyReports () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/cuarto-reporte.jpg',
       date: new Date(2021, 12, 2)
     }
   ]

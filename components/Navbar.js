@@ -8,9 +8,11 @@ export default function Navbar () {
       <div className='mx-auto w-10/12 max-w-screen-lim'>
         <div className='flex flex-col gap-y-4 xl:flex-row xl:justify-between items-center'>
           <div className='xl:w-3/12'>
-            <a href="/">
-              <img className='max-h-[123.19px]' src='/logo-economia-circular.png' alt='logo economia circular' />
-            </a>
+            <button>
+              <Link href="/">
+                <img className='max-h-[123.19px]' src='/logo-economia-circular.png' alt='logo economia circular' />
+              </Link>
+            </button>
           </div>
           <nav className='xl:w-8/12'>
             <ul className='grid grid-cols-2 gap-2 lg:gap-0 lg:flex lg:flex-row lg:justify-between'>

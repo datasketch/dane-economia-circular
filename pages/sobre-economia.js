@@ -44,6 +44,7 @@ export default function About () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/primer-reporte.jpg',
       date: new Date(2020, 8, 5)
     },
     {
@@ -53,6 +54,7 @@ export default function About () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/segundo-reporte.jpg',
       date: new Date(2020, 12, 11)
     },
     {
@@ -62,6 +64,7 @@ export default function About () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/tercer-reporte.jpg',
       date: new Date(2021, 7, 28)
     },
     {
@@ -71,6 +74,7 @@ export default function About () {
       presentationLink: '#',
       attachmentsLink: '#',
       webinarLink: '#',
+      srcImage: '/cuarto-reporte.jpg',
       date: new Date(2021, 12, 2)
     }
   ]
@@ -434,7 +438,7 @@ export default function About () {
                                 <p>
                                     Tienen el objetivo de brindar información relacionada a la Economía Circular en Colombia, abordando el robustecimiento de su política pública y la forma de tomar decisiones al respecto. En los reportes se publicaron los indicadores agrupados en cuatro categorías mediante diagramas y visualizaciones. Adicionalmente, en los reportes se encuentran los avances y flujos de la Cuenta Satelite Ambiental, el Sistema de Información de Economía Circular y las Submesas de Información de Economía Circular.
                                 </p>
-                                <a href='/reportes-de-economia-circular/cuarto-reporte-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                                <a href='/reportes-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                                     <span>
                                         Consultar
                                     </span>
