@@ -22,7 +22,7 @@ export const CircularEconomyReport = ({ item, isLastReport = false }) => {
                                     </p>
                                 </div>
                                 <div>
-                                    <a href={reportLink} download>
+                                    <a href={reportLink} download target="_blank" rel="noreferrer">
                                         <img src='/download-icon.svg' alt='download icon' />
                                     </a>
                                 </div>
@@ -35,7 +35,7 @@ export const CircularEconomyReport = ({ item, isLastReport = false }) => {
                                     </p>
                                 </div>
                                 <div>
-                                    <a href={presentationLink} download>
+                                    <a href={presentationLink} download target="_blank" rel="noreferrer">
                                         <img src='/download-icon.svg' alt='download icon' />
                                     </a>
                                 </div>
@@ -61,7 +61,7 @@ export const CircularEconomyReport = ({ item, isLastReport = false }) => {
                                     </p>
                                 </div>
                                 <div className='transform -translate-x-2'>
-                                    <a href={webinarLink} download>
+                                    <a href={webinarLink} download target="_blank" rel="noreferrer">
                                         <img src='/arrow-reports-right.svg' alt='arriw icon' />
                                     </a>
                                 </div>

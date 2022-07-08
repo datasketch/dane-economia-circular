@@ -50,8 +50,7 @@ export default function Home () {
         <div className='mx-auto w-10/12 max-w-screen-lim'>
           <div className='text-center'>
             <h2 className='text-2xl 2xl:text-[32px] text-blue-ocean'>
-              <span className='font-bold'>Datos</span>
-              de interés
+              <span className='font-bold'>Datos </span>de interés
             </h2>
           </div>
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>

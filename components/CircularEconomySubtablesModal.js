@@ -1,16 +1,16 @@
 export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) => {
-  const { title = '', list = [], results = [] } = item
+  const { title = '', list = [], results = [], srcImage } = item
   const closeModal = () => {
     setSelected(false)
   }
   return (
         <>
             <div className={`fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 w-full duration-500 ${selected ? 'scale-100 visible opacity-100' : 'scale-0 invisible opacity-0'}`}>
-                <div className='mx-auto w-11/12 max-w-[1104px]'>
+                <div className='mx-auto w-11/12 max-w-[1104px] h-[75vh]'>
                     <div className='bg-blue-dark p-8 xl:pt-[55px] xl:pb-[64px] xl:pl-[80.98px] xl:pr-[126px] h-[75vh] lg:h-full overflow-y-auto relative'>
                         <div className='flex flex-col lg:flex-row lg:justify-between lg:gap-x-12 gap-y-8'>
                             <div className='max-w-[271.91px] w-full self-center lg:self-start'>
-                                <img src='/envases-empaques-big.svg' alt='envases y empaques' />
+                                <img className="max-w-full w-[271.91px] h-[337px]" src={srcImage?.small} alt={`${title.toLowerCase()} image`} />
                             </div>
                             <div className='max-w-[555px] w-full'>
                                 <div className='text-white space-y-[38px]'>
