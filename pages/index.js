@@ -491,9 +491,9 @@ export default function Home () {
               </div>
             </div>
             <div className='flex justify-end'>
-              <div className='bg-blue-ocean bg-opacity-[0.18] p-4 pr-6 lg:py-[21px] lg:px-[37px] rounded-tr-[40px] overflow-hidden w-[155px] lg:w-[261px]'>
+              <a href='https://www.datasketch.co/' target="_blank" className='bg-blue-ocean bg-opacity-[0.18] p-4 pr-6 lg:py-[21px] lg:px-[37px] rounded-tr-[40px] overflow-hidden' rel="noreferrer">
                 <img className='mx-auto' src='/logo-datasketch.svg' alt='logo datasketch' />
-              </div>
+              </a>
             </div>
           </div>
         </div>
