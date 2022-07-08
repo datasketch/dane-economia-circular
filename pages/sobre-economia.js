@@ -1,150 +1,44 @@
 import Head from 'next/head'
 import { IndicatorCountryCard } from '../components/IndicatorCountryCard'
 import { CircularEconomyReport } from '../components/CircularEconomyReport'
-import { TimeLine } from '../components/TimeLine'
+import TimeLine from '../components/TimeLine'
+import reportsData from '../data/reports.json'
+import timeLineData from '../data/timeLine.json'
+
+const indicatorCountriesData = [
+  {
+    bgImage: '/union-europea.jpg',
+    country: 'Unión Europera',
+    link: 'www.referenteinternacional.com',
+    classNames: 'md:col-start-1 md:col-end-7 xl:col-start-1 xl:col-end-5'
+  },
+  {
+    bgImage: '/espania.jpg',
+    country: 'España',
+    link: 'www.referenteinternacional.com',
+    classNames: 'md:col-start-7 md:col-end-13 xl:col-start-5 xl:col-end-9'
+  },
+  {
+    bgImage: '/francia.jpg',
+    country: 'Francia',
+    link: 'www.referenteinternacional.com',
+    classNames: 'md:col-start-1 md:col-end-7 xl:col-start-9 xl:col-end-13'
+  },
+  {
+    bgImage: '/holanda.jpg',
+    country: 'Holanda',
+    link: 'www.referenteinternacional.com',
+    classNames: 'md:col-start-7 md:col-end-13 xl:col-start-3 xl:col-end-7'
+  },
+  {
+    bgImage: '/china.jpg',
+    country: 'China',
+    link: 'www.referenteinternacional.com',
+    classNames: 'md:col-start-4 md:col-end-10 xl:col-start-7 xl:col-end-11'
+  }
+]
 
 export default function About () {
-  const indicatorCountryData = [
-    {
-      bgImage: '/union-europea.jpg',
-      country: 'Unión Europera',
-      link: 'www.referenteinternacional.com',
-      classNames: 'md:col-start-1 md:col-end-7 xl:col-start-1 xl:col-end-5'
-    },
-    {
-      bgImage: '/espania.jpg',
-      country: 'España',
-      link: 'www.referenteinternacional.com',
-      classNames: 'md:col-start-7 md:col-end-13 xl:col-start-5 xl:col-end-9'
-    },
-    {
-      bgImage: '/francia.jpg',
-      country: 'Francia',
-      link: 'www.referenteinternacional.com',
-      classNames: 'md:col-start-1 md:col-end-7 xl:col-start-9 xl:col-end-13'
-    },
-    {
-      bgImage: '/holanda.jpg',
-      country: 'Holanda',
-      link: 'www.referenteinternacional.com',
-      classNames: 'md:col-start-7 md:col-end-13 xl:col-start-3 xl:col-end-7'
-    },
-    {
-      bgImage: '/china.jpg',
-      country: 'China',
-      link: 'www.referenteinternacional.com',
-      classNames: 'md:col-start-4 md:col-end-10 xl:col-start-7 xl:col-end-11'
-    }
-  ]
-  const circularEconomyReportNames = [
-    {
-      title: 'Primer reporte de Economía Circular',
-      titleReportLink: 'Primer reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/primer-reporte.jpg',
-      date: new Date(2020, 8, 5)
-    },
-    {
-      title: 'Segundo reporte de Economía Circular',
-      titleReportLink: 'Segundo reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/segundo-reporte.jpg',
-      date: new Date(2020, 12, 11)
-    },
-    {
-      title: 'Tercer reporte de Economía Circular',
-      titleReportLink: 'Tercer reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/tercer-reporte.jpg',
-      date: new Date(2021, 7, 28)
-    },
-    {
-      title: 'Cuarto reporte de Economía Circular',
-      titleReportLink: 'Cuarto reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/cuarto-reporte.jpg',
-      date: new Date(2021, 12, 2)
-    }
-  ]
-
-  const timeLineData = [
-    {
-      year: 1991,
-      list: ['Se elevan a rango constitucional los conceptos de desarrollo sostenible, patrimonio ecológico y calidad de vida.']
-    },
-    {
-      year: 1994,
-      list: ['Colombia ratifica la Convención Marco de Naciones Unidas sobre Cambio Climático - CMNUCC (Ley 164)']
-    },
-    {
-      year: 2000,
-      list: ['Colombia ratifica el Protocolo de Kioto']
-    },
-    {
-      year: 2001,
-      list: ['Colombia presenta la primera Comunicación de Cambio Climático']
-    },
-    {
-      year: 2009,
-      list: ['Inventario Nacional de Fuentes y Sumideros de GEI (2000-2004)']
-    },
-    {
-      year: 2010,
-      list: ['Política Nacional de Producción y Consumo Sostenible', 'Colombia presenta la segunda Comunicación de Cambio Climático']
-    },
-    {
-      year: 2011,
-      list: ['CONPES 3700: Articulación de políticas y acciones en materia de cambio climático']
-    },
-    {
-      year: 2012,
-      list: ['Plan Nacional de Cambio Climático']
-    },
-    {
-      year: 2015,
-      list: ['Colombia entrega su BUR-1']
-    },
-    {
-      year: 2016,
-      list: ['CONPES 3874: Política Nacional para la Gestión Integral de Residuos Sólidos', 'Se crea el Sistema Nacional de Cambio Climático (SISCLIMA)', 'CONPES 3866: Política de Desarrollo Productivo']
-    },
-    {
-      year: 2017,
-      list: ['Colombia presenta la Tercera Comunicación de Cambio Climático']
-    },
-    {
-      year: 2018,
-      list: ['CONPES 3934: Política de Crecimiento Verde', 'Colombia entrega su BUR-2', 'Se publica la Estrategia Nacional de Economía Circular', 'Estrategia Nacional de Economía Circular', 'Resolución 1407 de 2018: Ley de envases y empaques']
-    },
-    {
-      year: 2019,
-      list: ['Ley 1990 de 2019: Política contra la pérdida y desperdicio de alimentos', 'Plan Nacional de Desarrollo 2018-2022 “Pacto por Colombia, Pacto por la Equidad”']
-    },
-    {
-      year: 2020,
-      list: ['CONPES 4004 de 2020: Economía circular en la gestión de los servicios de agua potable y manejo de aguas residuales']
-    },
-    {
-      year: 2021,
-      list: ['Resolución 1256 del 2021: Reglamentación del uso de aguas residuales']
-    },
-    {
-      year: 2022,
-      list: ['Política ambiental para la gestión integral de residuos peligrosos y plan de acción 2022-2030 (2022)']
-    }
-  ]
   return (
         <>
             <Head>
@@ -447,7 +341,7 @@ export default function About () {
                             </div>
                         </div>
                         <div className='lg:w-6/12'>
-                            <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport={true} />
+                            <CircularEconomyReport item={reportsData[reportsData.length - 1]} isLastReport={true} />
                         </div>
                     </div>
                 </div>
@@ -459,9 +353,9 @@ export default function About () {
                         <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
                             Recorrido histórico de normas relacionadas a la Economía Circular
                         </h3>
-                        <div className='scroll flex gap-x-[19px]'>
+                        <div className='scroll flex items-baseline'>
                             {
-                                timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} item={item} color={index === 0 || index % 2 === 0 ? 'blue-dark' : 'blue-ocean'} directionList={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
+                                timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} year={item.year} data={item.data} direction={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
                             }
                         </div>
                     </div>
@@ -478,7 +372,7 @@ export default function About () {
                         </div>
                         <div className='grid grid-cols-1 md:grid-cols-12 gap-x-[38.3px] gap-y-[44.93px]'>
                             {
-                                indicatorCountryData.map((item, index) => <IndicatorCountryCard key={`indicator-${index + 1}`} item={item} />)
+                                indicatorCountriesData.map((item, index) => <IndicatorCountryCard key={`indicator-${index + 1}`} item={item} />)
                             }
                         </div>
                         <div className='flex justify-end'>

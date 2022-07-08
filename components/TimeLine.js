@@ -1,42 +1,37 @@
-export const TimeLine = ({ item, color, directionList }) => {
-  const { year, list } = item
+import classNames from 'classnames'
+
+export default function Timeline ({ year, data, direction }) {
   return (
-        <div className="relative py-80">
-            {
-                directionList === 'top' &&
-                (
-                    <ul className={'absolute top-0 left-0 border-blue-dark border-l-[3px] h-1/2 pl-[15.21px] space-y-[19px]'}>
-                        {list.map((item, index) => {
-                          return (
-                                <li key={`list-${index + 1}`} className="min-w-[167px] text-sm relative">
-                                    {item}
-                                    <div className="absolute top-2.5 -left-4 w-[9px] bg-blue-dark h-[3px]">&nbsp;</div>
-                                </li>
-                          )
-                        })}
-                    </ul>
-                )
-            }
-            <div className={`w-[78px] h-[78px] rounded-full grid place-items-center bg-${color} relative z-10`}>
-                <p className="font-bold text-white text-xl xl:text-2xl">
-                    {year}
-                </p>
-            </div>
-            {
-                directionList === 'bottom' &&
-                (
-                    <ul className={'absolute bottom-0 left-0 border-blue-ocean border-l-[3px] h-1/2 pl-[15.21px] space-y-[19px] flex flex-col-reverse'}>
-                        {list.map((item, index) => {
-                          return (
-                                <li key={`list-${index + 1}`} className="min-w-[167px] text-sm relative">
-                                    {item}
-                                    <div className="absolute top-2.5 -left-4 w-[9px] bg-blue-ocean h-[3px]">&nbsp;</div>
-                                </li>
-                          )
-                        })}
-                    </ul>
-                )
-            }
+      <div
+        className={classNames('timeline relative flex-shrink-0 w-56', {
+          'timeline-top': direction === 'top'
+        })}
+      >
+        <div
+          className={classNames('flex', {
+            'flex-col-reverse': direction === 'top',
+            'flex-col': direction === 'bottom'
+          })}
+        >
+          <p className={classNames('w-14 h-14 rounded-full flex items-center justify-center text-white', {
+            'bg-blue-dark': direction === 'top',
+            'bg-blue-ocean': direction === 'bottom'
+          })}>
+            {year}
+          </p>
+          <ul
+            className={classNames('pl-2 space-y-2', {
+              'mt-4': direction === 'bottom',
+              'mb-4': direction === 'top'
+            })}
+          >
+            {data.map((item, index) => (
+              <li key={index}>
+                <span>-</span> {item}
+              </li>
+            ))}
+          </ul>
         </div>
+      </div>
   )
 }

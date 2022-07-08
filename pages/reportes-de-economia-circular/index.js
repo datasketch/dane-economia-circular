@@ -1,59 +1,8 @@
 import Head from 'next/head'
 import { CircularEconomyReport } from '../../components/CircularEconomyReport'
+import data from '../../data/reports.json'
 
 export default function CircularEconomyReports () {
-  const circularEconomyReportNames = [
-    {
-      title: 'Primer reporte de Economía Circular',
-      titleReportLink: 'Primer reporte',
-      reportLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-1-reporte.pdf',
-      presentationLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-1-reporte.pdf',
-      attachmentsLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-1-reporte.xlsx',
-      webinarLink: 'https://www.youtube.com/watch?v=JcKR4LcW8oU&feature=youtu.be',
-      srcImage: '/primer-reporte.jpg',
-      date: new Date(2020, 8, 5)
-    },
-    {
-      title: 'Segundo reporte de Economía Circular',
-      titleReportLink: 'Segundo reporte',
-      reportLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-2-reporte.pdf',
-      presentationLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-2-reporte.pdf',
-      attachmentsLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-2-reporte.xlsx',
-      webinarLink: 'https://www.youtube.com/watch?v=bVxOg4ITUMw',
-      srcImage: '/segundo-reporte.jpg',
-      date: new Date(2020, 12, 11)
-    },
-    {
-      title: 'Tercer reporte de Economía Circular',
-      titleReportLink: 'Tercer reporte',
-      reportLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-3-reporte.pdf',
-      presentationLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-3-reporte.pdf',
-      attachmentsLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-3-reporte.xlsx',
-      webinarLink: 'https://www.youtube.com/watch?v=KR_kENm33hE',
-      srcImage: '/tercer-reporte.jpg',
-      date: new Date(2021, 7, 28)
-    },
-    {
-      title: 'Cuarto reporte de Economía Circular',
-      titleReportLink: 'Cuarto reporte',
-      reportLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-4-reporte.pdf',
-      presentationLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-4-reporte.pdf',
-      attachmentsLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-4-reporte.xlsx',
-      webinarLink: 'https://www.youtube.com/watch?v=5FFFsQ4eGfI',
-      srcImage: '/cuarto-reporte.jpg',
-      date: new Date(2021, 12, 2)
-    },
-    {
-      title: 'Quinto reporte de Economía Circular',
-      titleReportLink: 'Quinto reporte',
-      reportLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-5-reporte.pdf',
-      presentationLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-5-reporte.pdf',
-      attachmentsLink: 'https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-5-reporte.xlsx',
-      webinarLink: 'https://www.youtube.com/watch?v=CzkHaKHm4d4',
-      srcImage: '/cuarto-reporte.jpg',
-      date: new Date(2021, 12, 2)
-    }
-  ]
   return (
         <>
             <Head>
@@ -85,7 +34,7 @@ export default function CircularEconomyReports () {
                             </div>
                         </div>
                         <div className='lg:w-6/12'>
-                            <CircularEconomyReport item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} isLastReport={true} />
+                            <CircularEconomyReport item={data[data.length - 1]} isLastReport={true} />
                         </div>
                     </div>
                 </div>
@@ -101,7 +50,7 @@ export default function CircularEconomyReports () {
                         </div>
                         <div className='grid grid-cols-1 lg:grid-cols-2 xl:gap-x-[52px] gap-y-8 gap-x-10 xl:gap-y-[42px]'>
                             {
-                                circularEconomyReportNames.map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} />)
+                                data.slice(0, data.length - 1).reverse().map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} />)
                             }
                         </div>
                         <div className='flex justify-end'>

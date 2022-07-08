@@ -1,4 +1,3 @@
-import Footer from './Footer'
 import Navbar from './Navbar'
 
 function Layout ({ children }) {
@@ -6,7 +5,6 @@ function Layout ({ children }) {
     <>
       <Navbar />
       <main>{children}</main>
-      <Footer />
     </>
   )
 }

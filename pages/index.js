@@ -114,14 +114,12 @@ export default function Home () {
                       <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
                     </p>
                   </div>
-                  <Link href="/sistema-de-consulta-de-informacion">
-                    <button className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                      <span>
-                        Explorar datos
-                      </span>
-                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                    </button>
-                  </Link>
+                  <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
+                    <span>
+                      Explorar datos
+                    </span>
+                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
               </div>
             </div>
@@ -186,14 +184,12 @@ export default function Home () {
                   <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
                 </p>
               </div>
-              <Link href="/sistema-de-consulta-de-informacion">
-                <button className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                  <span>
-                    Explorar datos
-                  </span>
-                  <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
-                </button>
-              </Link>
+              <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
+                <span>
+                  Explorar datos
+                </span>
+                <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
+              </a>
             </div>
           </div>
           <div className='absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
@@ -232,14 +228,12 @@ export default function Home () {
                       <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
                     </p>
                   </div>
-                  <Link href="/sistema-de-consulta-de-informacion">
-                    <button className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                      <span>
-                        Explorar datos
-                      </span>
-                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                    </button>
-                  </Link>
+                  <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
+                    <span>
+                      Explorar datos
+                    </span>
+                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
               </div>
             </div>
@@ -314,14 +308,12 @@ export default function Home () {
                   <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
                 </p>
               </div>
-              <Link href="/sistema-de-consulta-de-informacion">
-                <button className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                  <span>
-                    Explorar datos
-                  </span>
-                  <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
-                </button>
-              </Link>
+              <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
+                <span>
+                  Explorar datos
+                </span>
+                <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
+              </a>
             </div>
           </div>
         </div>
@@ -439,14 +431,12 @@ export default function Home () {
                           <span className='font-bold'>Fuente:</span> Fuente: DANE. Encuesta de Calidad de Vida - ECV 2020.
                         </p>
                       </div>
-                      <Link href="/sistema-de-consulta-de-informacion">
-                        <button className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                          <span>
-                            Explorar datos
-                          </span>
-                          <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                        </button>
-                      </Link>
+                      <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
+                        <span>
+                          Explorar datos
+                        </span>
+                        <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -470,14 +460,12 @@ export default function Home () {
                     <p>
                       Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro categorías: Extracción de reservas mineras; Consumo y uso; Producción de bienes y servicios; y Cierre y optimización en ciclos de vida de los materiales y productos. A su vez, los indicadores interactuan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
                     </p>
-                    <Link href="/sistema-de-consulta-de-informacion">
-                      <button className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                        <span>
-                          Explorar datos
-                        </span>
-                        <img src='/link-arrow-icon.svg' alt='link arrow icon' />
-                      </button>
-                    </Link>
+                    <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
+                      <span>
+                        Explorar datos
+                      </span>
+                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                    </a>
                   </div>
                 </div>
               </div>

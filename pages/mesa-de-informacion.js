@@ -2,72 +2,11 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import { CircularEconomySubtableCard } from '../components/CircularEconomySubtableCard'
 import { CircularEconomySubtablesModal } from '../components/CircularEconomySubtablesModal'
+import circularEconomySubtableData from '../data/circularEconomySubtable.json'
 
 export default function InformationTable () {
   const [result, setResult] = useState({})
   const [selected, setSelected] = useState(false)
-  const circularEconomySubtableData = [
-    {
-      id: 0,
-      title: 'Envases y Empaques',
-      srcImage: {
-        small: '/envases-empaques.svg',
-        big: '/envases-empaques-big.svg'
-      },
-      list: ['Validación de la oferta y las necesidades de información con actores.', 'Mesas de trabajo entre el Ministerio de Ambiente y Desarrollo Sostenible-MADS y el DANE para revisar el listado de productos de envases y empaques a partir de la Encuesta Anual Manufacturera -EAM. El DANE realiza la validación de la información solicitada por el MADS para tener una línea base de envases y empaques, de acuerdo con los códigos CPC identificados.'],
-      results: ['Validación de la oferta y las necesidades de información estadística con todos los integrantes de la submesa.', 'Identificación de los actuales y potenciales responsables de dar respuesta a las necesidades de información.', 'Identificación de productos de envases y empaques de acuerdo con los códigos de la Clasificación Central de Productos - CPC Versión 2.0 A.C.', 'Revisión del listado de productos de envases y empaques reportados en la Encuesta Anual Manufacturera.']
-    },
-    {
-      id: 1,
-      title: 'Flujos de agua',
-      srcImage: {
-        small: '/flujos-agua.svg',
-        big: '/flujos-agua-big.svg' || '/flujos-agua.svg'
-      },
-      list: ['Validación de la oferta y las necesidades de información con actores.'],
-      results: ['Se inició la validación de la oferta y las necesidades de información con la Agencia Nacional de Licenacias Ambientales -ANLA, la Superintendencia de Servicios Públicos Domiciliarios, Ministerio de Vivienda y Colombia productiva.']
-    },
-    {
-      id: 2,
-      title: 'Fuentes y flujos de energía',
-      srcImage: {
-        small: '/fuentes-flujos-energia.svg',
-        big: '/fuentes-flujos-energia-big.svg' || '/fuentes-flujos-energia.svg'
-      },
-      list: ['Desarrollo de mesas de trabajo con entidades públicas para validar la oferta y las necesidades de información estadística.', 'Desarrollo de mesas de trabajo con la Superintendencia de Servicios Públicos Domiciliarios, donde se identificaron 2 registros administrativos que contienen información sobre la temática de energía. La entidad se encuentra en la caracterización de los registros a través de los formularios emitidos por el DANE.'],
-      results: ['Validación de la oferta y las necesidades de información estadística con la Superintendencia de Servicios Públicos y Domiciliarios y UPME.']
-    },
-    {
-      id: 3,
-      title: 'Materiales industriales y productos de consumo masivo',
-      srcImage: {
-        small: '/materiales-industriales.svg',
-        big: '/materiales-industriales-big.svg' || '/materiales-industriales.svg'
-      },
-      list: ['Desarrollo de mesas de trabajo con entidades públicas para validar la oferta y las necesidades de información estadística.'],
-      results: ['Se inició la validación de la oferta y las necesidades de información con entidades públicas.']
-    },
-    {
-      id: 4,
-      title: 'Materiales de construccion',
-      srcImage: {
-        small: '/materiales-construccion.svg',
-        big: '/materiales-construccion-big.svg' || '/materiales-construccion.svg'
-      },
-      list: ['Validación de la oferta y las necesidades de información con actores públicos.'],
-      results: ['Validación de la oferta y las necesidades con los siguientes actores privados y gremios: ANDI, Camacol, Asocreto, ANDESCO']
-    },
-    {
-      id: 5,
-      title: 'Biomasa',
-      srcImage: {
-        small: '/biomasa.svg',
-        big: '/biomasa-big.svg' || '/biomasa.svg'
-      },
-      list: ['Validación de la oferta y las necesidades de información con actores públicos.', 'Validación con actores privados y gremios. Las entidades que han enviado la matriz de oferta y necesidades son: ANDESCO, Fedepalma, Porkcolombia y Control Ambiental de Colombia S.A.S.', 'Con la información validada y complementada por parte de los gremios se priorizaron las demandas de información y se establecieron cuáles se responderán en el corto, mediano y largo plazo; así mismo se caracterizó la información relacionada y producida por Control Ambiental de Colombia S.A.S.', 'Desarrollo de mesa de trabajo con el Ministerio de Agricultura en donde se identificó que no producen información relacionada con biomasa. El Ministerio es un actor clave en la articulación para identificar la información estadística que están produciendo los gremios.'],
-      results: ['Validación de la oferta y las necesidades de información estadística con el Ministerio de Agricultura y Desarrollo Rural, ANDESCO, Fedepalma, Porkcolombia, Control Ambiental de Colombia S.A.S y Fedearroz.']
-    }
-  ]
 
   const showModal = (e) => {
     const id = e.target.closest('div').getAttribute('data-id')

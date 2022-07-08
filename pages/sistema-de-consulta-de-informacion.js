@@ -204,7 +204,7 @@ export default function InformationQuerySystem () {
             </div>
 
             <div id='siec' className='mx-auto w-10/12 max-w-screen-lim'>
-                <div className='py-12 lg:py-16 xl:py-20'>
+                <div id='app' className='py-12 lg:py-16 xl:py-20'>
                     <div className='space-y-[53px]'>
                         <div className='max-w-[567.62px] mx-auto text-center'>
                             <div className='space-y-5'>

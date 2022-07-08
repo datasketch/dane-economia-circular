@@ -22,7 +22,7 @@ export const CircularEconomyReport = ({ item, isLastReport = false }) => {
                                     </p>
                                 </div>
                                 <div>
-                                    <a href={reportLink} download target="_blank" rel="noreferrer">
+                                    <a href={reportLink} target="_blank" rel="noreferrer">
                                         <img src='/download-icon.svg' alt='download icon' />
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@ export const CircularEconomyReport = ({ item, isLastReport = false }) => {
                             </li>
                         </ul>
                         <p className='text-right text-grey-dark italic mt-[18.17px]'>
-                            Publicado el {new Intl.DateTimeFormat('es-CO', { dateStyle: 'long' }).format(date)}
+                            Publicado el {new Intl.DateTimeFormat('es-CO', { dateStyle: 'long' }).format(new Date(date))}
                         </p>
                     </div>
                 </div>

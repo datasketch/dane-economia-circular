@@ -9,15 +9,27 @@
     }
 }
 
-@layer utilities {
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    .scroll::-webkit-scrollbar {
-        display: none;
+@layer components {
+    .timeline {
+       @apply -ml-24 first:ml-0;     
     }
 
-    /* Hide scrollbar for IE, Edge and Firefox */
-    .scroll {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    .timeline::after {
+    content: "";
+    position: absolute;
+    top: 28px;
+    bottom: auto;
+    left: 0;
+    height: calc(100% - 28px);
+    border-left: 2px solid #5165A9;
+    }
+
+    
+
+    .timeline-top::after {
+    top: auto;
+    bottom: 28px;
+    height: 100%;
+    border-left: 2px solid #253C6D;
     }
 }
