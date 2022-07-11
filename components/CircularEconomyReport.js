@@ -1,11 +1,15 @@
+import Link from 'next/link'
+
 export const CircularEconomyReport = ({ item, isLastReport = false }) => {
-  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, linkPage = '/reportes-de-economia-circular/cuarto-reporte-de-economia-circular', srcImage } = item
+  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, srcImage } = item
   return (
         <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
             <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
                 <div className='max-w-[184px] w-full'>
-                    <a href={linkPage}>
-                        <img src={srcImage} alt={title + ' image'} />
+                    <a className='cursor-pointer'>
+                        <Link href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
+                            <img src={srcImage} alt={title + ' image'} />
+                        </Link>
                     </a>
                 </div>
                 <div className='max-w-[385px] w-full'>

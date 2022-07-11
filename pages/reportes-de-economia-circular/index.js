@@ -2,7 +2,13 @@ import Head from 'next/head'
 import { CircularEconomyReport } from '../../components/CircularEconomyReport'
 import data from '../../data/reports.json'
 
-export default function CircularEconomyReports () {
+export async function getStaticProps () {
+  return {
+    props: { reports: data } // will be passed to the page component as props
+  }
+}
+
+export default function CircularEconomyReports ({ reports }) {
   return (
         <>
             <Head>
@@ -34,7 +40,7 @@ export default function CircularEconomyReports () {
                             </div>
                         </div>
                         <div className='lg:w-6/12'>
-                            <CircularEconomyReport item={data[data.length - 1]} isLastReport={true} />
+                            <CircularEconomyReport item={reports[reports.length - 1]} isLastReport={true} />
                         </div>
                     </div>
                 </div>
@@ -50,7 +56,7 @@ export default function CircularEconomyReports () {
                         </div>
                         <div className='grid grid-cols-1 lg:grid-cols-2 xl:gap-x-[52px] gap-y-8 gap-x-10 xl:gap-y-[42px]'>
                             {
-                                data.slice(0, data.length - 1).reverse().map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} />)
+                                reports.slice(0, reports.length - 1).reverse().map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} />)
                             }
                         </div>
                         <div className='flex justify-end'>

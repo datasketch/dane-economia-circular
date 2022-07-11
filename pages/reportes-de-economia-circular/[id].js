@@ -1,87 +1,35 @@
 import Head from 'next/head'
 import { CircularEconomyReport as Report } from '../../components/CircularEconomyReport'
+import data from '../../data/reports.json'
 import { SankeyDiagramCard } from '../../components/SankeyDiagramCard'
 
-export default function CircularEconomyReportFour () {
-  const circularEconomyReportNames = [
-    {
-      title: 'Primer reporte de Economía Circular',
-      titleReportLink: 'Primer reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/primer-reporte.jpg',
-      date: new Date(2020, 8, 5)
-    },
-    {
-      title: 'Segundo reporte de Economía Circular',
-      titleReportLink: 'Segundo reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/segundo-reporte.jpg',
-      date: new Date(2020, 12, 11)
-    },
-    {
-      title: 'Tercer reporte de Economía Circular',
-      titleReportLink: 'Tercer reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/tercer-reporte.jpg',
-      date: new Date(2021, 7, 28)
-    },
-    {
-      title: 'Cuarto reporte de Economía Circular',
-      titleReportLink: 'Cuarto reporte',
-      reportLink: '#',
-      presentationLink: '#',
-      attachmentsLink: '#',
-      webinarLink: '#',
-      srcImage: '/cuarto-reporte.jpg',
-      date: new Date(2021, 12, 2)
+export async function getStaticPaths () {
+  const paths = data.map(report => {
+    return {
+      params: { id: report.titleReportLink.replace(' ', '-').toLowerCase() }
     }
-  ]
+  })
 
-  const sankeyDiagramData = [
-    {
-      title: 'Flujo de materiales de residuos sólidos y productos residuales:',
-      description: 'Presenta para 2018p el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de produccion, consumo y acumulacion; la utilizacion de dichos materiales segun componente; y finalmente, la recirculacion de materiales.',
-      link: '#'
-    },
-    {
-      title: 'Flujo de materiales de residuos sólidos y productos residuales:',
-      description: 'Presenta para 2018p el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de produccion, consumo y acumulacion; la utilizacion de dichos materiales segun componente; y finalmente, la recirculacion de materiales.',
-      link: '#'
-    },
-    {
-      title: 'Flujo de materiales de residuos sólidos y productos residuales:',
-      description: 'Presenta para 2018p el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de produccion, consumo y acumulacion; la utilizacion de dichos materiales segun componente; y finalmente, la recirculacion de materiales.',
-      link: '#'
-    },
-    {
-      title: 'Flujo de materiales de residuos sólidos y productos residuales:',
-      description: 'Presenta para 2018p el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de produccion, consumo y acumulacion; la utilizacion de dichos materiales segun componente; y finalmente, la recirculacion de materiales.',
-      link: '#'
-    },
-    {
-      title: 'Flujo de materiales de residuos sólidos y productos residuales:',
-      description: 'Presenta para 2018p el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de produccion, consumo y acumulacion; la utilizacion de dichos materiales segun componente; y finalmente, la recirculacion de materiales.',
-      link: '#'
-    },
-    {
-      title: 'Flujo de materiales de residuos sólidos y productos residuales:',
-      description: 'Presenta para 2018p el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de produccion, consumo y acumulacion; la utilizacion de dichos materiales segun componente; y finalmente, la recirculacion de materiales.',
-      link: '#'
-    }
-  ]
+  return {
+    paths,
+    fallback: false
+  }
+}
+
+export async function getStaticProps (context) {
+  const id = context.params.id
+  const report = data.filter(item => item.titleReportLink.replace(' ', '-').toLowerCase() === id)
+  return {
+    props: { report } // will be passed to the page component as props
+  }
+}
+
+export default function CircularEconomyReport ({ report }) {
+  const { titleReportLink, date, webinarLink, sankeyDiagramData } = report[0]
   return (
         <>
             <Head>
-                <title>Reporte de Economía Circular - Cuarto reporte | DANE</title>
+                <title>Reporte de Economía Circular - {titleReportLink} | DANE</title>
                 <meta name="description" content="Generated by create next app" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -95,10 +43,10 @@ export default function CircularEconomyReportFour () {
                                     <div className='space-y-[29.5px]'>
                                         <div>
                                             <h2 className='text-blue-ocean text-2xl xl:text-[32px]'>
-                                                <span className='font-bold'>Cuarto reporte</span> de Economía Circular
+                                                <span className='font-bold'>{titleReportLink}</span> de Economía Circular
                                             </h2>
                                             <p className='italic text-grey-dark'>
-                                                Publicado el 02 de diciembre de 2021
+                                                Publicado el {new Intl.DateTimeFormat('es-CO', { dateStyle: 'long' }).format(new Date(date))}
                                             </p>
                                         </div>
                                         <p>
@@ -106,7 +54,7 @@ export default function CircularEconomyReportFour () {
                                         </p>
                                     </div>
                                 </div>
-                                <Report item={circularEconomyReportNames[circularEconomyReportNames.length - 1]} />
+                                <Report item={report[0]} />
                             </div>
                         </div>
                         <div className='lg:w-1/2 self-end'>
@@ -129,7 +77,7 @@ export default function CircularEconomyReportFour () {
                                             Video instructivo
                                         </p>
                                     </div>
-                                    <a href='#' className='flex space-x-[11.19px] items-center'>
+                                    <a href={webinarLink} target="_blank" className='flex space-x-[11.19px] items-center' rel="noreferrer">
                                         <p className='text-pink font-bold xl:text-lg'>
                                             Consultar
                                         </p>
