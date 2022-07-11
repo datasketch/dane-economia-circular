@@ -25,7 +25,7 @@ export async function getStaticProps (context) {
 }
 
 export default function CircularEconomyReport ({ report }) {
-  const { titleReportLink, date, webinarLink, sankeyDiagramData } = report[0]
+  const { titleReportLink, date, webinarLink, description, sankeyDiagramData } = report[0]
   return (
         <>
             <Head>
@@ -50,7 +50,7 @@ export default function CircularEconomyReport ({ report }) {
                                             </p>
                                         </div>
                                         <p>
-                                            Este Cuarto Reporte de Economía Circular consolida información estadística de 3 entidades en 35 indicadores categorizados en 4 componentes que facilitan la compresión y el análisis del modelo económico circular, y su relación e impacto con el ambiente y los recursos naturales. También incluye 4 diagramas de Sankey.
+                                            {description}
                                         </p>
                                     </div>
                                 </div>
