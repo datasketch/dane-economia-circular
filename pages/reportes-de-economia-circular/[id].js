@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import { CircularEconomyReport as Report } from '../../components/CircularEconomyReport'
-import data from '../../data/reports.json'
 import { SankeyDiagramCard } from '../../components/SankeyDiagramCard'
+import { LogoDatasketch } from '../../components/LogoDatasketch'
+import data from '../../data/reports.json'
 
 export async function getStaticPaths () {
   const paths = data.map(report => {
@@ -104,11 +105,7 @@ export default function CircularEconomyReport ({ report }) {
                                 sankeyDiagramData.map((item, index) => <SankeyDiagramCard key={`sankey-${index + 1}`} item={item} />)
                             }
                         </div>
-                        <div className='flex justify-end'>
-                            <a href='https://www.datasketch.co/' target="_blank" className='bg-blue-ocean bg-opacity-[0.18] p-4 pr-6 lg:py-[21px] lg:px-[37px] rounded-tr-[40px] overflow-hidden' rel="noreferrer">
-                                <img className='mx-auto' src='/logo-datasketch.svg' alt='logo datasketch' />
-                            </a>
-                        </div>
+                        <LogoDatasketch />
                     </div>
                 </div>
             </div>

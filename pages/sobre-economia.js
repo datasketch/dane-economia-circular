@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { IndicatorCountryCard } from '../components/IndicatorCountryCard'
 import { CircularEconomyReport } from '../components/CircularEconomyReport'
+import { LogoDatasketch } from '../components/LogoDatasketch'
 import TimeLine from '../components/TimeLine'
 import reportsData from '../data/reports.json'
 import timeLineData from '../data/timeLine.json'
@@ -375,11 +376,7 @@ export default function About () {
                                 indicatorCountriesData.map((item, index) => <IndicatorCountryCard key={`indicator-${index + 1}`} item={item} />)
                             }
                         </div>
-                        <div className='flex justify-end'>
-                            <a href='https://www.datasketch.co/' target="_blank" className='bg-blue-ocean bg-opacity-[0.18] p-4 pr-6 lg:py-[21px] lg:px-[37px] rounded-tr-[40px] overflow-hidden' rel="noreferrer">
-                                <img className='mx-auto' src='/logo-datasketch.svg' alt='logo datasketch' />
-                            </a>
-                        </div>
+                        <LogoDatasketch />
                     </div>
                 </div>
             </div>

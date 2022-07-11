@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { LogoDatasketch } from '../components/LogoDatasketch'
 
 export default function Home () {
   return (
@@ -478,11 +479,7 @@ export default function Home () {
                 <img src='/sticky-icon.svg' alt='sticky icon' />
               </div>
             </div>
-            <div className='flex justify-end'>
-              <a href='https://www.datasketch.co/' target="_blank" className='bg-blue-ocean bg-opacity-[0.18] p-4 pr-6 lg:py-[21px] lg:px-[37px] rounded-tr-[40px] overflow-hidden' rel="noreferrer">
-                <img className='mx-auto' src='/logo-datasketch.svg' alt='logo datasketch' />
-              </a>
-            </div>
+            <LogoDatasketch />
           </div>
         </div>
       </div>

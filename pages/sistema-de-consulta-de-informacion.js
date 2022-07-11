@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { LogoDatasketch } from '../components/LogoDatasketch'
 
 export default function InformationQuerySystem () {
   const scrollNavigation = (e) => {
@@ -223,13 +224,9 @@ export default function InformationQuerySystem () {
                             </div>
                         </div>
                         <div>
-                            <img className='mx-auto' src='/datasketch-app.jpg' alt='datasketch app' />
+                            <iframe className='w-full mx-auto h-screen' src='https://datasketch.shinyapps.io/daneApp/' />
                         </div>
-                        <div className='flex justify-end'>
-                            <a href='https://www.datasketch.co/' target="_blank" className='bg-blue-ocean bg-opacity-[0.18] p-4 pr-6 lg:py-[21px] lg:px-[37px] rounded-tr-[40px] overflow-hidden' rel="noreferrer">
-                                <img className='mx-auto' src='/logo-datasketch.svg' alt='logo datasketch' />
-                            </a>
-                        </div>
+                        <LogoDatasketch />
                     </div>
                 </div>
             </div>
