@@ -38,12 +38,36 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                                         <ul className='space-y-4'>
                                             {
                                                 results.map((item, index) => {
-                                                  return (<li key={`results-${index + 1}`} className='flex space-x-[12.63px] items-start'>
-                                                        <img src='arrow-right-blue-medium.svg' alt='arrow right' />
-                                                        <p>
-                                                            {item}
-                                                        </p>
-                                                    </li>)
+                                                  return typeof item !== 'object'
+                                                    ? (<li key={`results-${index + 1}`} className='flex space-x-[12.63px] items-start'>
+                                                            <img src='arrow-right-blue-medium.svg' alt='arrow right' />
+                                                            <p>
+                                                                {item}
+                                                            </p>
+                                                        </li>)
+                                                    : (
+                                                            <li className="space-y-4" key={`results-${index + 1}`}>
+                                                                <div>
+                                                                    <p>
+                                                                        {item.title}
+                                                                    </p>
+                                                                </div>
+                                                                <ul className="mx-auto w-10/12 list-inside list-disc space-y-2">
+                                                                    {
+                                                                        item.results.map((result, idx) => {
+                                                                          return (
+                                                                                <li key={`result-${idx + 1}`} className='flex space-x-[12.63px] items-start'>
+                                                                                    <img className="w-3" src='arrow-right-blue-medium.svg' alt='arrow right' />
+                                                                                    <p>
+                                                                                        {result}
+                                                                                    </p>
+                                                                                </li>
+                                                                          )
+                                                                        })
+                                                                    }
+                                                                </ul>
+                                                            </li>
+                                                      )
                                                 })
                                             }
                                         </ul>

@@ -26,7 +26,7 @@ export default function InformationQuerySystem () {
                                 </h2>
                                 <div className='space-y-[31px]'>
                                     <p>
-                                        Es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, las políticas, normas, procesos técnicos y la infraestructura involucrada en la gestión de la información relacionada con la Economía Circular), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; con la finalidad de facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
+                                        El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, las políticas, normas, procesos técnicos y la infraestructura involucrada en la gestión de la información relacionada con la Economía Circular), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; con la finalidad de facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
                                     </p>
                                     <p>
                                         El objetivo es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Economía Circular.
@@ -43,6 +43,9 @@ export default function InformationQuerySystem () {
                                     <img src='/arrow-down.svg' alt='arrow down icon' />
                                 </a>
                                 <ul className='space-y-4'>
+                                    <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
+                                        Objetivos específicos del SIEC
+                                    </h3>
                                     <li className='flex space-x-[12.63px]'>
                                         <img src='arrow-right-blue.svg' alt='arrow right' />
                                         <p>
@@ -64,7 +67,7 @@ export default function InformationQuerySystem () {
                                     <li className='flex space-x-[12.63px]'>
                                         <img src='arrow-right-blue.svg' alt='arrow right' />
                                         <p>
-                                            Responder a las demandas de información sobre Economía Ccircular en los ámbitos nacional e internacional.
+                                            Responder a las demandas de información sobre Economía Circular en los ámbitos nacional e internacional.
                                         </p>
                                     </li>
                                 </ul>
@@ -74,48 +77,146 @@ export default function InformationQuerySystem () {
                 </div>
             </div>
 
-            <div className='mx-auto w-10/12 max-w-screen-lim'>
-                <div className='xl:px-[104px] xl:py-[72px] rounded-tr-[140px] border-blue-ocean border-[3px] overflow-hidden px-4 lg:px-8 py-12'>
-                    <div className='space-y-[60px]'>
-                        <div className='space-y-5'>
-                            <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
-                                Ecosistema de datos del sistema
-                            </h3>
-                            <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[61px]'>
-                                <div className='lg:w-1/2'>
-                                    <p>
-                                        Se entiende como el conjunto de actores, productores y usuarios, que interactúan en torno a los datos, en un contexto institucional y de política pública . Este ecosistema está conformado por subsistemas de actores que se agrupan en torno a la producción de información sobre economía circular y otros que como usuarios presentan demandas, pero también deben asumir un rol activo en la producción de datos.
-                                    </p>
-                                </div>
-                                <div className='lg:w-1/2'>
-                                    <p>
-                                        Frente a la estructura del ecosistema de datos del SIEC se pueden identificar tres grupos de actores: i) usuarios; ii) productores y iii) aquellos que cumplen un doble rol. Junto a este grupo de actores se encuentran los flujos de la oferta y demanda de estadísticas e indicadores sobre economía circular, así como de los lineamientos, normas y estándares definidos para los procesos de producción y calidad de los productos estadísticos.
-                                    </p>
-                                </div>
-                            </div>
+            <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06]'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
+                    <div className='space-y-[30px]'>
+                        <div className='text-center max-w-[600px] mx-auto'>
+                            <h2 className='font-bold text-xl 2xl:text-[24px]'>
+                                La información e indicadores publicados a través del Sistema de Consulta de información – SIEC, se clasifican en los siguientes componentes:
+                            </h2>
                         </div>
-                        <div className='space-y-5'>
-                            <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
-                                Entidades involucradas en el SIEC
-                            </h3>
-                            <div className='flex flex-col lg:flex-row lg:flex-wrap text-white'>
-                                <div className='lg:w-1/2 bg-blue-dark px-8 py-12 xl:px-0'>
-                                    <div className='max-w-[444px] mx-auto'>
-                                        <p>
-                                            Son las entidades consumidoras de los datos e información que se encuentra en el sistema. Los usuarios no generan información, ni coordinan ningún aspecto relacionado con el SIEC.
-                                        </p>
+                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-12'>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-blue-green inline-grid place-items-center'>
+                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>A</span>
+                                        </div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-blue-green -mt-[2.4px]'>&nbsp;</div>
                                     </div>
-                                </div>
-                                <div className='lg:w-1/2 bg-blue-ocean px-8 py-12 xl:px-0'>
-                                    <div className='max-w-[444px] mx-auto'>
+                                    <div className='py-4 pl-4 space-y-4'>
+                                        <h3 className='font-bold'>
+                                            Demanda de activos ambientales y servicios ecosistémicos
+                                        </h3>
                                         <p>
-                                            Son las entidades generadoras de la información estadística que alimenta al sistema. Se incluyen las entidades encargadas de la coordinación del SIEC.
+                                            Flujo de materiales y servicios originados en el ambiente y que son extraídos o utilizados para el desarrollo de las actividades económicas.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <img src='/SIEC.jpg' alt='SIEC' />
+                                <div>
+                                    <div>
+                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-green-2 inline-grid place-items-center'>
+                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>B</span>
+                                        </div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-green-2 -mt-[2.4px]'>&nbsp;</div>
+                                    </div>
+                                    <div className='py-4 pl-4 space-y-4'>
+                                        <h3 className='font-bold'>
+                                            Conservación o pérdida de valor de los materiales en el sistema productivo
+                                        </h3>
+                                        <p>
+                                            Contiene las prácticas de producción o consumo que retornan o reducen los materiales utilizados. Entre ellos, se encuentran el ahorro y uso eficiente de agua, energía y materiales; la simbiosis industrial o la recirculación de materiales.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-green-3 inline-grid place-items-center'>
+                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>C</span>
+                                        </div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-green-3 -mt-[2.4px]'>&nbsp;</div>
+                                    </div>
+                                    <div className='py-4 pl-4 space-y-4'>
+                                        <h3 className='font-bold'>
+                                            Presión en los ecosistemas por la disposición de residuos
+                                        </h3>
+                                        <p>
+                                            Contienes las externalidades ocasionadas por los residuos sólidos, líquidos o gaseosos que son descartados, descargados o emitidos al ambiente.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-purple-2 inline-grid place-items-center'>
+                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>D</span>
+                                        </div>
+                                        <div className='h-0.5 w-[90%] ml-auto bg-purple-2 -mt-[2.4px]'>&nbsp;</div>
+                                    </div>
+                                    <div className='py-4 pl-4 space-y-4'>
+                                        <h3 className='font-bold'>
+                                            Factores que facilitan la Economía Circular
+                                        </h3>
+                                        <p>
+                                            Instrumentos de gestión y empleo que utilizan los diferentes sectores y la sociedad, que favorecen la transición hacia una Economía Circular.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='py-12 lg:py-16 xl:py-20'>
+                <div className='mx-auto w-10/12 max-w-screen-lim'>
+                    <div className='xl:px-[104px] xl:py-[72px] rounded-tr-[140px] border-blue-ocean border-[3px] overflow-hidden px-4 lg:px-8 py-12'>
+                        <div className='space-y-[60px]'>
+                            <div className='space-y-5'>
+                                <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
+                                    Ecosistema de datos del sistema
+                                </h3>
+                                <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[61px]'>
+                                    <div className='lg:w-1/2'>
+                                        <p>
+                                            Se entiende como el conjunto de actores, productores y usuarios, que interactúan en torno a los datos, en un contexto institucional y de política pública. El Ecosistema de datos está conformado por subsistemas de actores: productores y usuarios, que interactúan en torno a los datos y la información sobre economía circular, en un contexto institucional y de política pública.
+                                        </p>
+                                    </div>
+                                    <div className='lg:w-1/2'>
+                                        <p>
+                                            Frente a la estructura del ecosistema de datos del SIEC se pueden identificar tres grupos de actores: i) usuarios; ii) productores y iii) aquellos que cumplen un doble rol. Junto a este grupo de actores se encuentran los flujos de la oferta y demanda de estadísticas e indicadores sobre economía circular, así como de los lineamientos, normas y estándares definidos para los procesos de producción y calidad de los productos estadísticos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='space-y-5'>
+                                <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
+                                    Entidades involucradas en el SIEC
+                                </h3>
+                                <div className='flex flex-col lg:flex-row lg:flex-wrap text-white'>
+                                    <div className='lg:w-1/2 bg-blue-dark px-8 py-12 xl:px-0'>
+                                        <div className='max-w-[444px] mx-auto'>
+                                            <div className='space-y-2'>
+                                                <h4 className='font-bold text-lg 3xl:text-xl'>
+                                                    Usuarios del SIEC
+                                                </h4>
+                                                <p>
+                                                    Son las entidades consumidoras de los datos e información que se encuentra en el sistema. Los usuarios no generan información, ni coordinan ningún aspecto relacionado con el SIEC.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='lg:w-1/2 bg-blue-ocean px-8 py-12 xl:px-0'>
+                                        <div className='max-w-[444px] mx-auto'>
+                                            <div className='space-y-2'>
+                                                <h4 className='font-bold text-lg 3xl:text-xl'>
+                                                    Productores del SIEC
+                                                </h4>
+                                                <p>
+                                                    Son las entidades generadoras de la información estadística que alimenta al sistema. Se incluyen las entidades encargadas de la coordinación del SIEC.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src='/SIEC.jpg' alt='SIEC' />
+                                </div>
                             </div>
                         </div>
                     </div>

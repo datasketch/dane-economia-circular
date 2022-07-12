@@ -47,17 +47,17 @@ export default function InformationTable () {
                                     <span className='font-bold'>Mesa de información</span> de Economía Circular - MIEC
                                 </h2>
                                 <p>
-                                    Se consolidó en mayo de 2019 en línea con la Estrategia Nacional de Economía Circular – ENEC y busca articular a las entidades del Sistema Estadístico Nacional – SEN para la identificación, fortalecimiento y generación de información relevante y oportuna requerida en la toma de decisiones y la evaluación de la política pública asociada a la Economía Circular. Desde 2021 se establecieron 6 submesas al articular la submesas de materiales industriales y la submesa de consumo masivo.
+                                    En mayo de 2019 se consolidó la mesa de información de economía circular en línea con la Estrategia Nacional de Economía Circular – ENEC y busca articular a las entidades del Sistema Estadístico Nacional – SEN para la identificación, fortalecimiento y generación de información relevante y oportuna requerida en la toma de decisiones y la evaluación de la política pública asociada a la Economía Circular
                                 </p>
                             </div>
                         </div>
                         <div className='lg:w-6/12'>
                             <div className='space-y-7'>
                                 <p>
-                                    En coherencia con las lineas prioritarias de la Estrategia Nacional de Economía Circular - ENEC, en un trabajo conjunto con el Ministerio de Ambiente y Desarrollo Sostenible, se identificó la necesidad de articular la submesa de materiales industriales y la submesa de consumo masivo. En este sentido para el 2021 se desarrollarán 6 submesas.
+                                    De acuerdo con las lineas prioritarias de la Estrategia Nacional de Economía Circular - ENEC, en conjunto con el Ministerio de Ambiente y Desarrollo Sostenible, se identificó la necesidad de articular la submesa de materiales industriales y la submesa de consumo masivo. En este sentido para el 2021 se desarrollarán 6 submesas.
                                 </p>
                                 <p>
-                                    El objetivo de las submesas de información es dentificar, organizar, producir y fortalecer la información estadística sobre *cada tema específico de la submesa* necesaria para la toma de decisiones, la formulación y evaluación de la política pública asociada a la economía circular.
+                                    El objetivo de las submesas de información es organizar, producir y fortalecer la información estadística sobre la temática de cada una de las submesas, que es necesaria para la toma de decisiones necesaria para la toma de decisiones, la formulación y evaluación de la política pública asociada a la economía circular
                                 </p>
                             </div>
                         </div>

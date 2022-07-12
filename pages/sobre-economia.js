@@ -10,31 +10,31 @@ const indicatorCountriesData = [
   {
     bgImage: '/union-europea.jpg',
     country: 'Unión Europera',
-    link: 'www.referenteinternacional.com',
+    link: 'https://ec.europa.eu/eurostat/web/circular-economy/indicators',
     classNames: 'md:col-start-1 md:col-end-7 xl:col-start-1 xl:col-end-5'
   },
   {
     bgImage: '/espania.jpg',
     country: 'España',
-    link: 'www.referenteinternacional.com',
+    link: 'https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/economia-circular/estrategia/',
     classNames: 'md:col-start-7 md:col-end-13 xl:col-start-5 xl:col-end-9'
   },
   {
     bgImage: '/francia.jpg',
     country: 'Francia',
-    link: 'www.referenteinternacional.com',
+    link: 'https://www.ecologie.gouv.fr/leconomie-circulaire',
     classNames: 'md:col-start-1 md:col-end-7 xl:col-start-9 xl:col-end-13'
   },
   {
     bgImage: '/holanda.jpg',
     country: 'Holanda',
-    link: 'www.referenteinternacional.com',
+    link: 'https://www.rijksoverheid.nl/onderwerpen/circulaire-economie/nederland-circulair-in-2050',
     classNames: 'md:col-start-7 md:col-end-13 xl:col-start-3 xl:col-end-7'
   },
   {
     bgImage: '/china.jpg',
     country: 'China',
-    link: 'www.referenteinternacional.com',
+    link: 'https://en.ndrc.gov.cn/',
     classNames: 'md:col-start-4 md:col-end-10 xl:col-start-7 xl:col-end-11'
   }
 ]
@@ -59,7 +59,7 @@ export default function About () {
                                     </h2>
                                     <div className='space-y-6 2xl:space-y-8'>
                                         <p>
-                                            Sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas y colaboraciones entre actores, y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible.
+                                            Es un sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas y colaboraciones entre actores, y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible.
                                         </p>
                                         <p>
                                             Colombia se ha propuesto transitar hacia un modelo de Economía Circular. Es así como, el Plan Nacional de Desarrollo 2018-2022, en su Pacto por la Sostenibilidad, establece que se debe acelerar la transición hacia el modelo de Economía Circular como base para la reducción, la reutilización y el reciclaje de residuos y materiales; así como el uso eficiente de recursos, agua y energía.
@@ -70,9 +70,14 @@ export default function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className='lg:w-5/12'>
-                                <img className='max-h-[530px] mx-auto' src='/grafica-circular.png' alt='grafica circular' />
+                            <div className='lg:w-6/12 xl:w-5/12'>
+                                <img className='mx-auto' src='/grafica-circular.png' alt='grafica circular' />
                             </div>
+                        </div>
+                        <div className='mx-auto max-w-[600px]'>
+                            <p className='text-center'>
+                                La Economía Circular, comprende varias categorías, las cuales pueden variar conforme se avance en su implementación. Algunos de los temas relacionados con la economía circular son:
+                            </p>
                         </div>
                         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-8 gap-x-12'>
                             <div className='space-y-5'>
@@ -132,19 +137,19 @@ export default function About () {
                                     <li className='flex space-x-[12.63px]'>
                                         <img src='arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
-                                            Simbiosis industria
+                                            Simbiosis industrial
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
                                         <img src='arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
-                                            REP: Responsabilidad
+                                            REP: Responsabilidad extendida del productor
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
                                         <img src='arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
-                                            Extendida de Productos
+                                            Reparación
                                         </p>
                                     </li>
                                 </ul>
@@ -235,87 +240,16 @@ export default function About () {
                 </div>
             </div>
 
-            <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06]'>
-                <div className='mx-auto w-10/12 max-w-screen-lim'>
-                    <div className='space-y-[30px]'>
-                        <div className='text-center'>
-                            <h2 className='font-bold text-xl 2xl:text-[24px]'>
-                                El DANE mide la Economía Circular a través de los siguientes componentes:
-                            </h2>
-                        </div>
-                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-12'>
-                            <div>
-                                <div>
-                                    <div>
-                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-blue-green inline-grid place-items-center'>
-                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>A</span>
-                                        </div>
-                                        <div className='h-0.5 w-[90%] ml-auto bg-blue-green -mt-[2.4px]'>&nbsp;</div>
-                                    </div>
-                                    <div className='py-4 pl-4 space-y-4'>
-                                        <h3 className='font-bold'>
-                                            Demanda de activos ambientales y servicios ecosistémicos
-                                        </h3>
-                                        <p>
-                                            Flujo de materiales y servicios originados en el ambiente y que son extraídos o utilizados para el desarrollo de las actividades económicas.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-green-2 inline-grid place-items-center'>
-                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>B</span>
-                                        </div>
-                                        <div className='h-0.5 w-[90%] ml-auto bg-green-2 -mt-[2.4px]'>&nbsp;</div>
-                                    </div>
-                                    <div className='py-4 pl-4 space-y-4'>
-                                        <h3 className='font-bold'>
-                                            Conservación o pérdida de valor de los materiales en el sistema productivo
-                                        </h3>
-                                        <p>
-                                            Contiene las prácticas de producción o consumo que retornan o reducen los materiales utilizados. Entre ellos, se encuentran el ahorro y uso eficiente de agua, energía y materiales; la simbiosis industrial o la recirculación de materiales.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-green-3 inline-grid place-items-center'>
-                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>C</span>
-                                        </div>
-                                        <div className='h-0.5 w-[90%] ml-auto bg-green-3 -mt-[2.4px]'>&nbsp;</div>
-                                    </div>
-                                    <div className='py-4 pl-4 space-y-4'>
-                                        <h3 className='font-bold'>
-                                            Presión en los ecosistemas por la disposición de residuos
-                                        </h3>
-                                        <p>
-                                            Contienes las externalidades ocasionadas por los residuos sólidos, líquidos o gaseosos que son descartados, descargados o emitidos al ambiente.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <div className='w-[73px] h-[73px] rounded-full overflow-hidden bg-purple-2 inline-grid place-items-center'>
-                                            <span className='text-white font-bold text-3xl 2xl:text-[40px]'>D</span>
-                                        </div>
-                                        <div className='h-0.5 w-[90%] ml-auto bg-purple-2 -mt-[2.4px]'>&nbsp;</div>
-                                    </div>
-                                    <div className='py-4 pl-4 space-y-4'>
-                                        <h3 className='font-bold'>
-                                            Factores que facilitan la Economía Circular
-                                        </h3>
-                                        <p>
-                                            Instrumentos de gestión y empleo que utilizan los diferentes sectores y la sociedad, que favorecen la transición hacia una Economía Circular.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+            <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06] overflow-x-scroll'>
+                <div className='mx-auto w-11/12 max-w-screen-lim'>
+                    <div className='space-y-7'>
+                        <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
+                            Recorrido histórico de normas relacionadas a la Economía Circular
+                        </h3>
+                        <div className='scroll flex items-baseline'>
+                            {
+                                timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} year={item.year} data={item.data} direction={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
+                            }
                         </div>
                     </div>
                 </div>
@@ -343,21 +277,6 @@ export default function About () {
                         </div>
                         <div className='lg:w-6/12'>
                             <CircularEconomyReport item={reportsData[reportsData.length - 1]} isLastReport={true} />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className='py-12 lg:py-16 xl:py-20 bg-blue-ocean bg-opacity-[0.06] overflow-x-scroll'>
-                <div className='mx-auto w-11/12 max-w-screen-lim'>
-                    <div className='space-y-7'>
-                        <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
-                            Recorrido histórico de normas relacionadas a la Economía Circular
-                        </h3>
-                        <div className='scroll flex items-baseline'>
-                            {
-                                timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} year={item.year} data={item.data} direction={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
-                            }
                         </div>
                     </div>
                 </div>

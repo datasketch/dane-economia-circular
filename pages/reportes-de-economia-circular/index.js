@@ -32,10 +32,10 @@ export default function CircularEconomyReports ({ reports }) {
                                         Buscan aportar información oportuna para la toma de decisiones y el fortalecimiento de la política pública en materia de Economía Circular.
                                     </p>
                                     <p>
-                                        Los Reportes de Economía Circular son el resultado de los esfuerzos de articulación estadística que ha emprendido el DANE al interior de sus Direcciones Técnicas, pero también en el contexto del Sistema Estadístico Nacional - SEN.
+                                        Los Reportes de Economía Circular son el resultado de los esfuerzos de articulación estadística que ha emprendido el DANE con las demás entidades del Sistema Estadístico Nacional - SEN para identificar, fortalecer y publicar información relevante sobre Economía Circular.
                                     </p>
                                     <p>
-                                        A la fecha el DANE ha publicado 4 reportes de Economía Circular con la participación de indicadores del IDEAM, Invemar y el DANE.
+                                        A la fecha el DANE ha publicado 5 reportes de Economía Circular con la participación de indicadores del IDEAM, Invemar y el DANE.
                                     </p>
                                 </div>
                             </div>
