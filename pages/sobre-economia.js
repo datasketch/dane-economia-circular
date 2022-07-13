@@ -11,31 +11,43 @@ const indicatorCountriesData = [
     bgImage: '/union-europea.jpg',
     country: 'Unión Europera',
     link: 'https://ec.europa.eu/eurostat/web/circular-economy/indicators',
-    classNames: 'md:col-start-1 md:col-end-7 xl:col-start-1 xl:col-end-5'
+    classNames: ''
   },
   {
     bgImage: '/espania.jpg',
     country: 'España',
     link: 'https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/economia-circular/estrategia/',
-    classNames: 'md:col-start-7 md:col-end-13 xl:col-start-5 xl:col-end-9'
+    classNames: ''
   },
   {
     bgImage: '/francia.jpg',
     country: 'Francia',
     link: 'https://www.ecologie.gouv.fr/leconomie-circulaire',
-    classNames: 'md:col-start-1 md:col-end-7 xl:col-start-9 xl:col-end-13'
+    classNames: ''
   },
   {
     bgImage: '/holanda.jpg',
     country: 'Holanda',
     link: 'https://www.rijksoverheid.nl/onderwerpen/circulaire-economie/nederland-circulair-in-2050',
-    classNames: 'md:col-start-7 md:col-end-13 xl:col-start-3 xl:col-end-7'
+    classNames: ''
   },
   {
     bgImage: '/china.jpg',
     country: 'China',
     link: 'https://en.ndrc.gov.cn/',
-    classNames: 'md:col-start-4 md:col-end-10 xl:col-start-7 xl:col-end-11'
+    classNames: ''
+  },
+  {
+    bgImage: '/OCDE.jpg',
+    country: 'OCDE',
+    link: ['https://www.oecd.org/environment/waste/recircle.htm', 'https://www.oecd.org/regional/cities/circular-economy-cities.htm', 'https://www.oecd.org/cfe/cities/InventoryCircularEconomyIndicators.pdf'],
+    classNames: ''
+  },
+  {
+    bgImage: '/americas.jpg',
+    country: 'Plataforma de Economía Circular de las Américas',
+    link: 'https://www.pec-americas.com/',
+    classNames: ''
   }
 ]
 
@@ -290,7 +302,7 @@ export default function About () {
                                 <span className='font-bold'>Indicadores de países líderes</span> en la medición de Economía Circular
                             </h2>
                         </div>
-                        <div className='grid grid-cols-1 md:grid-cols-12 gap-x-[38.3px] gap-y-[44.93px]'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[38.3px] gap-y-[44.93px]'>
                             {
                                 indicatorCountriesData.map((item, index) => <IndicatorCountryCard key={`indicator-${index + 1}`} item={item} />)
                             }
