@@ -9,7 +9,7 @@ import timeLineData from '../data/timeLine.json'
 const indicatorCountriesData = [
   {
     bgImage: '/union-europea.jpg',
-    country: 'Unión Europera',
+    country: 'Unión Europea',
     link: 'https://ec.europa.eu/eurostat/web/circular-economy/indicators',
     classNames: ''
   },
