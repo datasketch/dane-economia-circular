@@ -47,7 +47,7 @@ const indicatorCountriesData = [
     bgImage: '/americas.jpg',
     country: 'Plataforma de Economía Circular de las Américas',
     link: 'https://www.pec-americas.com/',
-    classNames: ''
+    classNames: 'md:col-start-1 md:col-end-3 xl:col-start-2 xl:col-end-3'
   }
 ]
 
