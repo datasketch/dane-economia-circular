@@ -41,7 +41,7 @@ export default function CircularEconomyReports ({ reports }) {
                             </div>
                         </div>
                         <div className='lg:w-6/12'>
-                            <CircularEconomyReport item={reports[reports.length - 1]} isLastReport={true} />
+                            <CircularEconomyReport item={reports[reports.length - 1]} isLastReport={true} showLinkButton={true} />
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function CircularEconomyReports ({ reports }) {
                         </div>
                         <div className='grid grid-cols-1 lg:grid-cols-2 xl:gap-x-[52px] gap-y-8 gap-x-10 xl:gap-y-[42px]'>
                             {
-                                reports.slice(0, reports.length - 1).reverse().map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} />)
+                                reports.slice(0, reports.length - 1).reverse().map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} showLinkButton={index === 0} />)
                             }
                         </div>
                         <LogoDatasketch />

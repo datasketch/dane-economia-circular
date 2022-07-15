@@ -29,7 +29,7 @@ export default function InformationQuerySystem () {
                                         El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, las políticas, normas, procesos técnicos y la infraestructura involucrada en la gestión de la información relacionada con la Economía Circular), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; con la finalidad de facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
                                     </p>
                                     <p>
-                                        El objetivo es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Economía Circular.
+                                        El objetivo del SIEC es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Economía Circular
                                     </p>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@ export default function InformationQuerySystem () {
                                 <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[61px]'>
                                     <div className='lg:w-1/2'>
                                         <p>
-                                            Se entiende como el conjunto de actores, productores y usuarios, que interactúan en torno a los datos, en un contexto institucional y de política pública. El Ecosistema de datos está conformado por subsistemas de actores: productores y usuarios, que interactúan en torno a los datos y la información sobre economía circular, en un contexto institucional y de política pública.
+                                            El Ecosistema de datos está conformado por subsistemas de actores: productores y usuarios, que interactúan en torno a los datos y la información sobre economía circular, en un contexto institucional y de política pública
                                         </p>
                                     </div>
                                     <div className='lg:w-1/2'>
@@ -251,6 +251,9 @@ export default function InformationQuerySystem () {
                                             <p>
                                                 Las entidades que producen información sobre Economía Circular, contactan al DANE, informando su interés de hacer parte del sistema.
                                             </p>
+                                            <a className='inline-block italic' href='mailto:sen@dane.gov.co'>
+                                            Correo electrónico de contacto: sen@dane.gov.co
+                                            </a>
                                             <p>
                                                 El DANE contactará las entidades que produzcan información estadística sobre Economía Circular.
                                             </p>

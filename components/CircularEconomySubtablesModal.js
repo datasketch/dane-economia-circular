@@ -10,13 +10,13 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                     <div className='bg-blue-dark p-8 xl:pt-[55px] xl:pb-[64px] xl:pl-[80.98px] xl:pr-[126px] h-[75vh] lg:h-full overflow-y-auto relative'>
                         <div className='flex flex-col lg:flex-row lg:justify-between lg:gap-x-12 gap-y-8'>
                             <div className='max-w-[271.91px] w-full self-center lg:self-start'>
-                                <img className="max-w-full w-[271.91px] h-[337px]" src={srcImage?.small} alt={`${title.toLowerCase()} image`} />
+                                <img className="max-w-full w-[271.91px] h-[337px]" src={srcImage?.small} alt={`${title} image`} />
                             </div>
                             <div className='max-w-[555px] w-full'>
                                 <div className='text-white space-y-[38px]'>
                                     <div className='space-y-[17px]'>
                                         <h3 className='text-blue-6 font-bold text-xl xl:text-2xl'>
-                                            Submesa de {title.toLowerCase()}
+                                            {title}
                                         </h3>
                                         <ul className='space-y-4'>
                                             {

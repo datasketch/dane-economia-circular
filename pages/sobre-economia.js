@@ -288,7 +288,7 @@ export default function About () {
                             </div>
                         </div>
                         <div className='lg:w-6/12'>
-                            <CircularEconomyReport item={reportsData[reportsData.length - 1]} isLastReport={true} />
+                            <CircularEconomyReport item={reportsData[reportsData.length - 1]} isLastReport={true} showLinkButton={true} />
                         </div>
                     </div>
                 </div>

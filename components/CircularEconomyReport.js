@@ -1,16 +1,12 @@
 import Link from 'next/link'
 
-export const CircularEconomyReport = ({ item, isLastReport = false }) => {
+export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButton = false }) => {
   const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, srcImage } = item
   return (
         <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
             <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
                 <div className='max-w-[184px] w-full'>
-                    <a className='cursor-pointer'>
-                        <Link href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
-                            <img src={srcImage} alt={title + ' image'} />
-                        </Link>
-                    </a>
+                    <img src={srcImage} alt={title + ' image'} />
                 </div>
                 <div className='max-w-[385px] w-full'>
                     <div>
@@ -71,6 +67,15 @@ export const CircularEconomyReport = ({ item, isLastReport = false }) => {
                                 </div>
                             </li>
                         </ul>
+                        {
+                            showLinkButton && (
+                                <Link href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
+                                    <a className='inline-block mt-4 py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                                        Leer más
+                                    </a>
+                                </Link>
+                            )
+                        }
                         <p className='text-right text-grey-dark italic mt-[18.17px]'>
                             Publicado el {new Intl.DateTimeFormat('es-CO', { dateStyle: 'long' }).format(new Date(date))}
                         </p>
