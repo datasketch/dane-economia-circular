@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
+import CustomLink from '../components/CustomLink'
 import { LogoDatasketch } from '../components/LogoDatasketch'
 
 export default function Home () {
@@ -32,14 +32,14 @@ export default function Home () {
                   <p>
                     Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
                   </p>
-                  <Link href="/sistema-de-consulta-de-informacion">
+                  <CustomLink href="/sistema-de-consulta-de-informacion">
                     <button className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                       <span>
                         Consultar
                       </span>
                       <img src='/link-arrow-icon.svg' alt='link arrow icon' />
                     </button>
-                  </Link>
+                  </CustomLink>
                 </div>
               </div>
             </div>

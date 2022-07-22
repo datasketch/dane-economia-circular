@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import CustomLink from './CustomLink'
 
 export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButton = false }) => {
   const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, srcImage } = item
@@ -69,11 +69,11 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
                         </ul>
                         {
                             showLinkButton && (
-                                <Link href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
+                                <CustomLink href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
                                     <a className='inline-block mt-4 py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                                         Leer más
                                     </a>
-                                </Link>
+                                </CustomLink>
                             )
                         }
                         <p className='text-right text-grey-dark italic mt-[18.17px]'>
