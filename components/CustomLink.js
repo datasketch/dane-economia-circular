@@ -11,10 +11,11 @@ export default function CustomLink ({ children, ...restProps }) {
   const { parentDomain } = publicRuntimeConfig
 
   useEffect(() => {
-    if (window.self !== window.top) {
+    const isEmbeded = window.self !== window.top
+    if (isEmbeded) {
       setTarget('_top')
     }
-    if (parentDomain) {
+    if (parentDomain && isEmbeded) {
       setHref(prevState => `${parentDomain}${prevState}`)
     }
   }, [])
