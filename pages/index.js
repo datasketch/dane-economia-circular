@@ -57,7 +57,7 @@ export default function Home () {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
-                <img className='w-full' src='/data-interest-graphic.svg' />
+                <iframe className='aspect-square' src="/charts/disponibilidad_reservas.html" width="100%"></iframe>
               </div>
             </div>
             <div className='lg:w-5/12 order-1 lg:order-2'>
@@ -80,7 +80,7 @@ export default function Home () {
                         </h4>
                         <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
                         <p className='text-3xl 2xl:text-[40px] pt-2'>
-                          73
+                          114
                         </p>
                       </div>
                     </div>
@@ -91,7 +91,7 @@ export default function Home () {
                         </h4>
                         <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
                         <p className='text-3xl 2xl:text-[40px] pt-2'>
-                          8
+                          7
                         </p>
                       </div>
                     </div>
@@ -109,10 +109,10 @@ export default function Home () {
                   </div>
                   <div className='text-grey-dark italic'>
                     <p>
-                      <span className='font-bold'>Fecha:</span> de publicación de los datos
+                      <span className='font-bold'>Fecha:</span> 27 de julio de 2021
                     </p>
                     <p>
-                      <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                      <span className='font-bold'>Fuente:</span> Cuenta Ambiental y Económica de Activos de los Recursos Minerales y Energéticos (CAE-ARME)
                     </p>
                   </div>
                   <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -138,7 +138,7 @@ export default function Home () {
                     Residuos sólidos utilizados en reciclaje y nueva utilización
                   </p>
                   <p className='font-bold text-xl 2xl:text-2xl'>
-                    26.456.711
+                    3.127.844
                   </p>
                   <p className='text-sm'>
                     Toneladas
@@ -166,7 +166,7 @@ export default function Home () {
                     Oferta de residuos y productos residuales
                   </p>
                   <p className='font-bold text-xl 2xl:text-2xl'>
-                    3.127.844
+                    26.456.711
                   </p>
                   <p className='text-sm'>
                     Toneladas
@@ -179,10 +179,10 @@ export default function Home () {
             <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
               <div className='italic'>
                 <p>
-                  <span className='font-bold'>Fecha:</span> de publicación de los datos
+                  <span className='font-bold'>Fecha:</span> 1 de diciembre de 2021
                 </p>
                 <p>
-                  <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                  <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujo de materiales - Residuos sólidos (CAEFM-RS)
                 </p>
               </div>
               <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -223,10 +223,10 @@ export default function Home () {
                   </p>
                   <div className='text-grey-dark italic'>
                     <p>
-                      <span className='font-bold'>Fecha:</span> de publicación de los datos
+                      <span className='font-bold'>Fecha:</span> 1 de diciembre de 2021
                     </p>
                     <p>
-                      <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                      <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Emisiones al aire (CAEFM - EA)
                     </p>
                   </div>
                   <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -240,7 +240,7 @@ export default function Home () {
             </div>
             <div className='lg:w-6/12'>
               <div>
-                <img className='w-full' src='/desacoplamiento-graphic.svg' />
+                <iframe className='aspect-square' src="/charts/indices_base.html" width="100%"></iframe>
               </div>
             </div>
           </div>
@@ -263,7 +263,7 @@ export default function Home () {
                     <div className='max-w-[124px] w-full'>
                       <div className='space-y-4'>
                         <h4 className='text-3xl 2xl:text-[40px]'>
-                          39,2%
+                          50.1%
                         </h4>
                         <div className='max-w-[88.03px] w-full bg-white h-0.5'>&nbsp;</div>
                         <p>
@@ -286,7 +286,7 @@ export default function Home () {
                     <div className='max-w-[124px] w-full'>
                       <div className='space-y-4'>
                         <h4 className='text-3xl 2xl:text-[40px]'>
-                          37.9%
+                          59.3%
                         </h4>
                         <div className='max-w-[88.03px] w-full bg-white h-0.5'>&nbsp;</div>
                         <p>
@@ -303,10 +303,10 @@ export default function Home () {
             <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
               <div className='italic'>
                 <p>
-                  <span className='font-bold'>Fecha:</span> de publicación de los datos
+                  <span className='font-bold'>Fecha:</span> 1 de diciembre de 2021
                 </p>
                 <p>
-                  <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                  <span className='font-bold'>Fuente:</span> DANE. Censo de Edificaciones - CEED
                 </p>
               </div>
               <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -325,7 +325,7 @@ export default function Home () {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px] gap-y-8'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
-                <img className='mx-auto' src='/map-graphic.svg' />
+                <iframe className='aspect-square' src="/charts/mapa_dpto.html" width="100%"></iframe>
               </div>
             </div>
             <div className='lg:w-5/12 order-1 lg:order-2'>
@@ -339,11 +339,11 @@ export default function Home () {
                       Por departamento 2020
                     </p>
                     <p>
-                      Lo hogares que se ubican en Huila, Caldas y el Archipiélago de San Andrés, Providencia y Santa Catalina son los que, en porcentaje, realizan un mayor esfuerzo en la disminución de los consumos de agua y energía.
+                      Los hogares que se ubican en Bogotá DC, Antioquia y Valle del Cauca realizan un mayor esfuerzo en la disminución de los consumos de agua y energía.
                     </p>
                     <div className='text-grey-dark italic'>
                       <p>
-                        <span className='font-bold'>Fuente:</span> Datos de la fuentes de los datos
+                        <span className='font-bold'>Fuente:</span> Encuesta Nacional de Calidad de Vida
                       </p>
                     </div>
                   </div>
@@ -355,72 +355,37 @@ export default function Home () {
                       A nivel nacional
                     </p>
                     <div className='space-y-[24.4px] py-6'>
-                      <div className='flex justify-between max-w-[473px]'>
-                        <div className='max-w-[100px] w-full'>
+                      <div className='grid gap-4 sm:grid-cols-3'>
+                        <div className='w-full'>
                           <div className='text-center font-bold space-y-2'>
                             <h4 className='2xl:text-lg'>
-                              Rango
+                              18 a 28 años
                             </h4>
                             <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
                             <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              12%
+                              1.829
                             </p>
                           </div>
                         </div>
-                        <div className='max-w-[100px] w-full'>
+                        <div className='w-full'>
                           <div className='text-center font-bold space-y-2'>
                             <h4 className='2xl:text-lg'>
-                              Rango
+                              29 a 59 años
                             </h4>
                             <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
                             <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              12%
+                              10.332
                             </p>
                           </div>
                         </div>
-                        <div className='max-w-[100px] w-full'>
+                        <div className='w-full'>
                           <div className='text-center font-bold space-y-2'>
                             <h4 className='2xl:text-lg'>
-                              Rango
+                              60 años y más
                             </h4>
                             <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
                             <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              12%
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='flex justify-between max-w-[473px]'>
-                        <div className='max-w-[100px] w-full'>
-                          <div className='text-center font-bold space-y-2'>
-                            <h4 className='2xl:text-lg'>
-                              Rango
-                            </h4>
-                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                            <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              12%
-                            </p>
-                          </div>
-                        </div>
-                        <div className='max-w-[100px] w-full'>
-                          <div className='text-center font-bold space-y-2'>
-                            <h4 className='2xl:text-lg'>
-                              Rango
-                            </h4>
-                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                            <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              12%
-                            </p>
-                          </div>
-                        </div>
-                        <div className='max-w-[100px] w-full'>
-                          <div className='text-center font-bold space-y-2'>
-                            <h4 className='2xl:text-lg'>
-                              Rango
-                            </h4>
-                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                            <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              12%
+                              4.242
                             </p>
                           </div>
                         </div>
