@@ -9,4 +9,8 @@ function MyApp ({ Component, pageProps }) {
   )
 }
 
+MyApp.getInitialProps = async () => {
+  return {}
+}
+
 export default MyApp
