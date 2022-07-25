@@ -98,31 +98,31 @@ export default function InformationTable () {
                         <div className='mx-auto w-11/12'>
                             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-8 3xl:gap-y-9 3xl:gap-x-[131px]'>
                                 <div className='flex space-x-[12.63px]'>
-                                    <img className='w-[22.63px] h-[24.01px]' src='arrow-right-purple.svg' alt='arrow right' />
+                                    <img className='w-[22.63px] h-[24.01px]' src='/images/arrow-right-purple.svg' alt='arrow right' />
                                     <p>
                                         Inventario de operaciones estadísticas relacionadas con Economía Circular.
                                     </p>
                                 </div>
                                 <div className='flex space-x-[12.63px]'>
-                                    <img className='w-[22.63px] h-[24.01px]' src='arrow-right-purple.svg' alt='arrow right' />
+                                    <img className='w-[22.63px] h-[24.01px]' src='/images/arrow-right-purple.svg' alt='arrow right' />
                                     <p>
                                         Inventario de registros administrativos relacionados con Economía Circular.
                                     </p>
                                 </div>
                                 <div className='flex space-x-[12.63px]'>
-                                    <img className='w-[22.63px] h-[24.01px]' src='arrow-right-purple.svg' alt='arrow right' />
+                                    <img className='w-[22.63px] h-[24.01px]' src='/images/arrow-right-purple.svg' alt='arrow right' />
                                     <p>
                                         Batería de indicadores relevantes para la Economía Circular.
                                     </p>
                                 </div>
                                 <div className='flex space-x-[12.63px]'>
-                                    <img className='w-[22.63px] h-[24.01px]' src='arrow-right-purple.svg' alt='arrow right' />
+                                    <img className='w-[22.63px] h-[24.01px]' src='/images/arrow-right-purple.svg' alt='arrow right' />
                                     <p>
                                         Inventario de requerimientos o necesidades de información estadística sobre Economía Circular.
                                     </p>
                                 </div>
                                 <div className='flex space-x-[12.63px]'>
-                                    <img className='w-[22.63px] h-[24.01px]' src='arrow-right-purple.svg' alt='arrow right' />
+                                    <img className='w-[22.63px] h-[24.01px]' src='/images/arrow-right-purple.svg' alt='arrow right' />
                                     <p>
                                         Estrategia para dar respuesta a las necesidades de información estadística priorizadas.
                                     </p>

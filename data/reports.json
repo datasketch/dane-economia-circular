@@ -6,7 +6,7 @@
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-1-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-1-reporte.xlsx",
     "webinarLink": "https://www.youtube.com/watch?v=JcKR4LcW8oU&feature=youtu.be",
-    "srcImage": "/primer-reporte.jpg",
+    "srcImage": "/images/primer-reporte.jpg",
     "date": "2020-08-05",
     "description": "El DANE presenta el Primer Reporte de Economía Circular para ilustrar, con la información disponible sobre la materia, el nivel de circularidad de la economía del país. Para tal fin, se exponen los antecedentes conceptuales de la Economía Circular, los referentes internacionales que enmarcan su medición y los respectivos indicadores, clasificados en cuatro componentes que permiten analizar algunas temáticas de interés para el caso colombiano: i) extracción de activos ambientales; ii) producción de bienes y servicios; iii) consumo y uso; y, iv) cierre y optimización en los ciclos de vida de los materiales y productos.",
     "sankeyDiagramData": [
@@ -49,7 +49,7 @@
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-2-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-2-reporte.xlsx",
     "webinarLink": "https://www.youtube.com/watch?v=bVxOg4ITUMw",
-    "srcImage": "/segundo-reporte.jpg",
+    "srcImage": "/images/segundo-reporte.jpg",
     "date": "2020-12-11",
     "description": "El Segundo Reporte de Economía Circular sintetiza el avance en el diseño del Sistema de Informaciónde Economía Circular – SIEC, así como el desarrollo de las submesas de Información de Economía Circular 1. Estos espacios articulan a las entidades del Sistema Estadístico Nacional – SEN en torno a la identificación, fortalecimiento y generación de información relevante y oportuna requerida en las estrategias públicas y privadas sobre la Economía Circular en el país. Por lo anterior, los resultados de estos escenarios serán el principal insumo del SIEC.",
     "sankeyDiagramData": [
@@ -92,7 +92,7 @@
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-3-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-3-reporte.xlsx",
     "webinarLink": "https://www.youtube.com/watch?v=KR_kENm33hE",
-    "srcImage": "/tercer-reporte.jpg",
+    "srcImage": "/images/tercer-reporte.jpg",
     "date": "2021-07-28",
     "description": "El Tercer Reporte de Economía Circular es el resultado de los esfuerzos de articulación estadística que ha emprendido el DANE al interior de sus direcciones técnicas, pero también en el contexto del Sistema Estadístico Nacional - SEN. Esta tercera entrega se alinea con el propósito anunciado en el Primer y Segundo reporte: aportar información oportuna para la toma de decisiones y el fortalecimiento de la política pública en materia de Economía Circular. Sin embargo, se renovaron las categorías conceptuales que se usaron en las dos versiones previas, para reflejar la armonización de los indicadores a las disposiciones internacionales en materia de medición del modelo circular.",
     "sankeyDiagramData": [
@@ -135,7 +135,7 @@
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-4-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-4-reporte.xlsx",
     "webinarLink": "https://www.youtube.com/watch?v=5FFFsQ4eGfI",
-    "srcImage": "/cuarto-reporte.jpg",
+    "srcImage": "/images/cuarto-reporte.jpg",
     "date": "2021-12-02",
     "description": "En este Cuarto Reporte, encontramos información sobre los 35 indicadores que se han categorizado en cuatro componentes que facilitan la compresión y el análisis del modelo económico circular y su relación e impacto con el ambiente y los recursos naturales. También se incluye por primera vez información acerca de los indicadores de: Área modificada por tipo de cobertura boscosa, Extracción sostenible, extracción y aprovechamiento de recursos madereros, en bosque natural, Presión por pesca y Talla media de captura ydistribución por tallas.",
     "sankeyDiagramData": [
@@ -178,7 +178,7 @@
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-5-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-5-reporte.xlsx",
     "webinarLink": "https://www.youtube.com/watch?v=CzkHaKHm4d4",
-    "srcImage": "/quinto-reporte.jpg",
+    "srcImage": "/images/quinto-reporte.jpg",
     "date": "2022-06-22",
     "description": "En este quinto Reporte se consolidan 16 indicadores conservando su clasificación dentro de los cuatro componentes principales y un diagrama de Sankey de flujos de energía; como anexo, se presenta la Matriz Insumo Producto Extendida Ambientalmente. Esta matriz tiene como propósito, analizar problemáticas ambientales mediante comprensión de las externalidades generadas por las emisiones al aire en las cadenas de valor de las diferentes actividades económicas, para apoyar toma de decisiones entorno a la economía circular.",
     "sankeyDiagramData": [

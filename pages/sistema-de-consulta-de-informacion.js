@@ -40,32 +40,32 @@ export default function InformationQuerySystem () {
                                     <p className='font-bold xl:text-lg'>
                                         Explora los datos del SIEC
                                     </p>
-                                    <img src='/arrow-down.svg' alt='arrow down icon' />
+                                    <img src='/images/arrow-down.svg' alt='arrow down icon' />
                                 </a>
                                 <ul className='space-y-4'>
                                     <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
                                         Objetivos específicos del SIEC
                                     </h3>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue.svg' alt='arrow right' />
                                         <p>
                                             Consolidar la información estadística en materia de Economía Circular.
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue.svg' alt='arrow right' />
                                         <p>
                                             Disponer y facilitar de manera periódica el acceso de la información sobre Economía Circular para consulta pública y toma de decisiones.
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue.svg' alt='arrow right' />
                                         <p>
                                             Contribuir a la construcción y apropiación del conocimiento sobre la Económica Circular en el país.
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue.svg' alt='arrow right' />
                                         <p>
                                             Responder a las demandas de información sobre Economía Circular en los ámbitos nacional e internacional.
                                         </p>
@@ -215,7 +215,7 @@ export default function InformationQuerySystem () {
                                     </div>
                                 </div>
                                 <div>
-                                    <img src='/SIEC.jpg' alt='SIEC' />
+                                    <img src='/images/SIEC.jpg' alt='SIEC' />
                                 </div>
                             </div>
                         </div>
@@ -303,7 +303,7 @@ export default function InformationQuerySystem () {
                         </div>
                     </div>
                     <div className='absolute -top-12 left-1/2 transform -translate-x-1/2'>
-                        <img src='/arrow-scroll-down.svg' alt='arrow scroll down' />
+                        <img src='/images/arrow-scroll-down.svg' alt='arrow scroll down' />
                     </div>
                 </div>
             </div>
@@ -323,7 +323,7 @@ export default function InformationQuerySystem () {
                                     <p>
                                         Cómo utilizar esta herramienta
                                     </p>
-                                    <img className='w-[11.86px] h-[11.18px]' src='/arrow-down.svg' alt='arrow down' />
+                                    <img className='w-[11.86px] h-[11.18px]' src='/images/arrow-down.svg' alt='arrow down' />
                                 </button>
                             </div>
                         </div>

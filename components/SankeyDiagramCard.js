@@ -4,7 +4,7 @@ export const SankeyDiagramCard = ({ item }) => {
         <div className='pt-[28.65px] pb-16 pl-[42px] pr-[45px] border-blue-ocean border-[3px] rounded-tr-[100px] relative'>
             <div className='space-y-4'>
                 <div className='flex items-center gap-x-4'>
-                    <img src='/diagram-icon.svg' alt='diagram icon' />
+                    <img src='/images/diagram-icon.svg' alt='diagram icon' />
                     <h4 className='xl:text-lg text-blue-5'>
                         Diagrama de Sankey
                     </h4>
@@ -21,7 +21,7 @@ export const SankeyDiagramCard = ({ item }) => {
                     <p>
                         Ver más
                     </p>
-                    <img className='w-[11.18px] h-[11.86px]' src='/link-arrow-icon.svg' alt='link arrow icon' />
+                    <img className='w-[11.18px] h-[11.86px]' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                 </a>
             </div>
         </div>

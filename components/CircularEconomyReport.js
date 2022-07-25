@@ -13,56 +13,56 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
                         <h4 className='font-bold 2xl:text-lg'>
                             {title}
                         </h4>
-                        <ul className='mt-[2.6px]'>
-                            <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                <div className='flex justify-between items-center space-x-[11.83px]'>
-                                    <img src='/pdf-icon.svg' alt='pdf icon' />
+                        <ul className='mt-[2.6px] space-y-2 sm:space-y-0'>
+                            <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                                    <img src='/images/pdf-icon.svg' alt='pdf icon' />
                                     <p>
                                         {titleReportLink}
                                     </p>
                                 </div>
                                 <div>
                                     <a href={reportLink} target="_blank" rel="noreferrer">
-                                        <img src='/download-icon.svg' alt='download icon' />
+                                        <img src='/images/download-icon.svg' alt='download icon' />
                                     </a>
                                 </div>
                             </li>
-                            <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                <div className='flex justify-between items-center space-x-[11.83px]'>
-                                    <img src='/pdf-icon.svg' alt='pdf icon' />
+                            <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                                    <img src='/images/pdf-icon.svg' alt='pdf icon' />
                                     <p>
                                         Presentación
                                     </p>
                                 </div>
                                 <div>
                                     <a href={presentationLink} download target="_blank" rel="noreferrer">
-                                        <img src='/download-icon.svg' alt='download icon' />
+                                        <img src='/images/download-icon.svg' alt='download icon' />
                                     </a>
                                 </div>
                             </li>
-                            <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                <div className='flex justify-between items-center space-x-[11.83px]'>
-                                    <img src='/anexes-icon.svg' alt='anexes icon' />
+                            <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                                    <img src='/images/anexes-icon.svg' alt='anexes icon' />
                                     <p>
                                         Anexos
                                     </p>
                                 </div>
                                 <div>
                                     <a href={attachmentsLink} download>
-                                        <img src='/download-icon.svg' alt='download icon' />
+                                        <img src='/images/download-icon.svg' alt='download icon' />
                                     </a>
                                 </div>
                             </li>
-                            <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center'>
-                                <div className='flex justify-between items-center space-x-[11.83px]'>
-                                    <img src='/webinar-icon.svg' alt='webinar icon' />
+                            <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                                    <img src='/images/webinar-icon.svg' alt='webinar icon' />
                                     <p>
                                         Webinar presentación
                                     </p>
                                 </div>
-                                <div className='transform -translate-x-2'>
+                                <div className='sm:transform sm:-translate-x-2'>
                                     <a href={webinarLink} download target="_blank" rel="noreferrer">
-                                        <img src='/arrow-reports-right.svg' alt='arriw icon' />
+                                        <img src='/images/arrow-reports-right.svg' alt='arriw icon' />
                                     </a>
                                 </div>
                             </li>

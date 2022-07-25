@@ -22,7 +22,7 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                                             {
                                                 list.map((item, index) => {
                                                   return (<li key={`list-${index + 1}`} className='flex space-x-[12.63px] items-start'>
-                                                        <img src='arrow-right-blue-medium.svg' alt='arrow right' />
+                                                        <img src='/images/arrow-right-blue-medium.svg' alt='arrow right' />
                                                         <p>
                                                             {item}
                                                         </p>
@@ -40,7 +40,7 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                                                 results.map((item, index) => {
                                                   return typeof item !== 'object'
                                                     ? (<li key={`results-${index + 1}`} className='flex space-x-[12.63px] items-start'>
-                                                            <img src='arrow-right-blue-medium.svg' alt='arrow right' />
+                                                            <img src='/images/arrow-right-blue-medium.svg' alt='arrow right' />
                                                             <p>
                                                                 {item}
                                                             </p>
@@ -76,7 +76,7 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                             </div>
                         </div>
                         <button onClick={closeModal} className='absolute top-4 right-4'>
-                            <img src='/close-modal.png' alt='close modal' />
+                            <img src='/images//close-modal.png' alt='close modal' />
                         </button>
                     </div>
                 </div>

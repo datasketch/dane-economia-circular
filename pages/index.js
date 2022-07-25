@@ -37,7 +37,7 @@ export default function Home () {
                       <span>
                         Consultar
                       </span>
-                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                      <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                     </button>
                   </CustomLink>
                 </div>
@@ -119,7 +119,7 @@ export default function Home () {
                     <span>
                       Explorar datos
                     </span>
-                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                    <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                   </a>
                 </div>
               </div>
@@ -189,12 +189,12 @@ export default function Home () {
                 <span>
                   Explorar datos
                 </span>
-                <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
+                <img src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
               </a>
             </div>
           </div>
           <div className='absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-            <img src='/reciclaje-icon.svg' alt='reciclaje icon' />
+            <img src='/images/reciclaje-icon.svg' alt='reciclaje icon' />
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@ export default function Home () {
                     <span>
                       Explorar datos
                     </span>
-                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                    <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                   </a>
                 </div>
               </div>
@@ -258,7 +258,7 @@ export default function Home () {
                   </h3>
                   <div className='flex gap-x-[29.27px] items-center justify-center'>
                     <div className='max-w-[106.81px] w-full'>
-                      <img src='/water-icon.svg' alt='water icon' />
+                      <img src='/images/water-icon.svg' alt='water icon' />
                     </div>
                     <div className='max-w-[124px] w-full'>
                       <div className='space-y-4'>
@@ -281,7 +281,7 @@ export default function Home () {
                   </h3>
                   <div className='flex gap-x-[29.27px] items-center justify-center'>
                     <div className='max-w-[106.81px] w-full'>
-                      <img src='/energy-icon.svg' alt='energy icon' />
+                      <img src='/images/energy-icon.svg' alt='energy icon' />
                     </div>
                     <div className='max-w-[124px] w-full'>
                       <div className='space-y-4'>
@@ -313,7 +313,7 @@ export default function Home () {
                 <span>
                   Explorar datos
                 </span>
-                <img src='/link-arrow-icon-pink.svg' alt='link arrow icon' />
+                <img src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
               </a>
             </div>
           </div>
@@ -401,7 +401,7 @@ export default function Home () {
                         <span>
                           Explorar datos
                         </span>
-                        <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                        <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                       </a>
                     </div>
                   </div>
@@ -430,18 +430,18 @@ export default function Home () {
                       <span>
                         Explorar datos
                       </span>
-                      <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                      <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                     </a>
                   </div>
                 </div>
               </div>
               <div className='lg:w-6/12 relative z-10'>
                 <div>
-                  <img className='w-full' src='/app-DANE.png' alt='app DANE' />
+                  <img className='w-full' src='/images/app-DANE.png' alt='app DANE' />
                 </div>
               </div>
               <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 lg:-translate-y-1/2'>
-                <img src='/sticky-icon.svg' alt='sticky icon' />
+                <img src='/images/sticky-icon.svg' alt='sticky icon' />
               </div>
             </div>
             <LogoDatasketch />

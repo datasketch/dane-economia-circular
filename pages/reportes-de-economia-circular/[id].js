@@ -37,8 +37,8 @@ export default function CircularEconomyReport ({ report }) {
 
             <div className='mx-auto w-10/12 max-w-screen-lim'>
                 <div className='py-12 lg:py-16 xl:py-20'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[170px]'>
-                        <div className='lg:w-1/2'>
+                    <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-12'>
+                        <div className='lg:w-1/2 max-w-[710px]'>
                             <div className='space-y-[56px]'>
                                 <div className='max-w-[593px]'>
                                     <div className='space-y-[29.5px]'>
@@ -58,7 +58,7 @@ export default function CircularEconomyReport ({ report }) {
                                 <Report item={report[0]} />
                             </div>
                         </div>
-                        <div className='lg:w-1/2 self-end'>
+                        <div className='lg:w-1/2 self-end max-w-[593px]'>
                             <div className='space-y-[30px]'>
                                 <h3 className='font-bold text-blue-dark lg:text-xl xl:text-2xl'>
                                     Diagramas de Sankey
@@ -73,7 +73,7 @@ export default function CircularEconomyReport ({ report }) {
                                 </div>
                                 <div className='inline-flex justify-between bg-blue-ocean bg-opacity-[0.08] pl-[13.41px] pr-[26.96px] pt-[14.66px] pb-[14.25px] max-w-[386.28px] w-full'>
                                     <div className='flex space-x-[11.45px] items-center'>
-                                        <img src='/webinar-icon.svg' alt='webinar icon' />
+                                        <img src='/images/webinar-icon.svg' alt='webinar icon' />
                                         <p className='xl:text-[19px]'>
                                             Video instructivo
                                         </p>
@@ -82,7 +82,7 @@ export default function CircularEconomyReport ({ report }) {
                                         <p className='text-pink font-bold xl:text-lg'>
                                             Consultar
                                         </p>
-                                        <img src='/arrow-reports-right.svg' alt='arriw icon' />
+                                        <img src='/images/arrow-reports-right.svg' alt='arriw icon' />
                                     </a>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ export default function CircularEconomyReport ({ report }) {
 
             <div style={{ backgroundColor: '#FBFBFB' }}>
                 <div className='mx-auto w-10/12 max-w-screen-lim'>
-                    <img src='/reporte-prueba.jpg' alt='reporte prueba' />
+                    <img src='/images/reporte-prueba.jpg' alt='reporte prueba' />
                 </div>
             </div>
 

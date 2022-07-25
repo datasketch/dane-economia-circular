@@ -11,7 +11,7 @@ export default function Navbar () {
           <div className='max-w-full w-96 lg:w-80'>
             <button>
               <CustomLink href="/">
-                <img src='/logo-economia-circular.png' alt='logo economia circular' />
+                <img src='/images/logo-economia-circular.png' alt='logo economia circular' />
               </CustomLink>
             </button>
           </div>

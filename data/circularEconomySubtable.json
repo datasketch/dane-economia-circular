@@ -3,8 +3,8 @@
     "id": 0,
     "title": "Submesa de envases y empaques",
     "srcImage": {
-      "small": "/envases-empaques.svg",
-      "big": "/envases-empaques-big.svg"
+      "small": "/images/envases-empaques.svg",
+      "big": "/images/envases-empaques-big.svg"
     },
     "list": [
       "Validación de la oferta y las necesidades de información con los diferentes actores.",
@@ -20,8 +20,8 @@
     "id": 1,
     "title": "Submesa de flujos de agua",
     "srcImage": {
-      "small": "/flujos-agua.svg",
-      "big": "/flujos-agua-big.svg"
+      "small": "/images/flujos-agua.svg",
+      "big": "/images/flujos-agua-big.svg"
     },
     "list": [
       "Validación del cálculo de indicadores."
@@ -43,8 +43,8 @@
     "id": 2,
     "title": "Submesa de fuentes y flujos de energía",
     "srcImage": {
-      "small": "/fuentes-flujos-energia.svg",
-      "big": "/fuentes-flujos-energia-big.svg"
+      "small": "/images/fuentes-flujos-energia.svg",
+      "big": "/images/fuentes-flujos-energia-big.svg"
     },
     "list": [
       "Se ha avanzado en el desarrollo del grupo de trabajo con la UPME y entidades privadas."
@@ -63,8 +63,8 @@
     "id": 3,
     "title": "Submesa de materiales industriales y productos de consumo masivo",
     "srcImage": {
-      "small": "/materiales-industriales.svg",
-      "big": "/materiales-industriales-big.svg"
+      "small": "/images/materiales-industriales.svg",
+      "big": "/images/materiales-industriales-big.svg"
     },
     "list": [
       "El Ministerio de Ambiente ya se encuentra realizando los cálculos de los indicadores establecidos en la Estrategia Nacional de Economía Circular."
@@ -88,8 +88,8 @@
     "id": 4,
     "title": "Submesa de materiales de construcción",
     "srcImage": {
-      "small": "/materiales-construccion.svg",
-      "big": "/materiales-construccion-big.svg"
+      "small": "/images/materiales-construccion.svg",
+      "big": "/images/materiales-construccion-big.svg"
     },
     "list": [
       "Validación de la oferta y las necesidades de información con actores públicos."
@@ -103,8 +103,8 @@
     "id": 5,
     "title": "Submesa de biomasa",
     "srcImage": {
-      "small": "/biomasa.svg",
-      "big": "/biomasa-big.svg"
+      "small": "/images/biomasa.svg",
+      "big": "/images/biomasa-big.svg"
     },
     "list": [
       "Validación de la oferta y las necesidades de información con actores públicos y gremios del sector agropecuario.",

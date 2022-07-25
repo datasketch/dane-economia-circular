@@ -30,8 +30,8 @@ module.exports = {
         'purple-2': '#662482'
       },
       backgroundImage: {
-        'banner-siec': "url('/banner-siec.svg')",
-        'banner-edificaciones': "url('/banner-edificaciones.svg')"
+        'banner-siec': "url('/images/banner-siec.svg')",
+        'banner-edificaciones': "url('/images/banner-edificaciones.svg')"
       },
       screens: {
         sm: '640px',

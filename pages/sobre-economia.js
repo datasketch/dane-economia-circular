@@ -8,43 +8,43 @@ import timeLineData from '../data/timeLine.json'
 
 const indicatorCountriesData = [
   {
-    bgImage: '/union-europea.jpg',
+    bgImage: '/images/union-europea.jpg',
     country: 'Unión Europea',
     link: 'https://ec.europa.eu/eurostat/web/circular-economy/indicators',
     classNames: ''
   },
   {
-    bgImage: '/espania.jpg',
+    bgImage: '/images/espania.jpg',
     country: 'España',
     link: 'https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/economia-circular/estrategia/',
     classNames: ''
   },
   {
-    bgImage: '/francia.jpg',
+    bgImage: '/images/francia.jpg',
     country: 'Francia',
     link: 'https://www.ecologie.gouv.fr/leconomie-circulaire',
     classNames: ''
   },
   {
-    bgImage: '/holanda.jpg',
+    bgImage: '/images/holanda.jpg',
     country: 'Holanda',
     link: 'https://www.rijksoverheid.nl/onderwerpen/circulaire-economie/nederland-circulair-in-2050',
     classNames: ''
   },
   {
-    bgImage: '/china.jpg',
+    bgImage: '/images/china.jpg',
     country: 'China',
     link: 'https://en.ndrc.gov.cn/',
     classNames: ''
   },
   {
-    bgImage: '/OCDE.jpg',
+    bgImage: '/images/OCDE.jpg',
     country: 'OCDE',
     link: ['https://www.oecd.org/environment/waste/recircle.htm', 'https://www.oecd.org/regional/cities/circular-economy-cities.htm', 'https://www.oecd.org/cfe/cities/InventoryCircularEconomyIndicators.pdf'],
     classNames: ''
   },
   {
-    bgImage: '/americas.jpg',
+    bgImage: '/images/americas.jpg',
     country: 'Plataforma de Economía Circular de las Américas',
     link: 'https://www.pec-americas.com/',
     classNames: 'md:col-start-1 md:col-end-3 xl:col-start-2 xl:col-end-3'
@@ -83,7 +83,7 @@ export default function About () {
                                 </div>
                             </div>
                             <div className='lg:w-6/12 xl:w-5/12'>
-                                <img className='mx-auto' src='/grafica-circular.png' alt='grafica circular' />
+                                <img className='mx-auto' src='/images/grafica-circular.png' alt='grafica circular' />
                             </div>
                         </div>
                         <div className='mx-auto max-w-[600px]'>
@@ -98,25 +98,25 @@ export default function About () {
                                 </h4>
                                 <ul className='space-y-4'>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-dark.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-dark.svg' alt='arrow right' />
                                         <p>
                                             Agua
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-dark.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-dark.svg' alt='arrow right' />
                                         <p>
                                             Energía
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-dark.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-dark.svg' alt='arrow right' />
                                         <p>
                                             Minerales
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-dark.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-dark.svg' alt='arrow right' />
                                         <p>
                                             Madera
                                         </p>
@@ -129,37 +129,37 @@ export default function About () {
                                 </h4>
                                 <ul className='space-y-4'>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-light.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
                                             Ecodiseño
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-light.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
                                             Remanufacturar
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-light.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
                                             Maquinaria y equipos P+I
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-light.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
                                             Simbiosis industrial
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-light.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
                                             REP: Responsabilidad extendida del productor
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-light.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                                         <p>
                                             Reparación
                                         </p>
@@ -172,25 +172,25 @@ export default function About () {
                                 </h4>
                                 <ul className='space-y-4'>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-green.svg' alt='arrow right' />
                                         <p>
                                             Sólidos
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-green.svg' alt='arrow right' />
                                         <p>
                                             Líquidos
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-green.svg' alt='arrow right' />
                                         <p>
                                             Gaseosos
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-blue-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-blue-green.svg' alt='arrow right' />
                                         <p>
                                             Gestión de residuos
                                         </p>
@@ -203,19 +203,19 @@ export default function About () {
                                 </h4>
                                 <ul className='space-y-4'>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-green.svg' alt='arrow right' />
                                         <p>
                                             Ambientales
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-green.svg' alt='arrow right' />
                                         <p>
                                             Verdes
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-green.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-green.svg' alt='arrow right' />
                                         <p>
                                             Circulares
                                         </p>
@@ -228,19 +228,19 @@ export default function About () {
                                 </h4>
                                 <ul className='space-y-4'>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-purple.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-purple.svg' alt='arrow right' />
                                         <p>
                                             Eco-innovación
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-purple.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-purple.svg' alt='arrow right' />
                                         <p>
                                             Financiación e incentivos
                                         </p>
                                     </li>
                                     <li className='flex space-x-[12.63px]'>
-                                        <img src='arrow-right-purple.svg' alt='arrow right' />
+                                        <img src='/images/arrow-right-purple.svg' alt='arrow right' />
                                         <p>
                                             Nuevos modelos de negocio para la Economía Circular
                                         </p>
@@ -283,7 +283,7 @@ export default function About () {
                                     <span>
                                         Consultar
                                     </span>
-                                    <img src='/link-arrow-icon.svg' alt='link arrow icon' />
+                                    <img src='/images//link-arrow-icon.svg' alt='link arrow icon' />
                                 </a>
                             </div>
                         </div>
