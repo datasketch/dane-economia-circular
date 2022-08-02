@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "title": "Submesa de envases y empaques",
+    "title": "Envases y empaques",
     "srcImage": {
       "small": "/images/envases-empaques.svg",
       "big": "/images/envases-empaques-big.svg"
@@ -18,7 +18,7 @@
   },
   {
     "id": 1,
-    "title": "Submesa de flujos de agua",
+    "title": "Flujos de agua",
     "srcImage": {
       "small": "/images/flujos-agua.svg",
       "big": "/images/flujos-agua-big.svg"
@@ -41,7 +41,7 @@
   },
   {
     "id": 2,
-    "title": "Submesa de fuentes y flujos de energía",
+    "title": "Fuentes y flujos de energía",
     "srcImage": {
       "small": "/images/fuentes-flujos-energia.svg",
       "big": "/images/fuentes-flujos-energia-big.svg"
@@ -61,7 +61,7 @@
   },
   {
     "id": 3,
-    "title": "Submesa de materiales industriales y productos de consumo masivo",
+    "title": "Materiales industriales y productos de consumo masivo",
     "srcImage": {
       "small": "/images/materiales-industriales.svg",
       "big": "/images/materiales-industriales-big.svg"
@@ -86,7 +86,7 @@
   },
   {
     "id": 4,
-    "title": "Submesa de materiales de construcción",
+    "title": "Materiales de construcción",
     "srcImage": {
       "small": "/images/materiales-construccion.svg",
       "big": "/images/materiales-construccion-big.svg"
@@ -101,7 +101,7 @@
   },
   {
     "id": 5,
-    "title": "Submesa de biomasa",
+    "title": "Biomasa",
     "srcImage": {
       "small": "/images/biomasa.svg",
       "big": "/images/biomasa-big.svg"
