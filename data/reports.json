@@ -1,5 +1,6 @@
 [
   {
+    "id": "primer-reporte",
     "title": "Primer reporte de Economía Circular",
     "titleReportLink": "Primer reporte",
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-1-reporte.pdf",
@@ -11,6 +12,7 @@
     "description": "El DANE presenta el Primer Reporte de Economía Circular para ilustrar, con la información disponible sobre la materia, el nivel de circularidad de la economía del país. Para tal fin, se exponen los antecedentes conceptuales de la Economía Circular, los referentes internacionales que enmarcan su medición y los respectivos indicadores, clasificados en cuatro componentes que permiten analizar algunas temáticas de interés para el caso colombiano: i) extracción de activos ambientales; ii) producción de bienes y servicios; iii) consumo y uso; y, iv) cierre y optimización en los ciclos de vida de los materiales y productos."
   },
   {
+    "id": "segundo-reporte",
     "title": "Segundo reporte de Economía Circular",
     "titleReportLink": "Segundo reporte",
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-2-reporte.pdf",
@@ -22,6 +24,7 @@
     "description": "El Segundo Reporte de Economía Circular sintetiza el avance en el diseño del Sistema de Informaciónde Economía Circular – SIEC, así como el desarrollo de las submesas de Información de Economía Circular 1. Estos espacios articulan a las entidades del Sistema Estadístico Nacional – SEN en torno a la identificación, fortalecimiento y generación de información relevante y oportuna requerida en las estrategias públicas y privadas sobre la Economía Circular en el país. Por lo anterior, los resultados de estos escenarios serán el principal insumo del SIEC."
   },
   {
+    "id": "tercer-reporte",
     "title": "Tercer reporte de Economía Circular",
     "titleReportLink": "Tercer reporte",
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-3-reporte.pdf",
@@ -33,6 +36,7 @@
     "description": "El Tercer Reporte de Economía Circular es el resultado de los esfuerzos de articulación estadística que ha emprendido el DANE al interior de sus direcciones técnicas, pero también en el contexto del Sistema Estadístico Nacional - SEN. Esta tercera entrega se alinea con el propósito anunciado en el Primer y Segundo reporte: aportar información oportuna para la toma de decisiones y el fortalecimiento de la política pública en materia de Economía Circular. Sin embargo, se renovaron las categorías conceptuales que se usaron en las dos versiones previas, para reflejar la armonización de los indicadores a las disposiciones internacionales en materia de medición del modelo circular."
   },
   {
+    "id": "cuarto-reporte",
     "title": "Cuarto reporte de Economía Circular",
     "titleReportLink": "Cuarto reporte",
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-4-reporte.pdf",
@@ -66,6 +70,7 @@
     ]
   },
   {
+    "id": "quinto-reporte",
     "title": "Quinto reporte de Economía Circular",
     "titleReportLink": "Quinto reporte",
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-5-reporte.pdf",

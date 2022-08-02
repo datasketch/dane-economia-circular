@@ -5,14 +5,8 @@ import { LogoDatasketch } from '../../components/LogoDatasketch'
 import data from '../../data/reports.json'
 
 export async function getStaticPaths () {
-  const paths = data.map(report => {
-    return {
-      params: { id: report.titleReportLink.replace(' ', '-').toLowerCase() }
-    }
-  })
-
   return {
-    paths,
+    paths: [{ params: { id: 'cuarto-reporte' } }, { params: { id: 'quinto-reporte' } }],
     fallback: false
   }
 }
