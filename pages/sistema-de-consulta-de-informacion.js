@@ -319,12 +319,35 @@ export default function InformationQuerySystem () {
                 <p className='xl:text-lg'>
                   Esta es una herramienta que te permite consultar información estadística, generar visualizaciones y descargarlas.
                 </p>
-                <button className='inline-flex items-center space-x-[10.44px] bg-pink text-white font-bold text-sm pt-[13px] pb-[10px] px-[40.85px] rounded-tr-[20px] rounded-bl-[20px] overflow-hidden'>
-                  <p>
-                    Cómo utilizar esta herramienta
-                  </p>
-                  <img className='w-[11.86px] h-[11.18px]' src='/images/arrow-down.svg' alt='arrow down' />
-                </button>
+                <details>
+                  <summary className='inline-flex items-center space-x-[10.44px] bg-pink text-white font-bold text-sm pt-[13px] pb-[10px] px-[40.85px] rounded-tr-[20px] rounded-bl-[20px] overflow-hidden cursor-pointer'>
+                    <p>
+                      Cómo utilizar esta herramienta
+                    </p>
+                    <img className='w-[11.86px] h-[11.18px]' src='/images/arrow-down.svg' alt='arrow down' />
+                  </summary>
+                  <div className='mt-6 text-lg text-left'>
+                    <p>La herramienta de visualización de datos desarrollada por Datasketch permitirá a los usuarios de la plataforma explorar cada uno de los indicadores, así como sus formas de visualización según los filtros y variables seleccionadas.  La estructura de la herramienta de visualización consiste en dos paneles, uno relacionado con la selección de indicadores y variables, y otro de visualización de datos. Cada una de las gráficas se podrá descargar en distintos formatos y se podrá seleccionar cada uno de los compromisos de acuerdo al tipo de indicador seleccionado.</p>
+                    <ul className='mt-6'>
+                      <li>
+                        <p>1. Podrás seleccionar uno de los indicadores de Economía Circular  dispuestos, así como los filtros que los configuran, ya sea los datos de  interés o variables como el año, los grupos de división industrial, el  sector, el tipo de actividad, el tipo de emisión, entre otros.</p>
+                        <img className='mt-5' src="/images/gif-1.gif" alt="" />
+                      </li>
+                      <li className='mt-12'>
+                        <p>2. Es posible descargar las visualizaciones en formato JPEG, PDF, PNG y  HTML</p>
+                        <img className='mt-5' src="/images/gif-2.gif" alt="" />
+                      </li>
+                      <li className='mt-12'>
+                        <p>3. Es posible descargar los datos en formato CSV, XLSX y JSON</p>
+                        <img className='mt-5' src="/images/gif-3.gif" alt="" />
+                      </li>
+                      <li className='mt-12'>
+                        <p>4. Las visualizaciones están disponibles a través de gráficas o tablas de datos.</p>
+                        <img className='mt-5' src="/images/gif-4.gif" alt="" />
+                      </li>
+                    </ul>
+                  </div>
+                </details>
               </div>
             </div>
             <div>
