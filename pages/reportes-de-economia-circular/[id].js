@@ -68,7 +68,7 @@ export default function CircularEconomyReport ({ report }) {
                     Un diagrama de Sankey es la representación gráfica de información sobre cualquier proceso de transferencia entre dos o más unidades que intercambian materiales, energía, dinero, entre otros. La lógica del diagrama es conectar los flujos por medio de flechas que conectan procesos en nodos o etapas, desde un emisor hacia un receptor.
                   </p>
                   <p>
-                    El Segundo Reporte, presenta 6 diagramas de Sankey que representan los flujos de la Cuenta Satélite Ambiental - CSA, 5 representados en flujos físicos, para temáticas como energía, agua, bosque y materiales (residuos sólidos y emisiones al aire), y uno, en flujos monetarios que muestra el financiamiento y gasto del gobierno en actividades ambientales. Para el Tercer Reporte, se actualiza el periodo de referencia del diagrama de Sankey de flujos de productos energéticos y flujo de troncos de madera.
+                    El Segundo Reporte, presenta 6 diagramas de Sankey que representan los flujos de la Cuenta Satélite Ambiental - CSA, 5 representados en flujos físicos, para temáticas como energía, agua, bosque y materiales (residuos sólidos y emisiones al aire), y uno, en flujos monetarios que muestra el financiamiento y gasto del gobierno en actividades ambientales. Para el Quinto Reporte, se actualiza el período de referencia del diagrama de Sankey de flujos de productos energéticos.
                   </p>
                 </div>
                 <div className='inline-flex justify-between bg-blue-ocean bg-opacity-[0.08] pl-[13.41px] pr-[26.96px] pt-[14.66px] pb-[14.25px] max-w-[386.28px] w-full'>

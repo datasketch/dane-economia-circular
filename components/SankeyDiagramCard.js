@@ -1,3 +1,6 @@
+import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
+
 export const SankeyDiagramCard = ({ item }) => {
   const { title, description, link } = item
   return (
@@ -12,9 +15,9 @@ export const SankeyDiagramCard = ({ item }) => {
         <h3 className='font-bold text-lg xl:text-xl'>
           {title}
         </h3>
-        <p className='text-sm'>
+        <ReactMarkdown className='text-sm' rehypePlugins={[rehypeRaw]}>
           {description}
-        </p>
+        </ReactMarkdown>
       </div>
       <div className='absolute -bottom-[3px] -right-[3px]'>
         <a href={link} target='_blank' className='inline-flex items-center space-x-[12.83px] text-white font-bold xl:text-lg bg-pink py-[9px] px-[42.49px] rounded-tr-[20px] rounded-bl-[20px]' rel="noreferrer">
