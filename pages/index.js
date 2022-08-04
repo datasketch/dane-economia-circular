@@ -345,22 +345,28 @@ export default function Home() {
                           A nivel nacional
                         </p>
                         <table cellPadding={20}>
-                          <tr className='bg-blue-ocean text-white'>
-                            <th>Grupo de edad</th>
-                            <th>Porcentaje</th>
-                          </tr>
-                          <tr className='bg-blue-ocean bg-opacity-[0.08]'>
-                            <td>18 a 28 años</td>
-                            <td>35,7</td>
-                          </tr>
-                          <tr>
-                            <td>29 a 59 años</td>
-                            <td>50,2</td>
-                          </tr>
-                          <tr className='bg-blue-ocean bg-opacity-[0.08]'>
-                            <td>60 años y más</td>
-                            <td>50,3</td>
-                          </tr>
+                          <thead className='bg-blue-ocean text-white font-bold'>
+                            <th>
+                              Grupo de edad
+                            </th>
+                            <th>
+                              Porcentaje
+                            </th>
+                          </thead>
+                          <tbody>
+                            <tr className='bg-blue-ocean bg-opacity-[0.08]'>
+                              <td>18 a 28 años</td>
+                              <td>35,7</td>
+                            </tr>
+                            <tr>
+                              <td>29 a 59 años</td>
+                              <td>50,2</td>
+                            </tr>
+                            <tr className='bg-blue-ocean bg-opacity-[0.08]'>
+                              <td>60 años y más</td>
+                              <td>50,3</td>
+                            </tr>
+                          </tbody>
                         </table>
                       </div>
                     </div>
