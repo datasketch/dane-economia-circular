@@ -2,7 +2,7 @@ import Head from 'next/head'
 import CustomLink from '../components/CustomLink'
 import { LogoDatasketch } from '../components/LogoDatasketch'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
       <Head>
