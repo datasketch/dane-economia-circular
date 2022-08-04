@@ -2,7 +2,7 @@ import Head from 'next/head'
 import CustomLink from '../components/CustomLink'
 import { LogoDatasketch } from '../components/LogoDatasketch'
 
-export default function Home () {
+export default function Home() {
   return (
     <>
       <Head>
@@ -339,44 +339,29 @@ export default function Home () {
                     <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
                       Porcentaje de hogares que clasifican la basura, según la edad del jefe de hogar
                     </h3>
-                    <p>
-                      A nivel nacional
-                    </p>
                     <div className='space-y-[24.4px] py-6'>
-                      <div className='grid gap-4 sm:grid-cols-3'>
-                        <div className='w-full'>
-                          <div className='text-center font-bold space-y-2'>
-                            <h4 className='2xl:text-lg'>
-                              18 a 28 años
-                            </h4>
-                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                            <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              1.829
-                            </p>
-                          </div>
-                        </div>
-                        <div className='w-full'>
-                          <div className='text-center font-bold space-y-2'>
-                            <h4 className='2xl:text-lg'>
-                              29 a 59 años
-                            </h4>
-                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                            <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              10.332
-                            </p>
-                          </div>
-                        </div>
-                        <div className='w-full'>
-                          <div className='text-center font-bold space-y-2'>
-                            <h4 className='2xl:text-lg'>
-                              60 años y más
-                            </h4>
-                            <div className='w-[88.03px] h-[2px] bg-black mx-auto'>&nbsp;</div>
-                            <p className='text-3xl 2xl:text-[40px] pt-2'>
-                              4.242
-                            </p>
-                          </div>
-                        </div>
+                      <div className='space-y-4'>
+                        <p>
+                          A nivel nacional
+                        </p>
+                        <table cellPadding={20}>
+                          <tr className='bg-blue-ocean text-white'>
+                            <th>Grupo de edad</th>
+                            <th>Porcentaje</th>
+                          </tr>
+                          <tr className='bg-blue-ocean bg-opacity-[0.08]'>
+                            <td>18 a 28 años</td>
+                            <td>35,7</td>
+                          </tr>
+                          <tr>
+                            <td>29 a 59 años</td>
+                            <td>50,2</td>
+                          </tr>
+                          <tr className='bg-blue-ocean bg-opacity-[0.08]'>
+                            <td>60 años y más</td>
+                            <td>50,3</td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
                     <div className='space-y-10 2xl:space-y-[54.69px]'>
