@@ -54,14 +54,14 @@ export default function Home () {
               <span className='font-bold'>Datos </span>de interés
             </h2>
           </div>
-          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
+          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px] gap-x-12 xl:gap-x-20'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
                 <iframe className='aspect-square' src="/charts/disponibilidad_reservas.html" width="100%"></iframe>
               </div>
             </div>
-            <div className='lg:w-5/12 order-1 lg:order-2'>
-              <div className='max-w-[603px]'>
+            <div className='lg:w-6/12 order-1 lg:order-2'>
+              <div className=''>
                 <div className='space-y-6 2xl:space-y-[34px]'>
                   <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
                     Disponibilidad de reservas mineras
@@ -112,7 +112,10 @@ export default function Home () {
                       <span className='font-bold'>Fecha:</span> 27 de julio de 2021
                     </p>
                     <p>
-                      <span className='font-bold'>Fuente:</span> Cuenta Ambiental y Económica de Activos de los Recursos Minerales y Energéticos (CAE-ARME) <sup>p</sup>
+                      <span className='font-bold'>Fuente:</span> Cuenta Ambiental y Económica de Activos de los Recursos Minerales y Energéticos (CAE-ARME)
+                    </p>
+                    <p>
+                      <span className='font-bold'>P:</span> Provisional
                     </p>
                   </div>
                   <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -150,7 +153,7 @@ export default function Home () {
               <div className='max-w-[211px] mx-auto lg:ml-auto lg:mr-0'>
                 <div className='lg:text-right space-y-3 2xl:space-y-[22.5px]'>
                   <h4 className='text-xl 2xl:text-2xl font-bold'>
-                    Tasa de reciclaje y nueva utilización en el año 2019<sup>p</sup>
+                    Tasa de reciclaje y nueva utilización en el 2019<sup>p</sup>
                   </h4>
                   <div className='bg-white h-0.5'>&nbsp;</div>
                   <p className='text-[32px] 2xl:text-[40px]'>
@@ -163,7 +166,7 @@ export default function Home () {
               <div className='max-w-[267px] mx-auto lg:mx-0'>
                 <div>
                   <p className='2xl:text-lg'>
-                    Oferta de residuos y productos residuales
+                    Oferta de residuos sólidos y productos residuales
                   </p>
                   <p className='font-bold text-xl 2xl:text-2xl'>
                     26.456.711
@@ -179,10 +182,10 @@ export default function Home () {
             <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
               <div className='italic'>
                 <p>
-                  <span className='font-bold'>Fecha:</span> 1 de diciembre de 2021
+                  <span className='font-bold'>Fecha:</span> 6 de agosto de 2021
                 </p>
                 <p>
-                  <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujo de materiales - Residuos sólidos (CAEFM-RS)
+                  <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Residuos sólidos (CAEFM-RS)
                 </p>
               </div>
               <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -201,9 +204,9 @@ export default function Home () {
 
       <div className='py-12 lg:py-16 xl:py-20 2xl:pt-[107px] 2xl:pb-[82.5px]'>
         <div className='mx-auto w-10/12 max-w-screen-lim'>
-          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px]'>
-            <div className='lg:w-5/12'>
-              <div className='max-w-[537px]'>
+          <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 mt-8 lg:mt-10 2xl:mt-[48px] gap-x-12 xl:gap-x-20'>
+            <div className='lg:w-6/12'>
+              <div className=''>
                 <div className='space-y-6 2xl:space-y-[34px]'>
                   <div className='space-y-2'>
                     <h3 className='font-bold text-xl 3xl:text-2xl text-blue-dark'>
@@ -219,14 +222,17 @@ export default function Home () {
                     </div>
                   </div>
                   <p>
-                    Durante 2019<sup>p</sup>, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
+                  Durante 2019<sup>p</sup>, en el punto representado por la felcha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
                   </p>
                   <div className='text-grey-dark italic'>
                     <p>
                       <span className='font-bold'>Fecha:</span> 1 de diciembre de 2021
                     </p>
                     <p>
-                      <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Emisiones al aire (CAEFM - EA) <sup>p</sup>
+                      <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Emisiones al aire (CAEFM - EA)
+                    </p>
+                    <p>
+                      <span className='font-bold'>P:</span> Provisional
                     </p>
                   </div>
                   <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -291,7 +297,7 @@ export default function Home () {
             <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
               <div className='italic'>
                 <p>
-                  <span className='font-bold'>Fuente:</span> Censo de edificaciones 2021.
+                  <span className='font-bold'>Fuente:</span> Censo de edificaciones 2021
                 </p>
                 <p>
                   <span className='font-bold'>Período:</span> IV trimestre del 2021
@@ -373,7 +379,7 @@ export default function Home () {
                     <div className='space-y-10 2xl:space-y-[54.69px]'>
                       <div className='text-grey-dark italic'>
                         <p>
-                          <span className='font-bold'>Fuente:</span> Fuente: DANE. Encuesta de Calidad de Vida - ECV 2020.
+                          <span className='font-bold'>Fuente:</span> Encuesta de Calidad de Vida - ECV 2020
                         </p>
                       </div>
                       <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
@@ -403,7 +409,7 @@ export default function Home () {
                       todos los indicadores
                     </h2>
                     <p>
-                      Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro categorías: Demanda de activos ambientales y servicios ecosistémicos, Conservación o pérdida de valor de los materiales en el sistema productivo, Presión en los ecosistemas por la disposición de residuos y, Factores que facilitan la Economía Circular. A su vez, los indicadores interactúan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
+                      Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro componentes: Demanda de activos ambientales y servicios ecosistémicos, Conservación o pérdida de valor de los materiales en el sistema productivo, Presión en los ecosistemas por la disposición de residuos y, Factores que facilitan la Economía Circular. A su vez, los indicadores interactúan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
                     </p>
                     <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
                       <span>

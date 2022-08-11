@@ -44,7 +44,7 @@ export default function InformationTable () {
             <div className='lg:w-6/12'>
               <div className='space-y-7'>
                 <h2 className='text-blue-ocean text-2xl 3xl:text-[32px]'>
-                  <span className='font-bold'>Mesa de información</span> de Economía Circular - MIEC
+                  <span className='font-bold'>Mesa de Estadistícas</span> de Economía Circular - MEEC
                 </h2>
                 <p>
                   En mayo de 2019 se consolidó la mesa de información de Economía Circular en línea con la Estrategia Nacional de Economía Circular – ENEC y busca articular a las entidades del Sistema Estadístico Nacional – SEN para la identificación, fortalecimiento y generación de información relevante y oportuna requerida en la toma de decisiones y la evaluación de la política pública asociada a la Economía Circular.
@@ -59,6 +59,9 @@ export default function InformationTable () {
                 <p>
                   El objetivo de las submesas de información es organizar, producir y fortalecer la información estadística sobre la temática de cada una de las submesas, que es necesaria para la toma de decisiones, la formulación y evaluación de la política pública asociada a la Economía Circular.
                 </p>
+                <a href='#' className='inline-block mt-4 py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                  Informe de avances submesas de información
+                </a>
               </div>
             </div>
           </div>

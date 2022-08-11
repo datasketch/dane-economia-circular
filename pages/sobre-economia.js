@@ -78,10 +78,13 @@ export default function About () {
                       Es un sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas y colaboraciones entre actores, y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible.
                     </p>
                     <p>
-                      Colombia se ha propuesto transitar hacia un modelo de Economía Circular. Es así como, el Plan Nacional de Desarrollo 2018-2022, en su Pacto por la Sostenibilidad, establece que se debe acelerar la transición hacia el modelo de Economía Circular como base para la reducción, la reutilización y el reciclaje de residuos y materiales; así como el uso eficiente de recursos, agua y energía.
+                      Colombia se ha propuesto en el Plan Nacional de Desarrollo 2018-2022, en su Pacto por la Sostenibilidad, acelerar la transición hacia el modelo de Economía Circular como base para la reducción, la reutilización y el reciclaje de residuos y materiales; así como  el uso eficiente de recursos, agua y energía.
                     </p>
                     <p>
                       Para su implementación el Ministerio de Ambiente y Desarrollo Sostenible – MADS en 2018 formuló la Estrategia Nacional de Economía Circular – ENEC, mediante la que establece los instrumentos para la consecución de las metas de corto y mediano plazo del país en la materia.
+                    </p>
+                    <p>
+                      La Economía Circular, comprende varias categorías, las cuales pueden variar conforme se avance en su implementación. Algunos de los temas relacionados con la Economía Circular son:
                     </p>
                   </div>
                 </div>
@@ -90,9 +93,6 @@ export default function About () {
                 <img className='mx-auto' src='/images/grafica-circular.png' alt='grafica circular' />
               </div>
             </div>
-            <p className='mx-auto max-w-[600px]'>
-              La Economía Circular, comprende varias categorías, las cuales pueden variar conforme se avance en su implementación. Algunos de los temas relacionados con la Economía Circular son:
-            </p>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-8 gap-x-12'>
               <div className='space-y-5'>
                 <h4 className='font-bold 2xl:text-lg text-blue-2'>
@@ -279,7 +279,7 @@ export default function About () {
                   de Economía Circular
                 </h2>
                 <p>
-                  Tienen el objetivo de brindar información relacionada a la Economía Circular en Colombia, abordando el robustecimiento de su política pública y la forma de tomar decisiones al respecto. En los reportes se publicaron los indicadores agrupados en cuatro categorías mediante diagramas y visualizaciones. Adicionalmente, en los reportes se encuentran los avances y flujos de la Cuenta Satelite Ambiental, el Sistema de Información de Economía Circular y las Submesas de Información de Economía Circular.
+                  Tienen el objetivo de brindar información relacionada a la Economía Circular en Colombia, abordando el robustecimiento de su política pública y la forma de tomar decisiones al respecto. En los reportes se publicaron los indicadores agrupados en cuatro componentes mediante diagramas y visualizaciones. Adicionalmente, en los reportes se encuentran los avances y flujos de la Cuenta Satelite Ambiental, el Sistema de Información de Economía Circular y las Submesas de Información de Economía Circular.
                 </p>
                 <a href='/reportes-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
                   <span>

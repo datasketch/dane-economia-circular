@@ -24,10 +24,10 @@ export default function Navbar () {
                   </a>
                 </CustomLink>
               </li>
-              <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] lg:w-1/4 leading-tight cursor-pointer ${router.pathname === '/mesa-de-informacion' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
-                <CustomLink href="/mesa-de-informacion">
+              <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] lg:w-1/4 leading-tight cursor-pointer ${router.pathname === '/mesa-de-estadisticas' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
+                <CustomLink href="/mesa-de-estadisticas">
                   <a>
-                    Mesa de Información <br /> de Economía Circular
+                    Mesa de Estadistícas <br /> de Economía Circular
                   </a>
                 </CustomLink>
               </li>
