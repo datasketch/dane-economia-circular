@@ -353,30 +353,24 @@ export default function Home () {
                         <p>
                           A nivel nacional
                         </p>
-                        <table cellPadding={20}>
-                          <thead className='bg-blue-ocean text-white font-bold'>
-                            <th>
-                              Grupo de edad
-                            </th>
-                            <th>
-                              Porcentaje
-                            </th>
-                          </thead>
-                          <tbody>
-                            <tr className='bg-blue-ocean bg-opacity-[0.08]'>
-                              <td>18 a 28 años</td>
-                              <td>35,7</td>
-                            </tr>
-                            <tr>
-                              <td>29 a 59 años</td>
-                              <td>50,2</td>
-                            </tr>
-                            <tr className='bg-blue-ocean bg-opacity-[0.08]'>
-                              <td>60 años y más</td>
-                              <td>50,3</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                        <div className="table">
+                          <div className="table-row bg-blue-ocean text-white font-bold">
+                            <div className="table-cell text-color-secondary p-4">Grupo de edad</div>
+                            <div className="table-cell text-color-primary p-4">Porcentaje</div>
+                          </div>
+                          <div className="table-row bg-blue-ocean bg-opacity-[0.08]">
+                            <div className="table-cell text-color-secondary p-4">18 a 28 años</div>
+                            <div className="table-cell text-color-primary p-4">35,7</div>
+                          </div>
+                          <div className="table-row">
+                            <div className="table-cell text-color-secondary p-4">29 a 59 años</div>
+                            <div className="table-cell text-color-primary p-4">50,2</div>
+                          </div>
+                          <div className="table-row bg-blue-ocean bg-opacity-[0.08]">
+                            <div className="table-cell text-color-secondary p-4">60 años y más</div>
+                            <div className="table-cell text-color-primary p-4">50,3</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div className='space-y-10 2xl:space-y-[54.69px]'>
