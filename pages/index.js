@@ -66,6 +66,9 @@ export default function Home () {
                   <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
                     Disponibilidad de reservas mineras
                   </h3>
+                  <h4 className='font-bold 2xl:text-lg text-blue-dark'>
+                    Total Nacional 2005-2020<sup>p</sup>
+                  </h4>
                   <p>
                     Este indicador relaciona la extracción y las reservas mineras probadas de cada recurso, y permite conocer la disponibilidad del activo en un horizonte de tiempo. La mayor o menor disponibilidad está sujeta a los cambios en el activo que se puedan dar durante el año como descubrimientos, extracciones, pérdidas por catástrofes y las reconsideraciones y cambios en clasificaciones.
                   </p>
@@ -214,7 +217,7 @@ export default function Home () {
                     </h3>
                     <div>
                       <p>
-                        Índices en base 100 = 2005
+                        Total Nacional. Índices en base 100 = 2005
                       </p>
                       <p>
                         2005-2019<sup>p</sup>
@@ -222,7 +225,7 @@ export default function Home () {
                     </div>
                   </div>
                   <p>
-                  Durante 2019<sup>p</sup>, en el punto representado por la felcha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
+                    Durante 2019<sup>p</sup>, en el punto representado por la felcha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
                   </p>
                   <div className='text-grey-dark italic'>
                     <p>

@@ -39,7 +39,7 @@ const indicatorCountriesData = [
   },
   {
     bgImage: '/images/OCDE.jpg',
-    country: 'OCDE',
+    country: 'OECD',
     link: [
       'https://www.oecd.org/environment/waste/recircle.htm',
       'https://www.oecd.org/regional/cities/circular-economy-cities.htm',

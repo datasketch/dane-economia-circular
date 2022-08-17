@@ -1,7 +1,7 @@
 import CustomLink from './CustomLink'
 
 export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButton = false }) => {
-  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, srcImage } = item
+  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, srcImage, mipeaDocumentLink, mipeaExcelLink } = item
   return (
     <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
       <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
@@ -53,19 +53,40 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
                   </a>
                 </div>
               </li>
-              <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
-                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
-                  <img src='/images/webinar-icon.svg' alt='webinar icon' />
-                  <p>
-                    Webinar presentación
-                  </p>
-                </div>
-                <div className='sm:transform sm:-translate-x-2'>
-                  <a href={webinarLink} download target="_blank" rel="noreferrer">
-                    <img src='/images/arrow-reports-right.svg' alt='arriw icon' />
-                  </a>
-                </div>
-              </li>
+              {
+                mipeaDocumentLink && (
+                  <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                    <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                      <img src='/images/pdf-icon.svg' alt='pdf icon' />
+                      <p>
+                        (MIP-EA)
+                      </p>
+                    </div>
+                    <div>
+                      <a href={mipeaDocumentLink} download target="_blank" rel="noreferrer">
+                        <img src='/images/download-icon.svg' alt='download icon' />
+                      </a>
+                    </div>
+                  </li>
+                )
+              }
+              {
+                mipeaExcelLink && (
+                  <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                    <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                      <img src='/images/anexes-icon.svg' alt='anexes icon' />
+                      <p>
+                        (MIP-EA)
+                      </p>
+                    </div>
+                    <div>
+                      <a href={attachmentsLink} download>
+                        <img src='/images/download-icon.svg' alt='download icon' />
+                      </a>
+                    </div>
+                  </li>
+                )
+              }
             </ul>
             {
               showLinkButton && (

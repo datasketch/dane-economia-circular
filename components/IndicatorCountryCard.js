@@ -16,15 +16,15 @@ export const IndicatorCountryCard = ({ item }) => {
                   </a>
                   )
                 : (
-                    <div className="space-y-2">
-                      {link.map((item, idx) => {
-                        return (
-                        <a key={`link-${idx + 1}`} href={link} target='_blank' className='block italic text-blue-ocean underline group-hover:text-white duration-300 truncate' rel="noreferrer">
+                  <div className="space-y-2">
+                    {link.map((item, idx) => {
+                      return (
+                        <a key={`link-${idx + 1}`} href={item} target='_blank' className='block italic text-blue-ocean underline group-hover:text-white duration-300 truncate' rel="noreferrer">
                           {item}
                         </a>
-                        )
-                      })}
-                    </div>
+                      )
+                    })}
+                  </div>
                   )
             }
           </div>

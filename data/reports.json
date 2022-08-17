@@ -30,7 +30,7 @@
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-3-reporte.pdf",
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-3-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-3-reporte.xlsx",
-    "webinarLink": "https://www.youtube.com/watch?v=KR_kENm33hE",
+    "webinarLink": "https://www.youtube.com/watch?v=KR_kENm33hE&t=116s",
     "srcImage": "/images/tercer-reporte.jpg",
     "date": "2021-07-28",
     "description": "El Tercer Reporte de Economía Circular es el resultado de los esfuerzos de articulación estadística que ha emprendido el DANE al interior de sus direcciones técnicas, pero también en el contexto del Sistema Estadístico Nacional - SEN. Esta tercera entrega se alinea con el propósito anunciado en el Primer y Segundo reporte: aportar información oportuna para la toma de decisiones y el fortalecimiento de la política pública en materia de Economía Circular. Sin embargo, se renovaron las categorías conceptuales que se usaron en las dos versiones previas, para reflejar la armonización de los indicadores a las disposiciones internacionales en materia de medición del modelo circular."
@@ -42,30 +42,30 @@
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-4-reporte.pdf",
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-4-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-4-reporte.xlsx",
-    "webinarLink": "https://www.youtube.com/watch?v=5FFFsQ4eGfI",
+    "webinarLink": "https://www.youtube.com/watch?v=kY_9P-x2U4o&t=110s",
     "srcImage": "/images/cuarto-reporte.jpg",
     "date": "2021-12-02",
     "description": "En este Cuarto Reporte, encontramos información sobre los 35 indicadores que se han categorizado en cuatro componentes que facilitan la compresión y el análisis del modelo económico circular y su relación e impacto con el ambiente y los recursos naturales. También se incluye por primera vez información acerca de los indicadores de: Área modificada por tipo de cobertura boscosa, Extracción sostenible, extracción y aprovechamiento de recursos madereros, en bosque natural, Presión por pesca y Talla media de captura ydistribución por tallas.",
     "sankeyDiagramData": [
       {
-        "title": "Flujos de materiales de residuos sólidos y productos residuales:",
-        "description": "El diagrama de Sankey propuesto presenta para 2019<sup>p</sup> los flujos de residuos sólidos y productos residuales en toneladas (t), que son producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de producción, consumo y acumulación, los cuales componen el total de la oferta de residuos sólidos y productos residuales.",
-        "link": "#"
-      },
-      {
-        "title": "Flujos del agua:",
-        "description": "El diagrama de Sankey presenta para 2019<sup>p</sup> el flujo del recurso hídrico en hectómetros cúbicos (hm3), que las actividades económicas extraen de diferentes fuentes, el cual ingresa a la economía a través de la infraestructura para almacenamiento, distribución, tratamiento y descarga de agua, y el agua devuelta al medio ambiente una vez ha sido utilizada.",
-        "link": "#"
-      },
-      {
-        "title": "Flujos de materiales de emisiones al aire:",
-        "description": "El diagrama de Sankey presenta para 2019<sup>p</sup> el flujo en participaciones porcentuales de la utilización de energía por producto energético; la oferta de emisiones de Gases de Efecto Invernadero - GEI por tipo de combustible, por unidad económica, y por tipo de gas; y finalmente, las descargas de emisiones GEI al ambiente.",
-        "link": "#"
+        "title": "Flujo de materiales de residuos sólidos y productos residuales:",
+        "description": "Presenta para 2019<sup>p</sup> el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de producción, consumo y acumulación; la utilización de dichos materiales según componente; y finalmente, la recirculación de materiales.",
+        "link": "https://drive.google.com/file/d/1BbxyXSBsdqR464WaLlaB2ew3XeowEoOJ/view?usp=sharing"
       },
       {
         "title": "Financiamiento y gasto del gobierno en actividades ambientales:",
-        "description": "Presenta para 2020<sup>p</sup> el flujo monetario en millones de pesos del financiamiento según la unidad financiadora (gobierno, sociedades, hogares y resto del mundo), y gasto del gobierno según tipo (corriente y de inversión), actividad y clase ambiental.",
-        "link": "#"
+        "description": "Presenta para 2019 - 2020<sup>p</sup> el flujo monetario en millones de pesos del financiamiento según la unidad financiadora (gobierno, sociedades, hogares y resto del mundo), y gasto del gobierno según tipo (corriente y de inversión), actividad y clase ambiental.",
+        "link": "https://drive.google.com/file/d/1cKGRbq4-ZxubWLaSwYlV5OhwzU0BVHow/view?usp=sharing"
+      },
+      {
+        "title": "Flujo del agua:",
+        "description": "Presenta para 2019<sup>p</sup> el flujo del recurso hídrico en hectómetros cúbicos (hm), que las actividades económicas extraen de diferentes fuentes, el cual ingresa a la economía a través de la infraestructura para almacenamiento, distribución, tratamiento y descarga de agua, y el agua devuelta al medio ambiente una vez ha sido utilizada.",
+        "link": "https://drive.google.com/file/d/1WvGWu4vCFQMf-M5PL4t3F1hfOVQY1SgB/view?usp=sharing"
+      },
+      {
+        "title": "Flujo de materiales de emisiones al aire:",
+        "description": "Presenta para 2019<sup>p</sup> el flujo en participaciones porcentuales de la utilización de energía por producto energético; la oferta de emisiones de Gases Efecto Invernadero (GEI) por tipo de combustible, por unidad económica, y por tipo de gas; y finalmente, las descargas de emisiones GEI al ambiente.",
+        "link": "https://drive.google.com/file/d/1K2PuyW8hzpSQmP3gklvhXgxbcnYiV12E/view?usp=sharing"
       }
     ]
   },
@@ -76,16 +76,20 @@
     "reportLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/economia-circular-5-reporte.pdf",
     "presentationLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/presentacion-economia-circular-5-reporte.pdf",
     "attachmentsLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-economia-circular-5-reporte.xlsx",
-    "webinarLink": "https://www.youtube.com/watch?v=CzkHaKHm4d4",
+    "webinarLink": "https://www.youtube.com/watch?v=kY_9P-x2U4o&t=110s",
     "srcImage": "/images/quinto-reporte.jpg",
     "date": "2022-06-24",
     "description": "En este quinto Reporte se consolidan 16 indicadores conservando su clasificación dentro de los cuatro componentes principales y un diagrama de Sankey de flujos de energía; como anexo, se presenta la Matriz Insumo Producto Extendida Ambientalmente. Esta matriz tiene como propósito, analizar problemáticas ambientales mediante comprensión de las externalidades generadas por las emisiones al aire en las cadenas de valor de las diferentes actividades económicas, para apoyar toma de decisiones entorno a la Economía Circular.",
+    "sankeyDiagramDescription": "<p>Un diagrama de Sankey es la representación gráfica de información sobre cualquier proceso de transferencia entre dos o más unidades que intercambian materiales, energía, dinero, entre otros. La lógica del diagrama es conectar los flujos por medio de flechas que conectan procesos en nodos o etapas, desde un emisor hacia un receptor.</p> <p>El Quinto Reporte, presenta la actualización del diagrama de Sankey de flujos de productos energéticos, representando en flujos físicos para el periodo de referencia 2020<sup>p</sup>.</p>",
     "sankeyDiagramData": [
       {
-        "title": "Flujo de productos energético:",
-        "description": "El diagrama de Sankey presenta para 2020<sup>p</sup> el flujo de productos energéticos en unidades físicas de terajulios (tj), desde la oferta de productos energéticos, hasta el consumo de cada uno de ellos por las diferentes actividades económicas.",
-        "link": "#"
+        "title": "Flujo de productos energéticos:",
+        "description": "Presenta para 2020<sup>p</sup> el flujo de productos energéticos en unidades físicas de terajulios (TJ), desde la oferta de productos energéticos, hasta el consumo de cada uno de ellos por las diferentes actividades económicas.",
+        "link": "https://www.youtube.com/watch?v=kY_9P-x2U4o&t=110s"
       }
-    ]
+    ],
+    "sankeyDiagramChart": "/charts/flujo-productos.html",
+    "mipeaDocumentLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-matriz-insumo-ext-ambiental.pdf",
+    "mipeaExcelLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-matriz-insumo-ext-ambiental.xlsx"
   }
 ]

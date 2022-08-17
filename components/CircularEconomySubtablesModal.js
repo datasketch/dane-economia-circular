@@ -1,5 +1,5 @@
 export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) => {
-  const { title = '', list = [], results = [], srcImage } = item
+  const { title = '', list = [], results = [], srcImage, presentationLink } = item
   const closeModal = () => {
     setSelected(false)
   }
@@ -73,6 +73,15 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                     </ul>
                   </div>
                 </div>
+                {
+                  presentationLink && (
+                    <div className="flex justify-center mt-4">
+                      <a href={presentationLink} target="_blank" className='inline-block mt-4 py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' rel="noreferrer">
+                        Consulte aquí la presentación
+                      </a>
+                    </div>
+                  )
+                }
               </div>
             </div>
             <button onClick={closeModal} className='absolute top-4 right-4'>

@@ -21,12 +21,12 @@ export default function InformationQuerySystem () {
           <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[111px]'>
             <div className='lg:w-1/2'>
               <div className='space-y-8 xl:space-y-[65px]'>
-                <h2 className='text-blue-ocean text-2xl 3xl:text-[32px] max-w-[556px]'>
-                  <span className='font-bold'>Sistema de Consulta de Información</span> de Economía Circular - SIEC
+                <h2 className='text-blue-ocean text-2xl 3xl:text-[32px] font-bold max-w-[556px]'>
+                  Sistema de Consulta de Información de Economía Circular - SIEC
                 </h2>
                 <div className='space-y-[31px]'>
                   <p>
-                    El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, las políticas, normas, procesos técnicos y la infraestructura involucrada en la gestión de la información relacionada con la Economía Circular), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; con la finalidad de facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
+                    El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, las políticas, normas, procesos técnicos y la infraestructura involucrada en la gestión de la información relacionada con la Economía Circular), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; cuya finalidad de facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
                   </p>
                   <p>
                     El objetivo del SIEC es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Economía Circular
@@ -55,7 +55,7 @@ export default function InformationQuerySystem () {
                   <li className='flex space-x-[12.63px]'>
                     <img src='/images/arrow-right-blue.svg' alt='arrow right' />
                     <p>
-                      Disponer y facilitar de manera periódica el acceso de la información sobre Economía Circular para consulta pública y toma de decisiones.
+                      Disponer y facilitar de manera periódica el acceso a la información sobre Economía Circular para consulta pública y toma de decisiones.
                     </p>
                   </li>
                   <li className='flex space-x-[12.63px]'>
@@ -99,7 +99,7 @@ export default function InformationQuerySystem () {
                       Demanda de activos ambientales y servicios ecosistémicos
                     </h3>
                     <p>
-                      Contiene el flujo de materiales y servicios originados en el ambiente y que son extraídos o utilizados para el desarrollo de las actividades económicas.
+                      Contiene el flujo de materiales y servicios originados en el ambiente y que son extraídos o utilizados para el desarrollo de las actividades económicas o por los hogares.
                     </p>
                   </div>
                 </div>
@@ -174,7 +174,7 @@ export default function InformationQuerySystem () {
                 <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[61px]'>
                   <div className='lg:w-1/2'>
                     <p>
-                      El Ecosistema de datos está conformado por subsistemas de actores: productores y usuarios, que interactúan en torno a los datos y la información sobre Economía Circular, en un contexto institucional y de política pública
+                      El ecosistema de datos está conformado por subsistemas de actores: productores y usuarios, que interactúan en torno a los datos y la información sobre Economía Circular, en un contexto institucional y de política pública.
                     </p>
                   </div>
                   <div className='lg:w-1/2'>
@@ -327,24 +327,24 @@ export default function InformationQuerySystem () {
                     <img className='w-[11.86px] h-[11.18px]' src='/images/arrow-down.svg' alt='arrow down' />
                   </summary>
                   <div className='mt-6 text-lg text-left'>
-                    <p>La herramienta de visualización de datos desarrollada por Datasketch permitirá a los usuarios de la plataforma explorar cada uno de los indicadores, así como sus formas de visualización según los filtros y variables seleccionadas.  La estructura de la herramienta de visualización consiste en dos paneles, uno relacionado con la selección de indicadores y variables, y otro de visualización de datos. Cada una de las gráficas se podrá descargar en distintos formatos y se podrá seleccionar cada uno de los compromisos de acuerdo al tipo de indicador seleccionado.</p>
+                    <p>El Sistema de Consulta de Información le permite explorar los indicadores de Economía Circular a través de filtros y variables seleccionadas. La herramienta contiene dos paneles: a la izquierda encuentra los filtros y a la derecha la visualización. En la esquina superior derecha de cada gráfica, podrá descargar en distintos formatos la información seleccionada.</p>
                     <ul className='mt-6'>
                       <li>
-                        <p>1. Podrás seleccionar uno de los indicadores de Economía Circular  dispuestos, así como los filtros que los configuran, ya sea los datos de  interés o variables como el año, los grupos de división industrial, el  sector, el tipo de actividad, el tipo de emisión, entre otros.</p>
+                        <p><b>1. Seleccione uno de los cuatro componentes:</b> demanda de activos ambientales y servicios ecosistémicos; Conservación o pérdida de valor de los materiales en el sistema productivo; Presión en los ecosistemas por la disposición de residuos o, Factores que facilitan la Economía Circular. Al hacer clic, podrá observar <b>los indicadores que están disponibles en cada componente.</b></p>
                         <img className='mt-5' src="/images/gif-1.gif" alt="" />
                       </li>
                       <li className='mt-12'>
-                        <p>2. Es posible descargar las visualizaciones en formato JPEG, PDF, PNG y  HTML</p>
+                        <p>2. Al seleccionar el indicador, <b>podrá escoger los filtros disponibles como año, división industrial, sector, tipo de actividad, entre otros.</b> Para ver la información en detalle, podrá seleccionar en algunos indicadores uno o más años o variables de información.</p>
                         <img className='mt-5' src="/images/gif-2.gif" alt="" />
                       </li>
                       <li className='mt-12'>
-                        <p>3. Es posible descargar los datos en formato CSV, XLSX y JSON</p>
+                        <p>3. En el botón de <b>Descarga</b> que aparece en la esquina superior derecha de cada gráfica, el sistema le permitirá guardar la información en formato JPEG, PDF, PNG y HTML.</p>
                         <img className='mt-5' src="/images/gif-3.gif" alt="" />
                       </li>
-                      <li className='mt-12'>
+                      {/* <li className='mt-12'>
                         <p>4. Las visualizaciones están disponibles a través de gráficas o tablas de datos.</p>
                         <img className='mt-5' src="/images/gif-4.gif" alt="" />
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </details>
