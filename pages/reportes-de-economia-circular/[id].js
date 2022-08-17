@@ -55,7 +55,7 @@ export default function CircularEconomyReport ({ report }) {
               </div>
             </div>
             <div className=''>
-              <Report item={report[0]} />
+              <Report item={report[0]} showBorder={false} />
             </div>
             <div className='max-w-[593px]'>
               <div className='space-y-[30px]'>

@@ -319,35 +319,12 @@ export default function InformationQuerySystem () {
                 <p className='xl:text-lg'>
                   Esta es una herramienta que te permite consultar información estadística, generar visualizaciones y descargarlas.
                 </p>
-                <details>
-                  <summary className='inline-flex items-center space-x-[10.44px] bg-pink text-white font-bold text-sm pt-[13px] pb-[10px] px-[40.85px] rounded-tr-[20px] rounded-bl-[20px] overflow-hidden cursor-pointer hover:bg-pink-2 group duration-300'>
-                    <p>
-                      Cómo utilizar esta herramienta
-                    </p>
-                    <img className='w-[11.86px] h-[11.18px] group-hover:scale-150 duration-300' src='/images/arrow-down.svg' alt='arrow down' />
-                  </summary>
-                  <div className='mt-6 text-lg text-left'>
-                    <p>El Sistema de Consulta de Información le permite explorar los indicadores de Economía Circular a través de filtros y variables seleccionadas. La herramienta contiene dos paneles: a la izquierda encuentra los filtros y a la derecha la visualización. En la esquina superior derecha de cada gráfica, podrá descargar en distintos formatos la información seleccionada.</p>
-                    <ul className='mt-6'>
-                      <li>
-                        <p><b>1. Seleccione uno de los cuatro componentes:</b> demanda de activos ambientales y servicios ecosistémicos; Conservación o pérdida de valor de los materiales en el sistema productivo; Presión en los ecosistemas por la disposición de residuos o, Factores que facilitan la Economía Circular. Al hacer clic, podrá observar <b>los indicadores que están disponibles en cada componente.</b></p>
-                        <img className='mt-5' src="/images/gif-1.gif" alt="" />
-                      </li>
-                      <li className='mt-12'>
-                        <p>2. Al seleccionar el indicador, <b>podrá escoger los filtros disponibles como año, división industrial, sector, tipo de actividad, entre otros.</b> Para ver la información en detalle, podrá seleccionar en algunos indicadores uno o más años o variables de información.</p>
-                        <img className='mt-5' src="/images/gif-2.gif" alt="" />
-                      </li>
-                      <li className='mt-12'>
-                        <p>3. En el botón de <b>Descarga</b> que aparece en la esquina superior derecha de cada gráfica, el sistema le permitirá guardar la información en formato JPEG, PDF, PNG y HTML.</p>
-                        <img className='mt-5' src="/images/gif-3.gif" alt="" />
-                      </li>
-                      {/* <li className='mt-12'>
-                        <p>4. Las visualizaciones están disponibles a través de gráficas o tablas de datos.</p>
-                        <img className='mt-5' src="/images/gif-4.gif" alt="" />
-                      </li> */}
-                    </ul>
-                  </div>
-                </details>
+                <a href='/archives/Manual_Herramienta_SIEC.pdf' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                  <span>
+                    Cómo utilizar esta herramienta
+                  </span>
+                  <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                </a>
               </div>
             </div>
             <div>
@@ -355,8 +332,8 @@ export default function InformationQuerySystem () {
             </div>
             <LogoDatasketch />
           </div>
-        </div>
-      </div>
+        </div >
+      </div >
     </>
   )
 }
