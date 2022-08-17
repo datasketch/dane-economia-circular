@@ -1,7 +1,7 @@
 import CustomLink from './CustomLink'
 
 export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButton = false }) => {
-  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, webinarLink, date, srcImage, mipeaDocumentLink, mipeaExcelLink } = item
+  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, date, srcImage, mipeaDocumentLink, mipeaExcelLink } = item
   return (
     <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
       <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
