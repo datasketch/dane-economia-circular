@@ -36,11 +36,11 @@ export default function InformationQuerySystem () {
             </div>
             <div className='lg:w-1/2'>
               <div className='space-y-8 xl:space-y-[78px]'>
-                <a onClick={scrollNavigation} href='#siec' className='bg-pink text-white gap-y-4 pt-[39px] pb-[35px] pl-[75px] pr-[75.47px] inline-flex flex-col lg:flex-row space-x-[31.58px] items-center rounded-tr-[20px] rounded-bl-[20px] overflow-hidden'>
+                <a onClick={scrollNavigation} href='#siec' className='bg-pink text-white gap-y-4 pt-[39px] pb-[35px] pl-[75px] pr-[75.47px] inline-flex flex-col lg:flex-row space-x-[31.58px] items-center rounded-tr-[20px] rounded-bl-[20px] overflow-hidden hover:bg-pink-2 duration-300 group'>
                   <p className='font-bold xl:text-lg'>
                     Explora los datos del SIEC
                   </p>
-                  <img src='/images/arrow-down.svg' alt='arrow down icon' />
+                  <img className='group-hover:scale-150 duration-300' src='/images/arrow-down.svg' alt='arrow down icon' />
                 </a>
                 <ul className='space-y-4'>
                   <h3 className='text-blue-dark font-bold text-xl 3xl:text-2xl'>
@@ -320,11 +320,11 @@ export default function InformationQuerySystem () {
                   Esta es una herramienta que te permite consultar información estadística, generar visualizaciones y descargarlas.
                 </p>
                 <details>
-                  <summary className='inline-flex items-center space-x-[10.44px] bg-pink text-white font-bold text-sm pt-[13px] pb-[10px] px-[40.85px] rounded-tr-[20px] rounded-bl-[20px] overflow-hidden cursor-pointer'>
+                  <summary className='inline-flex items-center space-x-[10.44px] bg-pink text-white font-bold text-sm pt-[13px] pb-[10px] px-[40.85px] rounded-tr-[20px] rounded-bl-[20px] overflow-hidden cursor-pointer hover:bg-pink-2 group duration-300'>
                     <p>
                       Cómo utilizar esta herramienta
                     </p>
-                    <img className='w-[11.86px] h-[11.18px]' src='/images/arrow-down.svg' alt='arrow down' />
+                    <img className='w-[11.86px] h-[11.18px] group-hover:scale-150 duration-300' src='/images/arrow-down.svg' alt='arrow down' />
                   </summary>
                   <div className='mt-6 text-lg text-left'>
                     <p>El Sistema de Consulta de Información le permite explorar los indicadores de Economía Circular a través de filtros y variables seleccionadas. La herramienta contiene dos paneles: a la izquierda encuentra los filtros y a la derecha la visualización. En la esquina superior derecha de cada gráfica, podrá descargar en distintos formatos la información seleccionada.</p>

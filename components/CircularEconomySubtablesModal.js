@@ -76,8 +76,11 @@ export const CircularEconomySubtablesModal = ({ item, selected, setSelected }) =
                 {
                   presentationLink && (
                     <div className="flex justify-center mt-4">
-                      <a href={presentationLink} target="_blank" className='inline-block mt-4 py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' rel="noreferrer">
-                        Consulte aquí la presentación
+                      <a href={presentationLink} download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                        <span>
+                          Consulte aquí la presentación
+                        </span>
+                        <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                       </a>
                     </div>
                   )

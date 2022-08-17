@@ -33,12 +33,12 @@ export default function Home () {
                     Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
                   </p>
                   <CustomLink href="/sistema-de-consulta-de-informacion">
-                    <button className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
+                    <a className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
                       <span>
                         Consultar
                       </span>
-                      <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                    </button>
+                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                    </a>
                   </CustomLink>
                 </div>
               </div>
@@ -66,9 +66,14 @@ export default function Home () {
                   <h3 className='font-bold text-xl 2xl:text-2xl text-blue-dark'>
                     Disponibilidad de reservas mineras
                   </h3>
-                  <h4 className='font-bold 2xl:text-lg text-blue-dark'>
-                    Total Nacional 2005-2020<sup>p</sup>
-                  </h4>
+                  <div>
+                    <h4 className='font-bold 2xl:text-lg text-blue-dark'>
+                      Total Nacional
+                    </h4>
+                    <p>
+                      2005-2020<sup>p</sup>
+                    </p>
+                  </div>
                   <p>
                     Este indicador relaciona la extracción y las reservas mineras probadas de cada recurso, y permite conocer la disponibilidad del activo en un horizonte de tiempo. La mayor o menor disponibilidad está sujeta a los cambios en el activo que se puedan dar durante el año como descubrimientos, extracciones, pérdidas por catástrofes y las reconsideraciones y cambios en clasificaciones.
                   </p>
@@ -121,12 +126,14 @@ export default function Home () {
                       <span className='font-bold'>P:</span> Provisional
                     </p>
                   </div>
-                  <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
-                    <span>
-                      Explorar datos
-                    </span>
-                    <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                  </a>
+                  <CustomLink href="/sistema-de-consulta-de-informacion#app">
+                    <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                      <span>
+                        Explorar datos
+                      </span>
+                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                    </a>
+                  </CustomLink>
                 </div>
               </div>
             </div>
@@ -191,12 +198,14 @@ export default function Home () {
                   <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Residuos sólidos (CAEFM-RS)
                 </p>
               </div>
-              <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
-                <span>
-                  Explorar datos
-                </span>
-                <img src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
-              </a>
+              <CustomLink href="/sistema-de-consulta-de-informacion#app">
+                <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink hover:text-white duration-300 group'>
+                  <span>
+                    Explorar datos
+                  </span>
+                  <img className='group-hover:scale-150 group-hover:brightness-0 group-hover:invert-[1] duration-300' src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
+                </a>
+              </CustomLink>
             </div>
           </div>
           <div className='absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
@@ -238,12 +247,14 @@ export default function Home () {
                       <span className='font-bold'>P:</span> Provisional
                     </p>
                   </div>
-                  <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
-                    <span>
-                      Explorar datos
-                    </span>
-                    <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                  </a>
+                  <CustomLink href="/sistema-de-consulta-de-informacion#app">
+                    <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                      <span>
+                        Explorar datos
+                      </span>
+                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                    </a>
+                  </CustomLink>
                 </div>
               </div>
             </div>
@@ -306,12 +317,14 @@ export default function Home () {
                   <span className='font-bold'>Período:</span> IV trimestre del 2021
                 </p>
               </div>
-              <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
-                <span>
-                  Explorar datos
-                </span>
-                <img src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
-              </a>
+              <CustomLink href="/sistema-de-consulta-de-informacion#app">
+                <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink hover:text-white duration-300 group'>
+                  <span>
+                    Explorar datos
+                  </span>
+                  <img className='group-hover:scale-150 group-hover:brightness-0 group-hover:invert-[1] duration-300' src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
+                </a>
+              </CustomLink>
             </div>
           </div>
         </div>
@@ -322,7 +335,10 @@ export default function Home () {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px] gap-y-8'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
-                <iframe className='aspect-square' src="/charts/mapa_dpto.html" width="100%"></iframe>
+                {/* <iframe className='aspect-square' src="/charts/mapa_dpto.html" width="100%"></iframe> */}
+                <div>
+                  <img src='/images/mapa-home-2.png' alt='map home' />
+                </div>
                 <div className='text-grey-dark italic text-center'>
                   <p>
                     <span className='font-bold'>Fuente:</span> Encuesta Nacional de Calidad de Vida
@@ -379,12 +395,14 @@ export default function Home () {
                           <span className='font-bold'>Fuente:</span> Encuesta de Calidad de Vida - ECV 2020
                         </p>
                       </div>
-                      <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
-                        <span>
-                          Explorar datos
-                        </span>
-                        <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                      </a>
+                      <CustomLink href="/sistema-de-consulta-de-informacion#app">
+                        <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                          <span>
+                            Explorar datos
+                          </span>
+                          <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                        </a>
+                      </CustomLink>
                     </div>
                   </div>
                 </div>
@@ -408,12 +426,14 @@ export default function Home () {
                     <p>
                       Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro componentes: Demanda de activos ambientales y servicios ecosistémicos, Conservación o pérdida de valor de los materiales en el sistema productivo, Presión en los ecosistemas por la disposición de residuos y, Factores que facilitan la Economía Circular. A su vez, los indicadores interactúan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
                     </p>
-                    <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]' href="/sistema-de-consulta-de-informacion#app">
-                      <span>
-                        Explorar datos
-                      </span>
-                      <img src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                    </a>
+                    <CustomLink href="/sistema-de-consulta-de-informacion#app">
+                      <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                        <span>
+                          Explorar datos
+                        </span>
+                        <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                      </a>
+                    </CustomLink>
                   </div>
                 </div>
               </div>

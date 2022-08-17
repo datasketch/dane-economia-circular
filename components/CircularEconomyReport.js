@@ -1,12 +1,24 @@
 import CustomLink from './CustomLink'
 
 export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButton = false }) => {
-  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, date, srcImage, mipeaDocumentLink, mipeaExcelLink } = item
+  const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, date, srcImage, mipeaDocumentLink, mipeaExcelLink, webinarLink } = item
   return (
-    <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-[45.57px] pb-[29.83px] pl-[47px] pr-[49.41px]'>
+    <div className='border-[3px] border-blue-ocean rounded-tr-[100px] relative pt-9 pb-6 px-12 hover:border-pink duration-300'>
       <div className='flex flex-col items-center xl:flex-row xl:justify-between gap-y-6 xl:gap-x-8'>
         <div className='max-w-[184px] w-full'>
-          <img src={srcImage} alt={title + ' image'} />
+          <img className='mb-5' src={srcImage} alt={title + ' image'} />
+          {
+            showLinkButton && (
+              <CustomLink href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
+                <a className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                  <span>
+                    Ver más
+                  </span>
+                  <img className='group-hover:scale-150 duration-300' src='/images//link-arrow-icon.svg' alt='link arrow icon' />
+                </a>
+              </CustomLink>
+            )
+          }
         </div>
         <div className='max-w-[385px] w-full'>
           <div>
@@ -40,26 +52,30 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
                   </a>
                 </div>
               </li>
-              <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
-                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
-                  <img src='/images/anexes-icon.svg' alt='anexes icon' />
-                  <p>
-                    Anexos
-                  </p>
-                </div>
-                <div>
-                  <a href={attachmentsLink} download>
-                    <img src='/images/download-icon.svg' alt='download icon' />
-                  </a>
-                </div>
-              </li>
+              {
+                !mipeaExcelLink && (
+                  <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                    <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                      <img src='/images/anexes-icon.svg' alt='anexes icon' />
+                      <p>
+                        Anexos
+                      </p>
+                    </div>
+                    <div>
+                      <a href={attachmentsLink} download>
+                        <img src='/images/download-icon.svg' alt='download icon' />
+                      </a>
+                    </div>
+                  </li>
+                )
+              }
               {
                 mipeaDocumentLink && (
-                  <li className='bg-blue-ocean bg-opacity-[0.08] py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                  <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
                     <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
                       <img src='/images/pdf-icon.svg' alt='pdf icon' />
-                      <p>
-                        (MIP-EA)
+                      <p className='text-sm'>
+                        Anexo. Matriz insumo producto <br /> extendida ambientalmente (documento)
                       </p>
                     </div>
                     <div>
@@ -72,11 +88,11 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
               }
               {
                 mipeaExcelLink && (
-                  <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                  <li className='bg-blue-ocean bg-opacity-[0.08]  py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
                     <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
                       <img src='/images/anexes-icon.svg' alt='anexes icon' />
-                      <p>
-                        (MIP-EA)
+                      <p className='text-sm'>
+                        Anexo. Matriz insumo producto <br /> extendida ambientalmente (Excel)
                       </p>
                     </div>
                     <div>
@@ -87,16 +103,20 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
                   </li>
                 )
               }
-            </ul>
-            {
-              showLinkButton && (
-                <CustomLink href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
-                  <a className='inline-block mt-4 py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                    Leer más
+              <li className='py-[7.82px] pl-[13.08px] pr-[27.5px] flex justify-between items-center flex-col sm:flex-row gap-y-2'>
+                <div className='flex justify-between items-center space-x-[11.83px] flex-col sm:flex-row gap-y-2'>
+                  <img src='/images/webinar-icon.svg' alt='webinar icon' />
+                  <p>
+                    Webinar presentación
+                  </p>
+                </div>
+                <div className='transform md:-translate-x-2'>
+                  <a href={webinarLink} target="_blank" rel="noreferrer">
+                    <img src='/images/arrow-reports-right.svg' alt='arrow right' />
                   </a>
-                </CustomLink>
-              )
-            }
+                </div>
+              </li>
+            </ul>
             <p className='text-right text-grey-dark italic mt-[18.17px]'>
               Publicado el {new Intl.DateTimeFormat('es-CO', { dateStyle: 'long' }).format(new Date(date))}
             </p>

@@ -5,6 +5,7 @@ import { LogoDatasketch } from '../components/LogoDatasketch'
 import TimeLine from '../components/TimeLine'
 import reportsData from '../data/reports.json'
 import timeLineData from '../data/timeLine.json'
+import CustomLink from '../components/CustomLink'
 
 const indicatorCountriesData = [
   {
@@ -281,12 +282,14 @@ export default function About () {
                 <p>
                   Tienen el objetivo de brindar información relacionada a la Economía Circular en Colombia, abordando el robustecimiento de su política pública y la forma de tomar decisiones al respecto. En los reportes se publicaron los indicadores agrupados en cuatro componentes mediante diagramas y visualizaciones. Adicionalmente, en los reportes se encuentran los avances y flujos de la Cuenta Satelite Ambiental, el Sistema de Información de Economía Circular y las Submesas de Información de Economía Circular.
                 </p>
-                <a href='/reportes-de-economia-circular' className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px]'>
-                  <span>
-                    Consultar
-                  </span>
-                  <img src='/images//link-arrow-icon.svg' alt='link arrow icon' />
-                </a>
+                <CustomLink href="/reportes-de-economia-circular">
+                  <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                    <span>
+                      Consultar
+                    </span>
+                    <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
+                </CustomLink>
               </div>
             </div>
             <div className='lg:w-6/12'>

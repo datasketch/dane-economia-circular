@@ -50,22 +50,22 @@
       {
         "title": "Flujo de materiales de residuos sólidos y productos residuales:",
         "description": "Presenta para 2019<sup>p</sup> el flujo de toneladas de residuos sólidos producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de producción, consumo y acumulación; la utilización de dichos materiales según componente; y finalmente, la recirculación de materiales.",
-        "link": "https://drive.google.com/file/d/1BbxyXSBsdqR464WaLlaB2ew3XeowEoOJ/view?usp=sharing"
+        "link": "/charts/flujo-residuos.html"
       },
       {
         "title": "Financiamiento y gasto del gobierno en actividades ambientales:",
         "description": "Presenta para 2019 - 2020<sup>p</sup> el flujo monetario en millones de pesos del financiamiento según la unidad financiadora (gobierno, sociedades, hogares y resto del mundo), y gasto del gobierno según tipo (corriente y de inversión), actividad y clase ambiental.",
-        "link": "https://drive.google.com/file/d/1cKGRbq4-ZxubWLaSwYlV5OhwzU0BVHow/view?usp=sharing"
+        "link": "/charts/gasto.html"
       },
       {
         "title": "Flujo del agua:",
         "description": "Presenta para 2019<sup>p</sup> el flujo del recurso hídrico en hectómetros cúbicos (hm), que las actividades económicas extraen de diferentes fuentes, el cual ingresa a la economía a través de la infraestructura para almacenamiento, distribución, tratamiento y descarga de agua, y el agua devuelta al medio ambiente una vez ha sido utilizada.",
-        "link": "https://drive.google.com/file/d/1WvGWu4vCFQMf-M5PL4t3F1hfOVQY1SgB/view?usp=sharing"
+        "link": "/charts/flujo-agua.html"
       },
       {
         "title": "Flujo de materiales de emisiones al aire:",
         "description": "Presenta para 2019<sup>p</sup> el flujo en participaciones porcentuales de la utilización de energía por producto energético; la oferta de emisiones de Gases Efecto Invernadero (GEI) por tipo de combustible, por unidad económica, y por tipo de gas; y finalmente, las descargas de emisiones GEI al ambiente.",
-        "link": "https://drive.google.com/file/d/1K2PuyW8hzpSQmP3gklvhXgxbcnYiV12E/view?usp=sharing"
+        "link": "/charts/flujo-emisiones.html"
       }
     ]
   },
@@ -85,10 +85,9 @@
       {
         "title": "Flujo de productos energéticos:",
         "description": "Presenta para 2020<sup>p</sup> el flujo de productos energéticos en unidades físicas de terajulios (TJ), desde la oferta de productos energéticos, hasta el consumo de cada uno de ellos por las diferentes actividades económicas.",
-        "link": "https://www.youtube.com/watch?v=kY_9P-x2U4o&t=110s"
+        "link": "/charts/flujo-productos.html"
       }
     ],
-    "sankeyDiagramChart": "/charts/flujo-productos.html",
     "mipeaDocumentLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-matriz-insumo-ext-ambiental.pdf",
     "mipeaExcelLink": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/anexo-matriz-insumo-ext-ambiental.xlsx"
   }
