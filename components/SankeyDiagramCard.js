@@ -20,7 +20,7 @@ export const SankeyDiagramCard = ({ item }) => {
         </ReactMarkdown>
       </div>
       <div className='absolute -bottom-[3px] -right-[3px]'>
-        <a href={link} target='_blank' download className='inline-flex items-center space-x-[12.83px] text-white font-bold xl:text-lg bg-pink py-[9px] px-[42.49px] rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 group duration-300' rel="noreferrer">
+        <a href={link} target='_blank' className='inline-flex items-center space-x-[12.83px] text-white font-bold xl:text-lg bg-pink py-[9px] px-[42.49px] rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 group duration-300' rel="noreferrer">
           <p>
             Ver más
           </p>

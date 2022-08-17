@@ -67,7 +67,7 @@ export default function Home () {
                     Disponibilidad de reservas mineras
                   </h3>
                   <div>
-                    <h4 className='font-bold 2xl:text-lg text-blue-dark'>
+                    <h4 className='2xl:text-lg'>
                       Total Nacional
                     </h4>
                     <p>
