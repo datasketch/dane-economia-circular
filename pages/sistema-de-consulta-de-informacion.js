@@ -318,12 +318,20 @@ export default function InformationQuerySystem () {
                 <p className='xl:text-lg'>
                   Esta es una herramienta que te permite consultar información estadística, generar visualizaciones y descargarlas.
                 </p>
-                <a href='/archives/Manual_Herramienta_SIEC.pdf' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                  <span>
-                    Uso de la herramienta
-                  </span>
-                  <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                </a>
+                <div className='flex flex-col gap-y-4 lg:flex-row items-center justify-between'>
+                  <a href='/archives/Manual_Herramienta_SIEC.pdf' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                    <span>
+                      Uso de la herramienta
+                    </span>
+                    <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
+                  <a href='/archives/Ficha_metodologica.zip' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                    <span>
+                      Fichas metologicas
+                    </span>
+                    <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
+                </div>
               </div>
             </div>
             <div>
