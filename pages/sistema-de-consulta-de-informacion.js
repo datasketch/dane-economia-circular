@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { LogoDatasketch } from '../components/LogoDatasketch'
 
 export default function InformationQuerySystem () {
   const scrollNavigation = (e) => {
@@ -26,7 +25,7 @@ export default function InformationQuerySystem () {
                 </h2>
                 <div className='space-y-[31px]'>
                   <p>
-                    El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, las políticas, normas, procesos técnicos y la infraestructura involucrada en la gestión de la información relacionada con la Economía Circular), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; cuya finalidad de facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
+                    El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, políticas, normas, procesos técnicos e infraestructura involucrada en la gestión de la información relacionada con la Economía Circular ), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; cuya finalidad es facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
                   </p>
                   <p>
                     El objetivo del SIEC es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Economía Circular
@@ -82,7 +81,7 @@ export default function InformationQuerySystem () {
           <div className='space-y-[30px]'>
             <div className='text-center max-w-[600px] mx-auto'>
               <h2 className='font-bold text-xl 2xl:text-[24px]'>
-                La información e indicadores publicados a través del Sistema de Consulta de información – SIEC, se clasifican en los siguientes componentes:
+                La información e indicadores publicados a través del Sistema de Información de Economía Circular - SIEC, se clasifican en los siguientes componentes:
               </h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-12'>
@@ -99,7 +98,7 @@ export default function InformationQuerySystem () {
                       Demanda de activos ambientales y servicios ecosistémicos
                     </h3>
                     <p>
-                      Contiene el flujo de materiales y servicios originados en el ambiente y que son extraídos o utilizados para el desarrollo de las actividades económicas o por los hogares.
+                      Contiene el flujo de materiales y servicios originados en el ambiente que son extraídos o utilizados para el desarrollo de actividades económicas o por los hogares
                     </p>
                   </div>
                 </div>
@@ -174,7 +173,7 @@ export default function InformationQuerySystem () {
                 <div className='flex flex-col lg:flex-row lg:justify-between gap-y-8 gap-x-[61px]'>
                   <div className='lg:w-1/2'>
                     <p>
-                      El ecosistema de datos está conformado por subsistemas de actores: productores y usuarios, que interactúan en torno a los datos y la información sobre Economía Circular, en un contexto institucional y de política pública.
+                      Está conformado por subsistemas de actores, productores y usuarios que interactúan en torno a los datos y a la información sobre Economía Circular, en un contexto institucional y de política pública.
                     </p>
                   </div>
                   <div className='lg:w-1/2'>
@@ -276,7 +275,7 @@ export default function InformationQuerySystem () {
                         La entidad solicitante expone la información al DANE.
                       </p>
                       <p>
-                        El DANE verifica que la información estadística, sea estadística oficial.
+                        El DANE verifica que la información sea estadística oficial.
                       </p>
                     </div>
                   </div>
@@ -321,7 +320,7 @@ export default function InformationQuerySystem () {
                 </p>
                 <a href='/archives/Manual_Herramienta_SIEC.pdf' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
                   <span>
-                    Cómo utilizar esta herramienta
+                    Uso de la herramienta
                   </span>
                   <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                 </a>
@@ -330,7 +329,6 @@ export default function InformationQuerySystem () {
             <div>
               <iframe className='w-full mx-auto h-screen' src='https://datasketch.shinyapps.io/daneApp/' />
             </div>
-            <LogoDatasketch />
           </div>
         </div >
       </div >

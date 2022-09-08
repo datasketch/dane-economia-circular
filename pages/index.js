@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import CustomLink from '../components/CustomLink'
-import { LogoDatasketch } from '../components/LogoDatasketch'
 
 export default function Home () {
   return (
@@ -68,17 +67,17 @@ export default function Home () {
                   </h3>
                   <div>
                     <h4 className='2xl:text-lg'>
-                      Total Nacional
+                      Total nacional
                     </h4>
                     <p>
                       2005-2020<sup>p</sup>
                     </p>
                   </div>
                   <p>
-                    Este indicador relaciona la extracción y las reservas mineras probadas de cada recurso, y permite conocer la disponibilidad del activo en un horizonte de tiempo. La mayor o menor disponibilidad está sujeta a los cambios en el activo que se puedan dar durante el año como descubrimientos, extracciones, pérdidas por catástrofes y las reconsideraciones y cambios en clasificaciones.
+                    Este indicador relaciona la extracción y las reservas mineras probadas de cada recurso, lo cual permite conocer la disponibilidad del activo en un horizonte de tiempo.
                   </p>
                   <p>
-                    Disponibilidad de reservas mineras del 2020<sup>p</sup>:
+                    Disponibilidad de reservas mineras para 2020<sup>p</sup>:
                   </p>
                   <div className='flex justify-between max-w-[473px]'>
                     <div className='max-w-[100px] w-full'>
@@ -163,11 +162,11 @@ export default function Home () {
               <div className='max-w-[211px] mx-auto lg:ml-auto lg:mr-0'>
                 <div className='lg:text-right space-y-3 2xl:space-y-[22.5px]'>
                   <h4 className='text-xl 2xl:text-2xl font-bold'>
-                    Tasa de reciclaje y nueva utilización en el 2019<sup>p</sup>
+                    Tasa de reciclaje y nueva utilización en 2019<sup>p</sup>
                   </h4>
                   <div className='bg-white h-0.5'>&nbsp;</div>
                   <p className='text-[32px] 2xl:text-[40px]'>
-                    11,8%
+                    11.8%
                   </p>
                 </div>
               </div>
@@ -196,6 +195,9 @@ export default function Home () {
                 </p>
                 <p>
                   <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Residuos sólidos (CAEFM-RS)
+                </p>
+                <p>
+                  <span className='font-bold'>P:</span> Provisional
                 </p>
               </div>
               <CustomLink href="/sistema-de-consulta-de-informacion#app">
@@ -226,7 +228,10 @@ export default function Home () {
                     </h3>
                     <div>
                       <p>
-                        Total Nacional. Índices en base 100 = 2005
+                        Total nacional.
+                      </p>
+                      <p>
+                        Índices en base 100 = 2005
                       </p>
                       <p>
                         2005-2019<sup>p</sup>
@@ -234,7 +239,7 @@ export default function Home () {
                     </div>
                   </div>
                   <p>
-                    Durante 2019<sup>p</sup>, en el punto representado por la felcha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
+                    Durante 2019<sup>p</sup>, en el punto representado por la flecha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
                   </p>
                   <div className='text-grey-dark italic'>
                     <p>
@@ -282,7 +287,7 @@ export default function Home () {
                     </div>
                     <div className='max-w-[124px] w-full'>
                       <h4 className='text-3xl 2xl:text-[40px]'>
-                        50,1%
+                        50.1%
                       </h4>
                     </div>
                   </div>
@@ -299,7 +304,7 @@ export default function Home () {
                     </div>
                     <div className='max-w-[124px] w-full'>
                       <h4 className='text-3xl 2xl:text-[40px]'>
-                        59,3%
+                        59.3%
                       </h4>
                     </div>
                   </div>
@@ -337,7 +342,7 @@ export default function Home () {
               <div>
                 {/* <iframe className='aspect-square' src="/charts/mapa_dpto.html" width="100%"></iframe> */}
                 <div>
-                  <img src='/images/mapa-home-2.png' alt='map home' />
+                  <img src='/images/mapa-home.png' alt='map home' />
                 </div>
                 <div className='text-grey-dark italic text-center'>
                   <p>
@@ -376,15 +381,15 @@ export default function Home () {
                           </div>
                           <div className="table-row bg-blue-ocean bg-opacity-[0.08]">
                             <div className="table-cell text-color-secondary p-4">18 a 28 años</div>
-                            <div className="table-cell text-color-primary p-4">35,7</div>
+                            <div className="table-cell text-color-primary p-4">35.7</div>
                           </div>
                           <div className="table-row">
                             <div className="table-cell text-color-secondary p-4">29 a 59 años</div>
-                            <div className="table-cell text-color-primary p-4">50,2</div>
+                            <div className="table-cell text-color-primary p-4">50.2</div>
                           </div>
                           <div className="table-row bg-blue-ocean bg-opacity-[0.08]">
                             <div className="table-cell text-color-secondary p-4">60 años y más</div>
-                            <div className="table-cell text-color-primary p-4">50,3</div>
+                            <div className="table-cell text-color-primary p-4">50.3</div>
                           </div>
                         </div>
                       </div>
@@ -424,7 +429,7 @@ export default function Home () {
                       todos los indicadores
                     </h2>
                     <p>
-                      Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro componentes: Demanda de activos ambientales y servicios ecosistémicos, Conservación o pérdida de valor de los materiales en el sistema productivo, Presión en los ecosistemas por la disposición de residuos y, Factores que facilitan la Economía Circular. A su vez, los indicadores interactúan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
+                      Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro componentes: Demanda de activos ambientales y servicios ecosistémicos, Conservación o pérdida de valor de los materiales en el sistema productivo, Presión en los ecosistemas por la disposición de residuos y factores que facilitan la Economía Circular. A su vez, los indicadores interactúan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
                     </p>
                     <CustomLink href="/sistema-de-consulta-de-informacion#app">
                       <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
@@ -446,7 +451,6 @@ export default function Home () {
                 <img src='/images/sticky-icon.svg' alt='sticky icon' />
               </div>
             </div>
-            <LogoDatasketch />
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import { CircularEconomySubtableCard } from '../components/CircularEconomySubtableCard'
 import { CircularEconomySubtablesModal } from '../components/CircularEconomySubtablesModal'
-import { LogoDatasketch } from '../components/LogoDatasketch'
 import circularEconomySubtableData from '../data/circularEconomySubtable.json'
 import CustomLink from '../components/CustomLink'
 
@@ -44,11 +43,11 @@ export default function InformationTable () {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8 gap-x-[108px]'>
             <div className='lg:w-6/12'>
               <div className='space-y-7'>
-                <h2 className='text-blue-ocean text-2xl 3xl:text-[32px]'>
-                  <span className='font-bold'>Mesa de Estadísticas</span> de Economía Circular - MEEC
+                <h2 className='text-blue-ocean text-2xl 3xl:text-[32px] font-bold'>
+                  Mesa de Estadísticas de Economía Circular - MEEC
                 </h2>
                 <p>
-                  En mayo de 2019 se consolidó la mesa de información de Economía Circular en línea con la Estrategia Nacional de Economía Circular – ENEC y busca articular a las entidades del Sistema Estadístico Nacional – SEN para la identificación, fortalecimiento y generación de información relevante y oportuna requerida en la toma de decisiones y la evaluación de la política pública asociada a la Economía Circular.
+                  En mayo de 2019 se consolidó la Mesa de Estadísticas de Economía Circular en línea con la Estrategia Nacional de Economía Circular – ENEC y busca articular a las entidades del Sistema Estadístico Nacional – SEN para la identificación, fortalecimiento y generación de información relevante y oportuna requerida en la toma de decisiones y la evaluación de la política pública asociada a la Economía Circular.
                 </p>
               </div>
             </div>
@@ -67,7 +66,7 @@ export default function InformationTable () {
             <CustomLink href="/">
               <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
                 <span>
-                  Informe submesas de información
+                  Informe de submesa de información
                 </span>
                 <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
               </a>
@@ -140,7 +139,6 @@ export default function InformationTable () {
                 </div>
               </div>
             </div>
-            <LogoDatasketch />
           </div>
         </div>
       </div>

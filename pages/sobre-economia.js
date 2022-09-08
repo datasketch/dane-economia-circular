@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { IndicatorCountryCard } from '../components/IndicatorCountryCard'
 import { CircularEconomyReport } from '../components/CircularEconomyReport'
-import { LogoDatasketch } from '../components/LogoDatasketch'
 import TimeLine from '../components/TimeLine'
 import reportsData from '../data/reports.json'
 import timeLineData from '../data/timeLine.json'
@@ -76,13 +75,13 @@ export default function About () {
                   </h2>
                   <div className='space-y-6 2xl:space-y-8'>
                     <p>
-                      Es un sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas y colaboraciones entre actores, y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible.
+                      Es un sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas, colaboraciones entre actores y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible.
                     </p>
                     <p>
-                      Colombia se ha propuesto en el Plan Nacional de Desarrollo 2018-2022, en su Pacto por la Sostenibilidad, acelerar la transición hacia el modelo de Economía Circular como base para la reducción, la reutilización y el reciclaje de residuos y materiales; así como  el uso eficiente de recursos, agua y energía.
+                      Colombia se ha propuesto en el Plan Nacional de Desarrollo 2018-2022, en su Pacto por la Sostenibilidad, acelerar la transición hacia el modelo de Economía Circular como base para la reducción, reutilización y reciclaje de los residuos y materiales; así como el uso eficiente de los recursos como el agua y la energía.
                     </p>
                     <p>
-                      Para su implementación el Ministerio de Ambiente y Desarrollo Sostenible – MADS en 2018 formuló la Estrategia Nacional de Economía Circular – ENEC, mediante la que establece los instrumentos para la consecución de las metas de corto y mediano plazo del país en la materia.
+                      Para su implementación el Ministerio de Ambiente y Desarrollo Sostenible – MADS en 2018 formuló la Estrategia Nacional de Economía Circular – ENEC, la cual establece los instrumentos para la consecución de las metas de corto y mediano plazo para el país en la materia.
                     </p>
                     <p>
                       La Economía Circular, comprende varias categorías, las cuales pueden variar conforme se avance en su implementación. Algunos de los temas relacionados con la Economía Circular son:
@@ -146,7 +145,7 @@ export default function About () {
                   <li className='flex space-x-[12.63px]'>
                     <img src='/images/arrow-right-blue-light.svg' alt='arrow right' />
                     <p>
-                      Maquinaria y equipos P+I
+                      Maquinaria y equipos (P+I)
                     </p>
                   </li>
                   <li className='flex space-x-[12.63px]'>
@@ -312,7 +311,6 @@ export default function About () {
                 indicatorCountriesData.map((item, index) => <IndicatorCountryCard key={`indicator-${index + 1}`} item={item} />)
               }
             </div>
-            <LogoDatasketch />
           </div>
         </div>
       </div>

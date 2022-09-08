@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { CircularEconomyReport } from '../../components/CircularEconomyReport'
-import { LogoDatasketch } from '../../components/LogoDatasketch'
 import data from '../../data/reports.json'
 
 export async function getStaticProps () {
@@ -60,7 +59,25 @@ export default function CircularEconomyReports ({ reports }) {
                 reports.slice(0, reports.length - 1).reverse().map((item, index) => <CircularEconomyReport key={`report-${index + 1}`} item={item} showLinkButton={index === 0} />)
               }
             </div>
-            <LogoDatasketch />
+          </div>
+        </div>
+      </div>
+
+      <div className='py-12'>
+        <div className='mx-auto w-10/12 max-w-screen-lim'>
+          <div className='flex justify-center lg:justify-between items-center flex-wrap gap-x-12 gap-y-8'>
+              <div>
+                <img className='h-20' src='/images/MINAMBIENTE_logo.jpg' alt='minambiente logo' />
+              </div>
+              <div>
+                <img className='h-20' src='/images/DANE_logo.png' alt='dane logo' />
+              </div>
+              <div>
+                <img className='h-20' src='/images/IDEAM_logo.png' alt='ideam logo' />
+              </div>
+              <div>
+                <img className='h-20' src='/images/INVEMAR_logo.png' alt='invemar logo' />
+              </div>
           </div>
         </div>
       </div>
