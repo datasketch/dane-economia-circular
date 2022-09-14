@@ -22,7 +22,7 @@ export async function getStaticProps (context) {
 }
 
 export default function CircularEconomyReport ({ report }) {
-  const { titleReportLink, date, webinarLink, description, sankeyDiagramData, sankeyDiagramDescription } = report[0]
+  const { titleReportLink, date, description, sankeyDiagramData, sankeyDiagramDescription } = report[0]
   return (
     <>
       <Head>

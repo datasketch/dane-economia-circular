@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import { CircularEconomySubtableCard } from '../components/CircularEconomySubtableCard'
 import { CircularEconomySubtablesModal } from '../components/CircularEconomySubtablesModal'
 import circularEconomySubtableData from '../data/circularEconomySubtable.json'
-import CustomLink from '../components/CustomLink'
 
 export default function InformationTable () {
   const [result, setResult] = useState({})
