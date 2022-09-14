@@ -26,7 +26,7 @@ export default function Home () {
               <div className='max-w-[411px]'>
                 <div className='space-y-4 lg:space-y-6 xl:space-y-8 2xl:space-y-[38px]'>
                   <h2 className='font-bold text-2xl 2xl:text-[32px] text-blue-ocean'>
-                    Sistema de Consulta de Información de Economía Circular - SIEC
+                  Sistema de Consulta de Información de Economía Circular del SIEC
                   </h2>
                   <p>
                     Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
@@ -166,7 +166,7 @@ export default function Home () {
                   </h4>
                   <div className='bg-white h-0.5'>&nbsp;</div>
                   <p className='text-[32px] 2xl:text-[40px]'>
-                    11.8%
+                    11,8%
                   </p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export default function Home () {
                   <span className='font-bold'>Fecha:</span> 6 de agosto de 2021
                 </p>
                 <p>
-                  <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Residuos sólidos (CAEFM-RS)
+                  <span className='font-bold'>Fuente:</span> Cuenta Ambiental y Económica de Flujos de Materiales - Residuos Sólidos (CAEFM-RS)
                 </p>
                 <p>
                   <span className='font-bold'>P:</span> Provisional
@@ -287,7 +287,7 @@ export default function Home () {
                     </div>
                     <div className='max-w-[124px] w-full'>
                       <h4 className='text-3xl 2xl:text-[40px]'>
-                        50.1%
+                        50,1%
                       </h4>
                     </div>
                   </div>
@@ -304,7 +304,7 @@ export default function Home () {
                     </div>
                     <div className='max-w-[124px] w-full'>
                       <h4 className='text-3xl 2xl:text-[40px]'>
-                        59.3%
+                        59,3%
                       </h4>
                     </div>
                   </div>

@@ -34,7 +34,7 @@ export default function Navbar () {
               <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] lg:w-1/4 leading-tight cursor-pointer ${router.pathname === '/sistema-de-consulta-de-informacion' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
                 <CustomLink href="/sistema-de-consulta-de-informacion">
                   <a>
-                    Sistema de Consulta de <br /> Información - SIEC
+                    Sistema de Consulta de Información de Economía Circular del SIEC
                   </a>
                 </CustomLink>
               </li>

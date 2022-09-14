@@ -68,8 +68,8 @@ export default function CircularEconomyReport ({ report }) {
                         <p>
                           Un diagrama de Sankey es la representación gráfica de información sobre cualquier proceso de transferencia entre dos o más unidades que intercambian materiales, energía, dinero, entre otros. La lógica del diagrama es conectar los flujos por medio de flechas que relacionan procesos en nodos o etapas, desde un emisor hacia un receptor.
                         </p>
-                        <p className='italic'>
-                          “A nivel internacional, las oficinas estadísticas han implementado el uso de esta herramienta para representar la oferta y utilización mediante los flujos de entrada y salida de energía, agua y materiales de un territorio especifico, en unidades de medida y de tiempo determinadas, a partir de la implementación del Marco Central del Sistema de Contabilidad Ambiental y Económica - SCAE, 2012.”
+                        <p>
+                          A nivel internacional, las oficinas estadísticas han implementado el uso de esta herramienta para representar la oferta y utilización mediante los flujos de entrada y salida de energía, agua y materiales de un territorio especifico, en unidades de medida y de tiempo determinadas, a partir de la implementación del Marco Central del Sistema de Contabilidad Ambiental y Económica - SCAE, 2012.
                         </p>
                       </div>
                       )
@@ -86,7 +86,7 @@ export default function CircularEconomyReport ({ report }) {
                       Video instructivo
                     </p>
                   </div>
-                  <a href={webinarLink} target="_blank" className='flex space-x-[11.19px] items-center' rel="noreferrer">
+                  <a href='https://www.youtube.com/watch?v=kY_9P-x2U4o' target="_blank" className='flex space-x-[11.19px] items-center' rel="noreferrer">
                     <p className='text-pink font-bold xl:text-lg'>
                       Consultar
                     </p>

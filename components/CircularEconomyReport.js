@@ -131,7 +131,7 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
                           </p>
                         )
                       }
-                      <a href={attachmentsLink} download target="_blank" rel="noreferrer">
+                      <a href={mipeaExcelLink} download target="_blank" rel="noreferrer">
                         <img src='/images/download-icon.svg' alt='download icon' />
                       </a>
                     </div>
