@@ -26,7 +26,7 @@ export default function Home () {
               <div className='max-w-[411px]'>
                 <div className='space-y-4 lg:space-y-6 xl:space-y-8 2xl:space-y-[38px]'>
                   <h2 className='font-bold text-2xl 2xl:text-[32px] text-blue-ocean'>
-                  Sistema de Consulta de Información de Economía Circular del SIEC
+                    Sistema de Consulta de Información de Economía Circular del SIEC
                   </h2>
                   <p>
                     Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
@@ -239,7 +239,7 @@ export default function Home () {
                     </div>
                   </div>
                   <p>
-                    Durante 2019<sup>p</sup>, en el punto representado por la flecha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productivo.
+                    Durante 2019<sup>p</sup>, en el punto representado por la flecha, se observa la mayor divergencia entre la generación de emisiones y el valor agregado, que puede interpretarse como el nivel más alto de productividad.
                   </p>
                   <div className='text-grey-dark italic'>
                     <p>
