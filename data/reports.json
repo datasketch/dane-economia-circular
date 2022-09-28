@@ -50,7 +50,7 @@
       {
         "title": "Flujos de Residuos Sólidos y Productos Residuales",
         "description": "El diagrama presenta para 2019<sup>p</sup> los flujos de residuos sólidos y productos residuales en toneladas (t), que son producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de producción, consumo y acumulación, los cuales componen el total de la oferta de residuos sólidos y productos residuales por tipo, y la utilización según componente; y finalmente, la recirculación de materiales a las actividades económicas.",
-        "link": "/charts/flujo-residuos.html"
+        "link": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/diagrama-economia-circular-2-reporte-flujo-mat-res-solidos.gif"
       },
       {
         "title": "Financiamiento y gasto del gobierno en actividades ambientales:",
@@ -60,7 +60,7 @@
       {
         "title": "Flujos del agua:",
         "description": "Presenta para 2019<sup>p</sup> el flujo del recurso hídrico en hectómetros cúbicos (hm), que las actividades económicas extraen de diferentes fuentes, el cual ingresa a la economía a través de la infraestructura para almacenamiento, distribución, tratamiento y descarga de agua, y el agua devuelta al medio ambiente una vez ha sido utilizada.",
-        "link": "/charts/flujo-agua.html"
+        "link": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/diagrama-economia-circular-2-reporte-agua.gif"
       },
       {
         "title": "Flujos de materiales de emisiones al aire:",
