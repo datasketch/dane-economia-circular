@@ -381,15 +381,15 @@ export default function Home () {
                           </div>
                           <div className="table-row bg-blue-ocean bg-opacity-[0.08]">
                             <div className="table-cell text-color-secondary p-4">18 a 28 años</div>
-                            <div className="table-cell text-color-primary p-4">35.7</div>
+                            <div className="table-cell text-color-primary p-4">35,7</div>
                           </div>
                           <div className="table-row">
                             <div className="table-cell text-color-secondary p-4">29 a 59 años</div>
-                            <div className="table-cell text-color-primary p-4">50.2</div>
+                            <div className="table-cell text-color-primary p-4">50,2</div>
                           </div>
                           <div className="table-row bg-blue-ocean bg-opacity-[0.08]">
                             <div className="table-cell text-color-secondary p-4">60 años y más</div>
-                            <div className="table-cell text-color-primary p-4">50.3</div>
+                            <div className="table-cell text-color-primary p-4">50,3</div>
                           </div>
                         </div>
                       </div>
