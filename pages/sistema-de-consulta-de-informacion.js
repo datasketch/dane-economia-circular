@@ -21,14 +21,14 @@ export default function InformationQuerySystem () {
             <div className='lg:w-1/2'>
               <div className='space-y-8 xl:space-y-[65px]'>
                 <h2 className='text-blue-ocean text-2xl 3xl:text-[32px] font-bold max-w-[556px]'>
-                  Sistema de Consulta de Información de Economía Circular - SIEC
+                  Sistema de Información de Economía Circular – SIEC
                 </h2>
                 <div className='space-y-[31px]'>
                   <p>
                     El SIEC es el conjunto articulado de elementos ( entidades públicas y privadas que son productoras o usuarias de información, políticas, normas, procesos técnicos e infraestructura involucrada en la gestión de la información relacionada con la Economía Circular ), que interactúan entre sí para recopilar, consolidar y difundir la información estadística relacionada con la Economía Circular; cuya finalidad es facilitar la toma de decisiones en materia de política pública y evidenciar la transición del país hacia este modelo de producción y consumo circular.
                   </p>
                   <p>
-                    El objetivo del SIEC es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Economía Circular
+                    El objetivo del SIEC es integrar la información estadística, que cumpla con los requisitos de calidad, con el fin de disponerla de manera adecuada para que pueda ser utilizada como insumo para la toma de decisiones y en la evaluación de la política pública sobre Sistema de Información de Economía Circular – SIEC.
                   </p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function InformationQuerySystem () {
                       Demanda de activos ambientales y servicios ecosistémicos
                     </h3>
                     <p>
-                      Contiene el flujo de materiales y servicios originados en el ambiente que son extraídos o utilizados para el desarrollo de actividades económicas o por los hogares
+                      Contiene el flujo de materiales y servicios originados en el ambiente que son extraídos o utilizados para el desarrollo de actividades económicas o por los hogares.
                     </p>
                   </div>
                 </div>

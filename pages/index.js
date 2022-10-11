@@ -246,7 +246,7 @@ export default function Home () {
                       <span className='font-bold'>Fecha:</span> 1 de diciembre de 2021
                     </p>
                     <p>
-                      <span className='font-bold'>Fuente:</span> Cuenta ambiental y económica de flujos de materiales - Emisiones al aire (CAEFM - EA)
+                      <span className='font-bold'>Fuente:</span> Cuenta Ambiental y Económica de Flujos de Materiales - Emisiones al Aire (CAEFM - EA)
                     </p>
                     <p>
                       <span className='font-bold'>P:</span> Provisional

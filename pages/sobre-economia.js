@@ -75,7 +75,7 @@ export default function About () {
                   </h2>
                   <div className='space-y-6 2xl:space-y-8'>
                     <p>
-                      Es un sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas, colaboraciones entre actores y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible.
+                      Es un sistema de producción y consumo que promueve la eficiencia en el uso de materiales, agua y energía; teniendo en cuenta la capacidad de recuperación de los ecosistemas y el uso circular de los flujos de materiales a través de la implementación de innovaciones tecnológicas, alianzas, colaboraciones entre actores y el impulso de modelos de negocio que respondan a los fundamentos del desarrollo sostenible (ENEC, 2019).
                     </p>
                     <p>
                       Colombia se ha propuesto en el Plan Nacional de Desarrollo 2018-2022, en su Pacto por la Sostenibilidad, acelerar la transición hacia el modelo de Economía Circular como base para la reducción, reutilización y reciclaje de los residuos y materiales; así como el uso eficiente de los recursos como el agua y la energía.
