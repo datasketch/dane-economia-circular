@@ -316,7 +316,7 @@ export default function Home () {
             <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-y-4 md:gap-y-0'>
               <div className='italic'>
                 <p>
-                  <span className='font-bold'>Fuente:</span> Censo de edificaciones 2021
+                  <span className='font-bold'>Fuente:</span> Censo de Edificaciones - CEED 2021
                 </p>
                 <p>
                   <span className='font-bold'>Período:</span> IV trimestre del 2021
@@ -344,9 +344,9 @@ export default function Home () {
                 <div>
                   <img src='/images/mapa-home.png' alt='map home' />
                 </div>
-                <div className='text-grey-dark italic text-center'>
+                <div className='text-grey-dark italic text-left'>
                   <p>
-                    <span className='font-bold'>Fuente:</span> Encuesta Nacional de Calidad de Vida
+                    <span className='font-bold'>Fuente:</span> Encuesta de Calidad de Vida - ECV 2020
                   </p>
                 </div>
               </div>
