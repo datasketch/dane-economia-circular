@@ -50,17 +50,17 @@
       {
         "title": "Flujos de Residuos Sólidos y Productos Residuales",
         "description": "El diagrama presenta para 2019<sup>p</sup> los flujos de residuos sólidos y productos residuales en toneladas (t), que son producidos por los hogares, las actividades económicas y el resto del mundo en los procesos de producción, consumo y acumulación, los cuales componen el total de la oferta de residuos sólidos y productos residuales por tipo, y la utilización según componente; y finalmente, la recirculación de materiales a las actividades económicas.",
-        "link": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/diagrama-economia-circular-2-reporte-flujo-mat-res-solidos.gif"
+        "link": "/archives/Sankey_FlujosdeResiduos.pdf"
       },
       {
         "title": "Financiamiento y gasto del gobierno en actividades ambientales:",
         "description": "Presenta para 2019 - 2020<sup>p</sup> el flujo monetario en millones de pesos del financiamiento según la unidad financiadora (gobierno, sociedades, hogares y resto del mundo), y gasto del gobierno según tipo (corriente y de inversión), actividad y clase ambiental.",
-        "link": "/charts/gasto.html"
+        "link": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/diagrama-economia-circular-2-reporte-fin-gasto-act-ambientales-gobierno.gif"
       },
       {
         "title": "Flujos del agua:",
         "description": "Presenta para 2019<sup>p</sup> el flujo del recurso hídrico en hectómetros cúbicos (hm<sup>3</sup>), que las actividades económicas extraen de diferentes fuentes, el cual ingresa a la economía a través de la infraestructura para almacenamiento, distribución, tratamiento y descarga de agua, y el agua devuelta al medio ambiente una vez ha sido utilizada.",
-        "link": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/diagrama-economia-circular-2-reporte-agua.gif"
+        "link": "/archives/Sankey_FlujosdelAgua.pdf"
       },
       {
         "title": "Flujos de materiales de emisiones al aire:",
