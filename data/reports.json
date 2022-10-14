@@ -54,8 +54,8 @@
       },
       {
         "title": "Financiamiento y gasto del gobierno en actividades ambientales:",
-        "description": "Presenta para 2019 - 2020<sup>p</sup> el flujo monetario en millones de pesos del financiamiento según la unidad financiadora (gobierno, sociedades, hogares y resto del mundo), y gasto del gobierno según tipo (corriente y de inversión), actividad y clase ambiental.",
-        "link": "https://www.dane.gov.co/files/investigaciones/boletines/economia-circular/diagrama-economia-circular-2-reporte-fin-gasto-act-ambientales-gobierno.gif"
+        "description": "Presenta para 2019 - 2020<sup>pr</sup> el flujo monetario en millones de pesos del financiamiento según la unidad financiadora (gobierno, sociedades, hogares y resto del mundo), y gasto del gobierno según tipo (corriente y de inversión), actividad y clase ambiental.",
+        "link": "/images/sankey-financiamiento-y-gasto.png"
       },
       {
         "title": "Flujos del agua:",
