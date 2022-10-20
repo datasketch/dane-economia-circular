@@ -22,7 +22,7 @@ export default function CircularEconomyReports ({ reports }) {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-8'>
             <div className='lg:w-5/12'>
               <div className='space-y-[42px]'>
-                <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
+                <h2 className='text-blue-ocean text-2xl 2xl:text-[32px] font-bold'>
                   Reportes de Economía Circular
                 </h2>
                 <div className='space-y-[22px]'>
