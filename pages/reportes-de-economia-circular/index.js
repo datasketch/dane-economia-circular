@@ -23,8 +23,7 @@ export default function CircularEconomyReports ({ reports }) {
             <div className='lg:w-5/12'>
               <div className='space-y-[42px]'>
                 <h2 className='text-blue-ocean text-2xl 2xl:text-[32px]'>
-                  <span className='font-bold'>Reportes </span>
-                  de Economía Circular
+                  Reportes de Economía Circular
                 </h2>
                 <div className='space-y-[22px]'>
                   <p>

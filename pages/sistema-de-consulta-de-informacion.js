@@ -325,7 +325,7 @@ export default function InformationQuerySystem () {
                     </span>
                     <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
                   </a>
-                  <a href='/archives/Ficha_metodologica.zip' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                  <a href='/archives/Metadato_SDMX_SIEC_Consolidado.zip' download className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
                     <span>
                       Ficha metodológica
                     </span>

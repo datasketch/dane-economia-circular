@@ -39,8 +39,8 @@ export default function CircularEconomyReport ({ report }) {
                 <div className='max-w-[593px]'>
                   <div className='space-y-[29.5px]'>
                     <div>
-                      <h2 className='text-blue-ocean text-2xl xl:text-[32px]'>
-                        <span className='font-bold'>{titleReportLink}</span> de Economía Circular
+                      <h2 className='text-blue-ocean text-2xl xl:text-[32px] font-bold'>
+                        {titleReportLink} de Economía Circular
                       </h2>
                       <p className='italic text-grey-dark'>
                         Publicado el {new Intl.DateTimeFormat('es-CO', { dateStyle: 'long' }).format(new Date(date))}
