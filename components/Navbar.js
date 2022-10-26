@@ -18,11 +18,14 @@ export default function Navbar () {
           <nav className='lg:w-full xl:w-4/5 2xl:w-3/5'>
             <ul className='grid grid-cols-2 gap-2 lg:gap-x-2 lg:flex lg:flex-row lg:justify-between text-[15px]'>
               <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] lg:w-1/4 leading-tight cursor-pointer ${router.pathname === '/sobre-economia' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
-                <CustomLink href="/sobre-economia">
+                {/* <CustomLink href="/sobre-economia">
                   <a>
                     Sobre Economía <br /> Circular
                   </a>
-                </CustomLink>
+                </CustomLink> */}
+                <a href='/sobre-economia'>
+                  Sobre Economía <br /> Circular
+                </a>
               </li>
               <li className={`inline-block pt-[6px] pb-[11px] pl-[10px] lg:w-1/4 leading-tight cursor-pointer ${router.pathname === '/mesa-de-estadisticas' && 'bg-blue-ocean bg-opacity-[0.1] text-blue-ocean font-bold'}`}>
                 <CustomLink href="/mesa-de-estadisticas">
