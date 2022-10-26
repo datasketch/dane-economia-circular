@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import CustomLink from '../components/CustomLink'
 
 export default function Home () {
   return (
