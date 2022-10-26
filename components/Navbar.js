@@ -1,6 +1,5 @@
 
 import { useRouter } from 'next/router'
-import CustomLink from './CustomLink'
 
 export default function Navbar () {
   const router = useRouter()
@@ -9,11 +8,9 @@ export default function Navbar () {
       <div className='mx-auto w-10/12 max-w-screen-lim'>
         <div className='flex flex-col gap-y-4 xl:flex-row xl:justify-between items-center gap-x-12'>
           <div className='max-w-full w-96 lg:w-80'>
-            <button>
-              <CustomLink href="/">
-                <img src='/images/logo-economia-circular.png' alt='logo economia circular' />
-              </CustomLink>
-            </button>
+            <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sobre-economia' target={'_top'}>
+              <img src='/images/logo-economia-circular.png' alt='logo economia circular' />
+            </a>
           </div>
           <nav className='lg:w-full xl:w-4/5 2xl:w-3/5'>
             <ul className='grid grid-cols-2 gap-2 lg:gap-x-2 lg:flex lg:flex-row lg:justify-between text-[15px]'>
