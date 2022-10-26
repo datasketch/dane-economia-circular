@@ -39,7 +39,9 @@ export default function CircularEconomyReports ({ reports }) {
               </div>
             </div>
             <div className='lg:w-6/12'>
-              <CircularEconomyReport item={reports[reports.length - 1]} isLastReport={true} showLinkButton={true} />
+              <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/reportes-de-economia-circular/quinto-reporte' target={'_top'}>
+                <CircularEconomyReport item={reports[reports.length - 1]} isLastReport={true} showLinkButton={true} />
+              </a>
             </div>
           </div>
         </div>
@@ -65,18 +67,18 @@ export default function CircularEconomyReports ({ reports }) {
       <div className='py-12'>
         <div className='mx-auto w-10/12 max-w-screen-lim'>
           <div className='flex justify-center lg:justify-between items-center flex-wrap gap-x-12 gap-y-8'>
-              <div>
-                <img className='h-20' src='/images/MINAMBIENTE_logo.jpg' alt='minambiente logo' />
-              </div>
-              <div>
-                <img className='h-20' src='/images/DANE_logo.png' alt='dane logo' />
-              </div>
-              <div>
-                <img className='h-20' src='/images/IDEAM_logo.png' alt='ideam logo' />
-              </div>
-              <div>
-                <img className='h-20' src='/images/INVEMAR_logo.png' alt='invemar logo' />
-              </div>
+            <div>
+              <img className='h-20' src='/images/MINAMBIENTE_logo.jpg' alt='minambiente logo' />
+            </div>
+            <div>
+              <img className='h-20' src='/images/DANE_logo.png' alt='dane logo' />
+            </div>
+            <div>
+              <img className='h-20' src='/images/IDEAM_logo.png' alt='ideam logo' />
+            </div>
+            <div>
+              <img className='h-20' src='/images/INVEMAR_logo.png' alt='invemar logo' />
+            </div>
           </div>
         </div>
       </div>
