@@ -8,7 +8,7 @@ export default function Navbar () {
       <div className='mx-auto w-10/12 max-w-screen-lim'>
         <div className='flex flex-col gap-y-4 xl:flex-row xl:justify-between items-center gap-x-12'>
           <div className='max-w-full w-96 lg:w-80'>
-            <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sobre-economia' target={'_top'}>
+            <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular' target={'_top'}>
               <img src='/images/logo-economia-circular.png' alt='logo economia circular' />
             </a>
           </div>
