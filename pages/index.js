@@ -31,14 +31,12 @@ export default function Home () {
                   <p>
                     Encuentre información estadística relacionada con la medición de la Economía Circular en Colombia.
                   </p>
-                  <CustomLink href="/sistema-de-consulta-de-informacion">
-                    <a className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                      <span>
-                        Consultar
-                      </span>
-                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                    </a>
-                  </CustomLink>
+                  <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion' target={'_top'} className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                    <span>
+                      Consultar
+                    </span>
+                    <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
               </div>
             </div>
@@ -125,14 +123,12 @@ export default function Home () {
                       <span className='font-bold'>P:</span> Provisional
                     </p>
                   </div>
-                  <CustomLink href="/sistema-de-consulta-de-informacion#app">
-                    <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                      <span>
-                        Explorar datos
-                      </span>
-                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                    </a>
-                  </CustomLink>
+                  <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion#app' target={'_top'} className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                    <span>
+                      Explorar datos
+                    </span>
+                    <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
               </div>
             </div>
@@ -200,14 +196,12 @@ export default function Home () {
                   <span className='font-bold'>P:</span> Provisional
                 </p>
               </div>
-              <CustomLink href="/sistema-de-consulta-de-informacion#app">
-                <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink hover:text-white duration-300 group'>
-                  <span>
-                    Explorar datos
-                  </span>
-                  <img className='group-hover:scale-150 group-hover:brightness-0 group-hover:invert-[1] duration-300' src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
-                </a>
-              </CustomLink>
+              <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion#app' target={'_top'} className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink hover:text-white duration-300 group'>
+                <span>
+                  Explorar datos
+                </span>
+                <img className='group-hover:scale-150 group-hover:brightness-0 group-hover:invert-[1] duration-300' src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
+              </a>
             </div>
           </div>
           <div className='absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
@@ -252,14 +246,12 @@ export default function Home () {
                       <span className='font-bold'>P:</span> Provisional
                     </p>
                   </div>
-                  <CustomLink href="/sistema-de-consulta-de-informacion#app">
-                    <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                      <span>
-                        Explorar datos
-                      </span>
-                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                    </a>
-                  </CustomLink>
+                  <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion#app' target={'_top'} className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                    <span>
+                      Explorar datos
+                    </span>
+                    <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                  </a>
                 </div>
               </div>
             </div>
@@ -322,14 +314,12 @@ export default function Home () {
                   <span className='font-bold'>Período:</span> IV trimestre del 2021
                 </p>
               </div>
-              <CustomLink href="/sistema-de-consulta-de-informacion#app">
-                <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink hover:text-white duration-300 group'>
-                  <span>
-                    Explorar datos
-                  </span>
-                  <img className='group-hover:scale-150 group-hover:brightness-0 group-hover:invert-[1] duration-300' src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
-                </a>
-              </CustomLink>
+              <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion#app' target={'_top'} className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-white text-pink border-pink border font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink hover:text-white duration-300 group'>
+                <span>
+                  Explorar datos
+                </span>
+                <img className='group-hover:scale-150 group-hover:brightness-0 group-hover:invert-[1] duration-300' src='/images/link-arrow-icon-pink.svg' alt='link arrow icon' />
+              </a>
             </div>
           </div>
         </div>
@@ -340,7 +330,6 @@ export default function Home () {
           <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center mt-8 lg:mt-10 2xl:mt-[48px] gap-y-8'>
             <div className='lg:w-6/12 order-2 lg:order-1'>
               <div>
-                {/* <iframe className='aspect-square' src="/charts/mapa_dpto.html" width="100%"></iframe> */}
                 <div>
                   <img src='/images/mapa-home.png' alt='map home' />
                 </div>
@@ -400,14 +389,12 @@ export default function Home () {
                           <span className='font-bold'>Fuente:</span> Encuesta de Calidad de Vida - ECV 2020
                         </p>
                       </div>
-                      <CustomLink href="/sistema-de-consulta-de-informacion#app">
-                        <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                          <span>
-                            Explorar datos
-                          </span>
-                          <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                        </a>
-                      </CustomLink>
+                      <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion#app' target={'_top'} className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                        <span>
+                          Explorar datos
+                        </span>
+                        <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -431,14 +418,12 @@ export default function Home () {
                     <p>
                       Herramienta que permite cruzar una serie de variables relacionadas a la Economía Circular con el fin de generar visualizaciones de datos. Los indicadores que miden aspectos de Economía Circular, se encuentran divididos en cuatro componentes: Demanda de activos ambientales y servicios ecosistémicos, Conservación o pérdida de valor de los materiales en el sistema productivo, Presión en los ecosistemas por la disposición de residuos y factores que facilitan la Economía Circular. A su vez, los indicadores interactúan con variables como la cantidad, el tiempo, las prácticas en los hogares, el consumo de recursos, entre otros.
                     </p>
-                    <CustomLink href="/sistema-de-consulta-de-informacion#app">
-                      <a className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                        <span>
-                          Explorar datos
-                        </span>
-                        <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
-                      </a>
-                    </CustomLink>
+                    <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/sistema-de-consulta-de-informacion#app' target={'_top'} className='inline-flex items-center gap-x-[11.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                      <span>
+                        Explorar datos
+                      </span>
+                      <img className='group-hover:scale-150 duration-300' src='/images/link-arrow-icon.svg' alt='link arrow icon' />
+                    </a>
                   </div>
                 </div>
               </div>
