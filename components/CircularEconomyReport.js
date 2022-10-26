@@ -1,4 +1,3 @@
-import CustomLink from './CustomLink'
 
 export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButton = false, showBorder = 'true' }) => {
   const { title, titleReportLink, reportLink, presentationLink, attachmentsLink, date, srcImage, mipeaDocumentLink, mipeaExcelLink, webinarLink } = item
@@ -9,14 +8,12 @@ export const CircularEconomyReport = ({ item, isLastReport = false, showLinkButt
           <img className='mb-5' src={srcImage} alt={title + ' image'} />
           {
             showLinkButton && (
-              <CustomLink href={`/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`}>
-                <a className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
-                  <span>
-                    Ver más
-                  </span>
-                  <img className='group-hover:scale-150 duration-300' src='/images//link-arrow-icon.svg' alt='link arrow icon' />
-                </a>
-              </CustomLink>
+              <a href={`https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/reportes-de-economia-circular/${titleReportLink.replace(' ', '-').toLowerCase()}`} target={'_top'} className='inline-flex items-center gap-x-[21.83px] py-[11.5px] pl-[43.99px] pr-[37.99px] bg-pink text-white font-bold text-[14px] overflow-hidden rounded-tr-[20px] rounded-bl-[20px] hover:bg-pink-2 duration-300 group'>
+                <span>
+                  Ver más
+                </span>
+                <img className='group-hover:scale-150 duration-300' src='/images//link-arrow-icon.svg' alt='link arrow icon' />
+              </a>
             )
           }
         </div>

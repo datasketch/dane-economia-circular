@@ -39,9 +39,7 @@ export default function CircularEconomyReports ({ reports }) {
               </div>
             </div>
             <div className='lg:w-6/12'>
-              <a href='https://www.dane.gov.co/index.php/estadisticas-por-tema/ambientales/economia-circular/reportes-de-economia-circular/quinto-reporte' target={'_top'}>
                 <CircularEconomyReport item={reports[reports.length - 1]} isLastReport={true} showLinkButton={true} />
-              </a>
             </div>
           </div>
         </div>
