@@ -3,7 +3,7 @@ import classNames from 'classnames'
 export default function Timeline ({ year, data, direction }) {
   return (
     <div
-      className={classNames('timeline relative flex-shrink-0 w-56', {
+      className={classNames('timeline relative flex-shrink-0 w-64', {
         'timeline-top': direction === 'top'
       })}
     >

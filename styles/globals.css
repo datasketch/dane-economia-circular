@@ -1,20 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
 
 @layer base {
-    body {
-        @apply font-roboto text-rich-black text-base font-normal;
-    }
+  body {
+    @apply font-roboto text-rich-black text-base font-normal;
+  }
 }
 
 @layer components {
-    .timeline {
-       @apply -ml-24 first:ml-0;     
-    }
-
-    .timeline::after {
+  .timeline::after {
     content: "";
     position: absolute;
     top: 28px;
@@ -22,14 +19,12 @@
     left: 1.5px;
     height: calc(100% - 28px);
     border-left: 2px solid #5165A9;
-    }
+  }
 
-    
-
-    .timeline-top::after {
+  .timeline-top::after {
     top: auto;
     bottom: 28px;
     height: 100%;
     border-left: 2px solid #253C6D;
-    }
+  }
 }

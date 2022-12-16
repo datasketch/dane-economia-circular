@@ -12,6 +12,7 @@ export default function CustomLink ({ children, ...restProps }) {
 
   useEffect(() => {
     const isEmbeded = window.self !== window.top
+    console.log(parentDomain)
     if (isEmbeded) {
       setTarget('_top')
     }

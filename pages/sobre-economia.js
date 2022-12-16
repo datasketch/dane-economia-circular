@@ -259,7 +259,7 @@ export default function About () {
             <h3 className='text-blue-dark font-bold text-xl 2xl:text-2xl'>
               Recorrido histórico de normas relacionadas a la Economía Circular
             </h3>
-            <div className='scroll flex items-baseline'>
+            <div className='scroll flex space-x-4 items-baseline'>
               {
                 timeLineData.map((item, index) => <TimeLine key={`time-${index + 1}`} year={item.year} data={item.data} direction={index === 0 || index % 2 === 0 ? 'top' : 'bottom'} />)
               }
